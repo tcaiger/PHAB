@@ -13,12 +13,6 @@ $(document).ready(function () {
         },
         init    : function () {
             //this.nav.init();
-
-
-
-
-
-
         },
 
         nav                        : {

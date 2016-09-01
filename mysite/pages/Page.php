@@ -14,17 +14,11 @@ class Page_Controller extends ContentController {
 
     public function init() {
         parent::init();
+        Requirements::css("//fonts.googleapis.com/css?family=Oswald:300,700,400");
+        Requirements::css("//fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700");
+        Requirements::css("//fonts.googleapis.com/css?family=Montserrat:400,700");
         Requirements::css("{$this->ThemeDir()}/css/main.min.css");
 
-
-        // Combine and include js
-        Requirements::combine_files(
-            'main.js',
-            array(
-                "//code.jquery.com/jquery-2.2.3.min.js",
-                "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js",
-                "{$this->ThemeDir()}/js/scripts.js"
-            ));
 
     }
 }

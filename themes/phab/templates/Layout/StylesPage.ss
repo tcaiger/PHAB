@@ -53,7 +53,7 @@
 <div class="container" role="main">
 
 
-    <div class="page-header">
+    <div>
         <h1>Headings</h1>
     </div>
 
@@ -74,37 +74,40 @@
     </div>
 
 
-    <div class="page-header">
+    <div>
         <h1>Buttons</h1>
     </div>
     <p>
         <button type="button" class="btn btn-lg btn-default">Default</button>
-        <button type="button" class="btn btn-lg btn-brand">Brand</button>
-        <button type="button" class="btn btn-lg btn-secondary">Secondary</button>
-        <button type="button" class="btn btn-lg btn-dark">Dark</button>
-        <button type="button" class="btn btn-lg btn-inverse">Inverse</button>
-        <button type="button" class="btn btn-lg btn-outline">Outline</button>
+        <button type="button" class="btn btn-lg btn-primary">Primary</button>
+        <button type="button" class="btn btn-lg btn-success">Success</button>
+        <button type="button" class="btn btn-lg btn-info">Info</button>
+        <button type="button" class="btn btn-lg btn-warning">Warning</button>
+        <button type="button" class="btn btn-lg btn-danger">Danger</button>
+        <button type="button" class="btn btn-lg btn-link">Link</button>
     </p>
     <p>
         <button type="button" class="btn btn-default">Default</button>
-        <button type="button" class="btn btn-brand">Brand</button>
-        <button type="button" class="btn btn-secondary">Secondary</button>
-        <button type="button" class="btn btn-dark">Dark</button>
-        <button type="button" class="btn btn-inverse">Inverse</button>
-        <button type="button" class="btn btn-outline">Outline</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-link">Link</button>
     </p>
     <p>
         <button type="button" class="btn btn-sm btn-default">Default</button>
-        <button type="button" class="btn btn-sm btn-brand">Brand</button>
-        <button type="button" class="btn btn-sm btn-secondary">Secondary</button>
-        <button type="button" class="btn btn-sm btn-dark">Dark</button>
-        <button type="button" class="btn btn-sm btn-inverse">Inverse</button>
-        <button type="button" class="btn btn-sm btn-outline">Outline</button>
+        <button type="button" class="btn btn-sm btn-primary">Primary</button>
+        <button type="button" class="btn btn-sm btn-success">Success</button>
+        <button type="button" class="btn btn-sm btn-info">Info</button>
+        <button type="button" class="btn btn-sm btn-warning">Warning</button>
+        <button type="button" class="btn btn-sm btn-danger">Danger</button>
+        <button type="button" class="btn btn-sm btn-link">Link</button>
     </p>
 
 
 
-    <div class="page-header">
+    <div>
         <h1>Forms</h1>
     </div>
 
@@ -134,7 +137,7 @@
     </div>
 
 
-    <div class="page-header">
+    <div>
         <h1>Paragraphs</h1>
     </div>
 
@@ -165,7 +168,7 @@
     </div>
 
 
-    <div class="page-header">
+    <div>
         <h1>Tables</h1>
     </div>
     <div class="row">
@@ -238,7 +241,7 @@
 
 
 
-    <div class="page-header">
+    <div>
         <h1>Alerts</h1>
     </div>
     <div class="alert alert-success" role="alert">
@@ -255,7 +258,7 @@
     </div>
 
 
-    <div class="page-header">
+    <div>
         <h1>Lists</h1>
     </div>
     <div class="row">
