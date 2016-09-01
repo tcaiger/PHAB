@@ -7,7 +7,6 @@ framework/
 cms/
 siteconfig/
 reports/
-themes/phab/css/main.min.css
 themes/phab/css/main.min.css.map
 themes/phab/images/
 silverstripe.log
