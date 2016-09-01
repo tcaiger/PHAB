@@ -1,0 +1,75 @@
+// -----------------------------------------------------------------------------
+// Buttons
+// @author tom@weareonfire.co.nz
+// Button system based loosely on bootstrap v3
+// -----------------------------------------------------------------------------
+
+// Base button styles
+// --------------------------------------------------
+
+.btn {
+  display          : inline-block;
+  margin-bottom    : 0; // For input.btn
+  font-weight      : 300;
+  text-align       : center;
+  vertical-align   : middle;
+  touch-action     : manipulation;
+  cursor           : pointer;
+  background-image : none; // Reset unusual Firefox-on-Android default style
+  border           : 1px solid transparent;
+  white-space      : nowrap;
+  letter-spacing   : 1px;
+  text-transform   : uppercase;
+  transition       : 0.2s all ease;
+  @include button-size($pad-x : 10px, $pad-y : 30px, $font-size : 14px, $line-height : 1.4, $border-radius : 0);
+}
+
+// Buttons
+// --------------------------------------------------
+
+.btn-default {
+  @include button-variant($color : color(dark), $background : #ccc, $border : #ccc);
+}
+
+// solid brand color, light text
+.btn-brand {
+  @include button-variant($color : color(white), $background : color(brand), $border : color(brand));
+}
+
+// Button Sizes
+// --------------------------------------------------
+
+.btn-lg {
+  @include button-size($pad-x : 20px, $pad-y : 50px, $font-size : 20px, $line-height : 1.4, $border-radius : 0);
+}
+
+.btn-sm {
+  @include button-size($pad-x : 5px, $pad-y : 10px, $font-size : 5px, $line-height : 1.0, $border-radius : 0);
+}
+
+// Block button
+// --------------------------------------------------
+
+.btn-block {
+  display : block;
+  width   : 100%;
+}
+
+// Vertically space out multiple block buttons
+.btn-block + .btn-block {
+  margin-top : 5px;
+}
+
+// Specificity overrides
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  &.btn-block {
+    width : 100%;
+  }
+}
+
+// Remove blue box around buttons
+.btn:focus, button:focus {
+  outline : none !important;
+}
