@@ -19,6 +19,15 @@ class Page_Controller extends ContentController {
         Requirements::css("//fonts.googleapis.com/css?family=Montserrat:400,700");
         Requirements::css("{$this->ThemeDir()}/css/main.min.css");
 
+        // Combine and include js
+        Requirements::combine_files(
+            'main.js',
+            array(
+                "{$this->ThemeDir()}/js/jquery.min.js",
+                "{$this->ThemeDir()}/js/main.js"
+            ));
+
+
 
     }
 }
