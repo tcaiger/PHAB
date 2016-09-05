@@ -117,7 +117,7 @@
                 </ul>
             </aside>
             <aside class="widget search-widget">
-                <h5 class="heading">Subscribe to Blog</h5>
+                <h5 class="heading">Search Site</h5>
                 <form class="search form-inline">   <!-- Search Form -->
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search">
@@ -134,59 +134,10 @@
                     <li><a href="#">Techonology</a></li>
                     <li><a href="#">Life Teachings</a></li>
                     <li><a href="#">Stress Management</a></li>
-                    <li><a href="#">Career</a></li>
-                    <li><a href="#">Techonology</a></li>
-                    <li><a href="#">Life Teachings</a></li>
-                </ul>
-            </aside>
-            <aside class="widget image-widget">
-                <h5 class="heading">Flickr Feed</h5>
-                <ul class="thumbs">
-                    <li><a href=""><img src="$ThemeDir/images/flickr-1.jpg" alt=""></a></li>
-                    <li><a href=""><img src="$ThemeDir/images/flickr-2.jpg" alt=""></a></li>
-                    <li><a href=""><img src="$ThemeDir/images/flickr-3.jpg" alt=""></a></li>
-                    <li><a href=""><img src="$ThemeDir/images/flickr-2.jpg" alt=""></a></li>
-                    <li><a href=""><img src="$ThemeDir/images/flickr-3.jpg" alt=""></a></li>
-                    <li><a href=""><img src="$ThemeDir/images/flickr-1.jpg" alt=""></a></li>
-                    <li><a href=""><img src="$ThemeDir/images/flickr-1.jpg" alt=""></a></li>
-                    <li><a href=""><img src="$ThemeDir/images/flickr-2.jpg" alt=""></a></li>
-                    <li><a href=""><img src="$ThemeDir/images/flickr-3.jpg" alt=""></a></li>
-                </ul>
-            </aside>
-            <aside class="widget download-widget text-center">
-                <div class="download-info">
-                    <p class="inverse font24">Join the best people in industry.</p><br/>
-                    <a href="admission-process.html" class="btn btn-default">Apply Now</a>
-                </div>
-            </aside>
-            <aside class="widget tagcloud-widget">
-                <h5 class="heading">Trending Tags</h5>
-                <ul class="tagcloud">
-                    <li><a href="#">Maths</a></li>
-                    <li><a href="#">Science</a></li>
-                    <li><a href="#">Course</a></li>
-                    <li><a href="#">Study</a></li>
-                    <li><a href="#">Bachelors</a></li>
-                    <li><a href="#">Best</a></li>
-                    <li><a href="#">Technology</a></li>
-                    <li><a href="#">Life</a></li>
-                    <li><a href="#">Fun</a></li>
-                    <li><a href="#">Maths</a></li>
-                    <li><a href="#">Study</a></li>
-                </ul>
-            </aside>
-            <aside class="widget archive-widget">
-                <h5 class="heading">Archives</h5>
-                <ul class="archives">
-                    <li><a href="blog-list-right-sidebar.html">October 2015</a> <span class="badge">08</span></li>
-                    <li><a href="blog-list-right-sidebar.html">November 2015</a> <span class="badge">12</span></li>
-                    <li><a href="blog-list-right-sidebar.html">December 2015</a> <span class="badge">26</span></li>
-                    <li><a href="blog-list-right-sidebar.html">January 2016</a> <span class="badge">17</span></li>
-                    <li><a href="blog-list-right-sidebar.html">February 2016</a> <span class="badge">28</span></li>
                 </ul>
             </aside>
             <aside class="widget blog-widget">
-                <h5 class="heading">Recent Blog</h5>
+                <h5 class="heading">Recent News</h5>
                 <ul class="blog-thumbnail">
                     <li class="entry">
                         <div class="entry-content">

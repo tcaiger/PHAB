@@ -207,26 +207,26 @@
 </div>
 <!-- Revolution Slider Ends -->
 
-<div class="bgcolor2 text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <button class="btn-announce"><i class="fa fa-bullhorn"></i></button>
-                <div class="announcement">
-                    <div class="announcement-text">
-                        <span>School will remain closed on account of heavy rains</span>
-                        <span>Exams postponed by 10 days due to Annual Day celebrations</span>
-                        <span>Late Fee of 10% to be charged from defaulters</span>
-                    </div>
-                    <div class="owl-nav">
-                        <span class="owl-left"><i class="fa fa-angle-left"></i></span>
-                        <span class="owl-right"><i class="fa fa-angle-right"></i></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<%--<div class="bgcolor2 text-center">--%>
+    <%--<div class="container">--%>
+        <%--<div class="row">--%>
+            <%--<div class="col-sm-12">--%>
+                <%--<button class="btn-announce"><i class="fa fa-bullhorn"></i></button>--%>
+                <%--<div class="announcement">--%>
+                    <%--<div class="announcement-text">--%>
+                        <%--<span>School will remain closed on account of heavy rains</span>--%>
+                        <%--<span>Exams postponed by 10 days due to Annual Day celebrations</span>--%>
+                        <%--<span>Late Fee of 10% to be charged from defaulters</span>--%>
+                    <%--</div>--%>
+                    <%--<div class="owl-nav">--%>
+                        <%--<span class="owl-left"><i class="fa fa-angle-left"></i></span>--%>
+                        <%--<span class="owl-right"><i class="fa fa-angle-right"></i></span>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+<%--</div>--%>
 
 <div class="mb-100">
     <div class="container">
@@ -272,7 +272,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2 class="heading text-center">Why buy <span class="color2">EDUComp</span>
+                <h2 class="heading text-center">About PHAB <span class="color2">Programmes</span>
                     <span class="sub-heading">EDUComp is a fully responsive premium education theme for schools, colleges, insitutions and universities.</span>
                     <span class="icon-divider"></span>
                 </h2>
@@ -355,7 +355,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="gallery-overlay">
-                <h2 class="gallery-heading">Life At Educomp</h2>
+                <h2 class="gallery-heading">Life At PHAB</h2>
             </div>
             <div class="col-sm-3 no-gutter">
                 <div class="img-box">
@@ -424,146 +424,146 @@
     </div>
 </div>
 
-<div class="clearfix"></div>
+<%--<div class="clearfix"></div>--%>
 
-<div class="container mb-100">
-    <div class="row">
-        <div class="col-sm-12">
-            <h2 class="heading text-center">We're making a <span class="color2">Difference</span>
-                <span class="sub-heading">EDUComp is a modern theme for the leading Educational Institutions. Bundled with Slider Revolution, this is beautiful!</span>
-                <span class="icon-divider"></span>
-            </h2>
-        </div>
-    </div>
-    <div class="row mt-20">
-        <div class="col-sm-6">
-            <img src="$ThemeDir/images/child-studying.jpg" class="img-responsive" alt="">
-        </div>
-        <div class="col-sm-6">
-            <div class="accordion-2">
-                <div class="panel-group" id="a2" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="a2heading1">
-                            <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#a2" href="#a2body1" aria-expanded="true" aria-controls="a2body1">
-                                    What's so awesome about Educomp?
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="a2body1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="a2heading1" aria-expanded="true">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="a2heading2">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#a2" href="#a2body2" aria-expanded="false" aria-controls="a2body2">
-                                    Why we are the best?
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="a2body2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="a2heading2" aria-expanded="false">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="a2heading3">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#a2" href="#a2body3" aria-expanded="false" aria-controls="a2body3">
-                                    Why you would love Educomp?
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="a2body3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="a2heading3" aria-expanded="false">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<%--<div class="container mb-100">--%>
+    <%--<div class="row">--%>
+        <%--<div class="col-sm-12">--%>
+            <%--<h2 class="heading text-center">We're making a <span class="color2">Difference</span>--%>
+                <%--<span class="sub-heading">EDUComp is a modern theme for the leading Educational Institutions. Bundled with Slider Revolution, this is beautiful!</span>--%>
+                <%--<span class="icon-divider"></span>--%>
+            <%--</h2>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+    <%--<div class="row mt-20">--%>
+        <%--<div class="col-sm-6">--%>
+            <%--<img src="$ThemeDir/images/child-studying.jpg" class="img-responsive" alt="">--%>
+        <%--</div>--%>
+        <%--<div class="col-sm-6">--%>
+            <%--<div class="accordion-2">--%>
+                <%--<div class="panel-group" id="a2" role="tablist" aria-multiselectable="true">--%>
+                    <%--<div class="panel panel-default">--%>
+                        <%--<div class="panel-heading" role="tab" id="a2heading1">--%>
+                            <%--<h4 class="panel-title">--%>
+                                <%--<a role="button" data-toggle="collapse" data-parent="#a2" href="#a2body1" aria-expanded="true" aria-controls="a2body1">--%>
+                                    <%--What's so awesome about Educomp?--%>
+                                <%--</a>--%>
+                            <%--</h4>--%>
+                        <%--</div>--%>
+                        <%--<div id="a2body1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="a2heading1" aria-expanded="true">--%>
+                            <%--<div class="panel-body">--%>
+                                <%--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.--%>
+                            <%--</div>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
+                    <%--<div class="panel panel-default">--%>
+                        <%--<div class="panel-heading" role="tab" id="a2heading2">--%>
+                            <%--<h4 class="panel-title">--%>
+                                <%--<a class="collapsed" role="button" data-toggle="collapse" data-parent="#a2" href="#a2body2" aria-expanded="false" aria-controls="a2body2">--%>
+                                    <%--Why we are the best?--%>
+                                <%--</a>--%>
+                            <%--</h4>--%>
+                        <%--</div>--%>
+                        <%--<div id="a2body2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="a2heading2" aria-expanded="false">--%>
+                            <%--<div class="panel-body">--%>
+                                <%--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.--%>
+                            <%--</div>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
+                    <%--<div class="panel panel-default">--%>
+                        <%--<div class="panel-heading" role="tab" id="a2heading3">--%>
+                            <%--<h4 class="panel-title">--%>
+                                <%--<a class="collapsed" role="button" data-toggle="collapse" data-parent="#a2" href="#a2body3" aria-expanded="false" aria-controls="a2body3">--%>
+                                    <%--Why you would love Educomp?--%>
+                                <%--</a>--%>
+                            <%--</h4>--%>
+                        <%--</div>--%>
+                        <%--<div id="a2body3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="a2heading3" aria-expanded="false">--%>
+                            <%--<div class="panel-body">--%>
+                                <%--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.--%>
+                            <%--</div>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+<%--</div>--%>
 
-<div class="clearfix"></div>
+<%--<div class="clearfix"></div>--%>
 
-<div class="container-fluid mb-100">
-    <div class="row">
-        <div class="tweets" data-parallax="scroll" data-image-src="$ThemeDir/images/twitter.jpg" data-speed="0.4">
-            <p>Educomp has been awarded the most beautiful theme in educational category.<a href="#">#award</a></p>
-            <p>Wow is the word for <a href="#">@Educomp</a> theme. Buy now!!</p>
-            <p>Educomp has all the elements needed for <a href="">#education</a> website.</p>
-        </div>
-    </div>
-</div>
+<%--<div class="container-fluid mb-100">--%>
+    <%--<div class="row">--%>
+        <%--<div class="tweets" data-parallax="scroll" data-image-src="$ThemeDir/images/twitter.jpg" data-speed="0.4">--%>
+            <%--<p>Educomp has been awarded the most beautiful theme in educational category.<a href="#">#award</a></p>--%>
+            <%--<p>Wow is the word for <a href="#">@Educomp</a> theme. Buy now!!</p>--%>
+            <%--<p>Educomp has all the elements needed for <a href="">#education</a> website.</p>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+<%--</div>--%>
 
-<div class="clearfix"></div>
+<%--<div class="clearfix"></div>--%>
 
-<div class="container mb-80">
-    <div class="row">
-        <div class="col-sm-12">
-            <h2 class="heading text-center">Meet our <span class="color2">Teachers</span>
-                <span class="sub-heading">Our highly qualified teachers put in their best efforts for outstanding results in both studies and co-curricular activities.</span>
-                <span class="icon-divider"></span>
-            </h2>
-        </div>
-        <div class="col-sm-4">
-            <div class="teacher-card">
-                <ul class="social-links">
-                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-                <img src="$ThemeDir/images/teacher-1.png" class="teacher-img img-responsive" alt="">
-                <a href="teacher-profile.html" class="teacher-link">View Profile</a>
-                <div class="teacher-detail">
-                    <h4 class="heading">Ms. Simcy Janes</h4>
-                    <span class="position">HOD, Science Department</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="teacher-card">
-                <ul class="social-links">
-                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-                <img src="$ThemeDir/images/teacher-2.png" class="teacher-img img-responsive" alt="">
-                <a href="teacher-profile.html" class="teacher-link">View Profile</a>
-                <div class="teacher-detail">
-                    <h4 class="heading">Mr. Janes Simcy</h4>
-                    <span class="position">HOD, Maths Department</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="teacher-card">
-                <ul class="social-links">
-                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-                <img src="$ThemeDir/images/teacher-3.png" class="teacher-img img-responsive" alt="">
-                <a href="teacher-profile.html" class="teacher-link">View Profile</a>
-                <div class="teacher-detail">
-                    <h4 class="heading">Ms. Simcy Janes</h4>
-                    <span class="position">HOD, English Department</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<%--<div class="container mb-80">--%>
+    <%--<div class="row">--%>
+        <%--<div class="col-sm-12">--%>
+            <%--<h2 class="heading text-center">Meet our <span class="color2">Teachers</span>--%>
+                <%--<span class="sub-heading">Our highly qualified teachers put in their best efforts for outstanding results in both studies and co-curricular activities.</span>--%>
+                <%--<span class="icon-divider"></span>--%>
+            <%--</h2>--%>
+        <%--</div>--%>
+        <%--<div class="col-sm-4">--%>
+            <%--<div class="teacher-card">--%>
+                <%--<ul class="social-links">--%>
+                    <%--<li><a href=""><i class="fa fa-facebook"></i></a></li>--%>
+                    <%--<li><a href=""><i class="fa fa-twitter"></i></a></li>--%>
+                    <%--<li><a href=""><i class="fa fa-google-plus"></i></a></li>--%>
+                    <%--<li><a href=""><i class="fa fa-linkedin"></i></a></li>--%>
+                <%--</ul>--%>
+                <%--<img src="$ThemeDir/images/teacher-1.png" class="teacher-img img-responsive" alt="">--%>
+                <%--<a href="teacher-profile.html" class="teacher-link">View Profile</a>--%>
+                <%--<div class="teacher-detail">--%>
+                    <%--<h4 class="heading">Ms. Simcy Janes</h4>--%>
+                    <%--<span class="position">HOD, Science Department</span>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="col-sm-4">--%>
+            <%--<div class="teacher-card">--%>
+                <%--<ul class="social-links">--%>
+                    <%--<li><a href=""><i class="fa fa-facebook"></i></a></li>--%>
+                    <%--<li><a href=""><i class="fa fa-twitter"></i></a></li>--%>
+                    <%--<li><a href=""><i class="fa fa-google-plus"></i></a></li>--%>
+                    <%--<li><a href=""><i class="fa fa-linkedin"></i></a></li>--%>
+                <%--</ul>--%>
+                <%--<img src="$ThemeDir/images/teacher-2.png" class="teacher-img img-responsive" alt="">--%>
+                <%--<a href="teacher-profile.html" class="teacher-link">View Profile</a>--%>
+                <%--<div class="teacher-detail">--%>
+                    <%--<h4 class="heading">Mr. Janes Simcy</h4>--%>
+                    <%--<span class="position">HOD, Maths Department</span>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="col-sm-4">--%>
+            <%--<div class="teacher-card">--%>
+                <%--<ul class="social-links">--%>
+                    <%--<li><a href=""><i class="fa fa-facebook"></i></a></li>--%>
+                    <%--<li><a href=""><i class="fa fa-twitter"></i></a></li>--%>
+                    <%--<li><a href=""><i class="fa fa-google-plus"></i></a></li>--%>
+                    <%--<li><a href=""><i class="fa fa-linkedin"></i></a></li>--%>
+                <%--</ul>--%>
+                <%--<img src="$ThemeDir/images/teacher-3.png" class="teacher-img img-responsive" alt="">--%>
+                <%--<a href="teacher-profile.html" class="teacher-link">View Profile</a>--%>
+                <%--<div class="teacher-detail">--%>
+                    <%--<h4 class="heading">Ms. Simcy Janes</h4>--%>
+                    <%--<span class="position">HOD, English Department</span>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+<%--</div>--%>
 
-<div class="clearfix"></div>
+<%--<div claass="clearfix"></div>--%>
 
 <div class="event pt-100 pb-100" data-parallax="scroll" data-image-src="$ThemeDir/images/event-background.jpg">
     <div class="container">
@@ -641,34 +641,4 @@
     </div>
 </div>
 
-
-
-<%--<!-- Modal -->--%>
-<%--<div class="modal fade" id="modal1" data-open-onload="true" data-open-delay="2500" tabindex="-1" role="dialog">--%>
-    <%--<div class="modal-dialog modal-lg" role="document">--%>
-        <%--<div class="modal-content">--%>
-            <%--<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>--%>
-            <%--<div class="modal-body" style="background-image:url('$ThemeDir/images/modal-background.jpg'); background-size:cover">--%>
-                <%--<div class="row">--%>
-                    <%--<div class="col-md-5 pull-right bginverse pt-20 pb-20">--%>
-                        <%--<h4 class="heading">Subscribe to our Newsletter!</h4>--%>
-                        <%--<p>Trust us, you will absolutely love our newletter feed!</p>--%>
-                        <%--<br/>--%>
-                        <%--<form>--%>
-                            <%--<div class="form-group">--%>
-                                <%--<input id="contact-name" type="text" class="form-control">--%>
-                                <%--<label for="contact-name">Your Name</label>--%>
-                            <%--</div>--%>
-                            <%--<div class="form-group">--%>
-                                <%--<input id="contact-email" type="text" class="form-control">--%>
-                                <%--<label for="contact-email">Email ID</label>--%>
-                            <%--</div>--%>
-                            <%--<button type="submit" class="btn btn-primary">Subscribe</button>--%>
-                        <%--</form>--%>
-                    <%--</div>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-    <%--</div>--%>
-<%--</div>--%>
 

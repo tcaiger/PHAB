@@ -81,7 +81,7 @@
 
 <div class="container mt-100 mb-80">
     <div class="row">
-        <h2 class="heading text-center">Board of <span class="color2">Directors</span>
+        <h2 class="heading text-center">Meet The PHAB <span class="color2">Team</span>
             <span class="sub-heading">EDUComp is a fully responsive premium education theme for schools, colleges, insitutions and universities.</span>
             <span class="icon-divider"></span>
         </h2>
@@ -136,18 +136,18 @@
     </div>
 </div>
 
-<div class="clearfix"></div>
+<%--<div class="clearfix"></div>--%>
 
-<div class="bgcolor3 pt-100 pb-100">
-    <div class="container">
-        <div class="col-md-12">
-            <div class="logo-scroll">
-                <img src="$ThemeDir/images/logo-1.png" alt="">
-                <img src="$ThemeDir/images/logo-2.png" alt="">
-                <img src="$ThemeDir/images/logo-3.png" alt="">
-                <img src="$ThemeDir/images/logo-4.png" alt="">
-                <img src="$ThemeDir/images/logo-5.png" alt="">
-            </div>
-        </div>
-    </div>
-</div>
+<%--<div class="bgcolor3 pt-100 pb-100">--%>
+    <%--<div class="container">--%>
+        <%--<div class="col-md-12">--%>
+            <%--<div class="logo-scroll">--%>
+                <%--<img src="$ThemeDir/images/logo-1.png" alt="">--%>
+                <%--<img src="$ThemeDir/images/logo-2.png" alt="">--%>
+                <%--<img src="$ThemeDir/images/logo-3.png" alt="">--%>
+                <%--<img src="$ThemeDir/images/logo-4.png" alt="">--%>
+                <%--<img src="$ThemeDir/images/logo-5.png" alt="">--%>
+            <%--</div>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+<%--</div>--%>
