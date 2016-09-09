@@ -236,12 +236,12 @@
                 $Content
                 <br/>
                 <ul class="list-styled pull-left">
-                    <li>Super Easy to Customize</li>
-                    <li>Very Well Documented</li>
+                    <li>$Bullet1</li>
+                    <li>$Bullet2</li>
                 </ul>
                 <ul class="list-styled pull-left">
-                    <li>Quick Free Email Support</li>
-                    <li>Lifetime Free Updates</li>
+                    <li>$Bullet3</li>
+                    <li>$Bullet4</li>
                 </ul>
                 <div class="clearfix"></div>
                 <br/>
@@ -272,7 +272,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <h2 class="heading text-center">About PHAB <span class="color2">Programmes</span>
-                    <span class="sub-heading">EDUComp is a fully responsive premium education theme for schools, colleges, insitutions and universities.</span>
+                    <span class="sub-heading">$SectionSubheading</span>
                     <span class="icon-divider"></span>
                 </h2>
             </div>
@@ -284,8 +284,8 @@
                         <i class="fa fa-book"></i>
                     </div>
                     <div class="icon-box-content">
-                        <h5 class="heading">Our Courses</h5>
-                        <span>Course Grid, Course List and Course Single Pages</span>
+                        <h5 class="heading">$Box1Heading</h5>
+                        <span>$Box1Text</span>
                     </div>
                 </div>
             </div>
@@ -295,8 +295,8 @@
                         <i class="fa fa-users"></i>
                     </div>
                     <div class="icon-box-content">
-                        <h5 class="heading">Our Teachers</h5>
-                        <span>Teachers Page and Teachers' Profile with Time Table</span>
+                        <h5 class="heading">$Box2Heading</h5>
+                        <span>$Box2Text</span>
                     </div>
                 </div>
             </div>
@@ -306,8 +306,8 @@
                         <i class="fa fa-calendar-check-o"></i>
                     </div>
                     <div class="icon-box-content">
-                        <h5 class="heading">Our Events</h5>
-                        <span>Upcoming Events Page and Event's Detail page with Timer</span>
+                        <h5 class="heading">$Box3Heading</h5>
+                        <span>$Box4Text</span>
                     </div>
                 </div>
             </div>
@@ -319,8 +319,8 @@
                         <i class="fa fa-check-square-o"></i>
                     </div>
                     <div class="icon-box-content">
-                        <h5 class="heading">Coming Soon Page</h5>
-                        <span>Coming Soon page with timer and Subscription Form</span>
+                        <h5 class="heading">$Box4Heading</h5>
+                        <span>$Box4Text</span>
                     </div>
                 </div>
             </div>
@@ -330,8 +330,8 @@
                         <i class="fa fa-map-marker"></i>
                     </div>
                     <div class="icon-box-content">
-                        <h5 class="heading">Theme Styled Google Maps</h5>
-                        <span>Theme Color Coded Google Maps with custom marker</span>
+                        <h5 class="heading">$Box5Heading</h5>
+                        <span>$Box5Text</span>
                     </div>
                 </div>
             </div>
@@ -341,8 +341,8 @@
                         <i class="fa fa-youtube"></i>
                     </div>
                     <div class="icon-box-content">
-                        <h5 class="heading">Theme Styled Video</h5>
-                        <span>Theme Styled YouTube Video Integration to EDUComp</span>
+                        <h5 class="heading">$Box6Heading</h5>
+                        <span>$Box6Text</span>
                     </div>
                 </div>
             </div>
@@ -406,13 +406,13 @@
                         </div>
                         <div class="fact col-sm-4">
                                 <span class="head">
-                                    <span class="count" data-from="0" data-to="56" data-speed="3000"></span> Students
+                                    <span class="count" data-from="0" data-to="56" data-speed="3000"></span> Members
                                 </span>
                             <span class="foot">Average number of students per class. Offering world class education.</span>
                         </div>
                         <div class="fact col-sm-4">
                                 <span class="head">
-                                    <span class="count" data-from="0" data-to="15" data-speed="3000"></span> Teachers
+                                    <span class="count" data-from="0" data-to="15" data-speed="3000"></span> Mentors
                                 </span>
                             <span class="foot">Best <i>"Student and Teacher Ratio"</i> in the world. Award 10 times in a row.</span>
                         </div>
