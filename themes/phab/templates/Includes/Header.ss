@@ -51,20 +51,26 @@
                             <li><a href=pasifika-partnership>Pasifika Partnership</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Programmes</a>
+                    <li><a href="#">Clubs & Events</a>
                         <ul class="sub-menu">																<!-- Sub Menu -->
-                            <li><a href="programmes"> Programmes <i class="fa fa-angle-right pull-right"></i></a>
+                            <li><a href="programmes"> Clubs <i class="fa fa-angle-right pull-right"></i></a>
                                 <ul class="sub-menu">														<!-- Sub Sub Menu -->
-                                    <li><a href="programmes/programme-1">Programme 1</a></li>
-                                    <li><a href="programmes/programme-2">Programme 2</a></li>
+                                    <li><a href="programmes/club-1">Club 1</a></li>
+                                    <li><a href="programmes/club-2">Club 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="programmes"> Events <i class="fa fa-angle-right pull-right"></i></a>
+                                <ul class="sub-menu">														<!-- Sub Sub Menu -->
+                                    <li><a href="programmes/event-1">Event 1</a></li>
+                                    <li><a href="programmes/event-2">Event 2</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
                     <li><a href="#">Get Involved</a>
                         <ul class="sub-menu">																<!-- Sub Menu -->
-                            <li><a href="give-funding">Give Funding</a></li>
-                            <li><a href="volunteer">Volunteer</a></li>
+                            <li><a href="give-funding">Funders</a></li>
+                            <li><a href="volunteer">Volunteers</a></li>
                         </ul>
                     </li>
                     <li><a href="#">News</a>
