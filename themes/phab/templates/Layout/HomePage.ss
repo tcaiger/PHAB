@@ -19,7 +19,7 @@
                 data-description="Nurturing the most awesome minds.">
 
                 <!-- MAIN IMAGE -->
-                <img src="$ThemeDir/images/dummy.jpg" data-lazyload="$ThemeDir/images/slide-1.jpg" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                <img src="$ThemeDir/images/dummy.jpg" data-lazyload="$BannerImage1.URL" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                 <!-- Overlay-->
                 <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0"
                      id="slide-1-overlay"
@@ -55,7 +55,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on"
-                     style="z-index: 6; white-space: nowrap; font-weight:bold; font-family: 'Libre Baskerville', serif;">We are the best.
+                     style="z-index: 6; white-space: nowrap; font-weight:bold; font-family: 'Libre Baskerville', serif;">$Banner1Heading.
                 </div>
 
                 <!-- Main Text -->
@@ -78,7 +78,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on"
-                     style="z-index: 7; min-width: 600px; max-width: 600px; white-space: normal; text-shadow:0px 2px 2px #000; text-transform:capitalize; font-weight:600; text-align:right; font-family: 'Montserrat', sans-serif;">Nurturing the most awesome minds.
+                     style="z-index: 7; min-width: 600px; max-width: 600px; white-space: normal; text-shadow:0px 2px 2px #000; text-transform:capitalize; font-weight:600; text-align:right; font-family: 'Montserrat', sans-serif;">$Banner1Subheading.
                 </div>
 
                 <!-- Button -->
@@ -119,7 +119,7 @@
                 data-title="A STUDY ON HAPPINESS"
                 data-description="Nurturing the most awesome minds.">
                 <!-- MAIN IMAGE -->
-                <img src="$ThemeDir/images/dummy.jpg" data-lazyload="$ThemeDir/images/slide-2.jpg" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                <img src="$ThemeDir/images/dummy.jpg" data-lazyload="$BannerImage2.URL" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                 <!-- Overlay -->
                 <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0"
                      id="slide-2-overlay"
@@ -155,7 +155,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on"
-                     style="z-index: 10; white-space: nowrap; font-weight:bold; font-family: 'Libre Baskerville', serif;">We are super sporty.
+                     style="z-index: 10; white-space: nowrap; font-weight:bold; font-family: 'Libre Baskerville', serif;">$Banner2Heading.
                 </div>
 
                 <!-- Main Text -->
@@ -178,7 +178,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on"
-                     style="z-index: 11; min-width: 600px; max-width: 600px; white-space: normal; text-shadow:0px 2px 2px #000; text-transform:capitalize; font-weight:600; text-align:left; font-family: 'Montserrat', sans-serif;">Not just studies, we excel in sports too.
+                     style="z-index: 11; min-width: 600px; max-width: 600px; white-space: normal; text-shadow:0px 2px 2px #000; text-transform:capitalize; font-weight:600; text-align:left; font-family: 'Montserrat', sans-serif;">$Banner2Subheading.
                 </div>
 
                 <!-- Button -->
@@ -233,8 +233,7 @@
         <div class="row">
             <div class="col-sm-7 mt-100">
                 <h3 class="heading">Who We <span class="color2">Are</span></h3>
-                <p>EDUComp is a premium education theme. 100% responsive and designed for quick customizations, this is an ideal theme for Schools, Colleges, Universities and other Educational Insitutions.</p>
-                <p>A huge array of new elements coming your way, enjoy lifetime free updates for EDUComp, Buy Now!</p>
+                $Content
                 <br/>
                 <ul class="list-styled pull-left">
                     <li>Super Easy to Customize</li>
