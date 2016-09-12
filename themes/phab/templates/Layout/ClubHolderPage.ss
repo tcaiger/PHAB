@@ -44,7 +44,7 @@
     <div class="row">
         <div class="col-sm-4">
             <div class="course-card new">
-                <img src="images/course-grid-1.jpg" class="img-responsive course-img" alt="">
+                <img src="$ThemeDir/images/course-grid-1.jpg" class="img-responsive course-img" alt="">
                 <a href="course-detail.html" class="course-link"><i class="fa fa-link" aria-hidden="true"></i></a>
                 <div class="course-detail">
                     <h4 class="heading">Diploma in Marketing</h4>
@@ -58,7 +58,7 @@
         </div>
         <div class="col-sm-4">
             <div class="course-card">
-                <img src="images/course-grid-2.jpg" class="img-responsive course-img" alt="">
+                <img src="$ThemeDir/images/course-grid-2.jpg" class="img-responsive course-img" alt="">
                 <a href="course-detail.html" class="course-link"><i class="fa fa-link" aria-hidden="true"></i></a>
                 <div class="course-detail">
                     <h4 class="heading">Masters in Marketing</h4>
@@ -72,7 +72,7 @@
         </div>
         <div class="col-sm-4">
             <div class="course-card new">
-                <img src="images/course-grid-3.jpg" class="img-responsive course-img" alt="">
+                <img src="$ThemeDir/images/course-grid-3.jpg" class="img-responsive course-img" alt="">
                 <a href="course-detail.html" class="course-link"><i class="fa fa-link" aria-hidden="true"></i></a>
                 <div class="course-detail">
                     <h4 class="heading">Diploma in Engineering</h4>
@@ -86,7 +86,7 @@
         </div>
         <div class="col-sm-4">
             <div class="course-card">
-                <img src="images/course-grid-2.jpg" class="img-responsive course-img" alt="">
+                <img src="$ThemeDir/images/course-grid-2.jpg" class="img-responsive course-img" alt="">
                 <a href="course-detail.html" class="course-link"><i class="fa fa-link" aria-hidden="true"></i></a>
                 <div class="course-detail">
                     <h4 class="heading">Masters in Engineering</h4>
@@ -100,7 +100,7 @@
         </div>
         <div class="col-sm-4">
             <div class="course-card new">
-                <img src="images/course-grid-3.jpg" class="img-responsive course-img" alt="">
+                <img src="$ThemeDir/images/course-grid-3.jpg" class="img-responsive course-img" alt="">
                 <a href="course-detail.html" class="course-link"><i class="fa fa-link" aria-hidden="true"></i></a>
                 <div class="course-detail">
                     <h4 class="heading">Bachelors in Technology</h4>
@@ -114,7 +114,7 @@
         </div>
         <div class="col-sm-4">
             <div class="course-card">
-                <img src="images/course-grid-1.jpg" class="img-responsive course-img" alt="">
+                <img src="$ThemeDir/images/course-grid-1.jpg" class="img-responsive course-img" alt="">
                 <a href="course-detail.html" class="course-link"><i class="fa fa-link" aria-hidden="true"></i></a>
                 <div class="course-detail">
                     <h4 class="heading">Masters in Technology</h4>
