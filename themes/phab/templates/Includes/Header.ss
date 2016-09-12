@@ -75,8 +75,8 @@
                     </li>
                     <li><a href="#">Get Involved</a>
                         <ul class="sub-menu">																<!-- Sub Menu -->
-                            <li><a href="give-funding">Funders</a></li>
-                            <li><a href="volunteer">Volunteers</a></li>
+                            <li><a href="funders">Funders</a></li>
+                            <li><a href="volunteers">Volunteers</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Contact</a>
