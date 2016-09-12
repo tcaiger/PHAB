@@ -26,8 +26,28 @@ class Page_Controller extends ContentController {
                 "{$this->ThemeDir()}/js/jquery.min.js",
                 "{$this->ThemeDir()}/js/main.js"
             ));
+    }
 
 
+    /**
+     * @param $pagetype string
+     *
+     * @return Page
+     */
+    public function GetPage($pagetype) {
+        if ($page = $this->GetPage($pagetype)) {
+            return $page;
+        }
+    }
 
+    /**
+     * @param $pagetype
+     *
+     * @return string
+     */
+    public function PageLink($pagetype) {
+        if ($page = $this->GetPage($pagetype)) {
+            return $page->Link();
+        }
     }
 }

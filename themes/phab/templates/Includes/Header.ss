@@ -42,48 +42,21 @@
                 <a class="navbar-brand" href="$AbsoluteBaseURL"><img src="$ThemeDir/images/logo.png" alt=""></a> <!-- Replace with your Logo -->
             </div>
 
-            <div class="collapse navbar-collapse" id="main-navigation">         <!-- Main Menu -->
+            <div class="collapse navbar-collapse" id="main-navigation">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="$AbsoluteBaseURL">Home</a></li>
-                    <li><a href="#">About</a>
-                        <ul class="sub-menu">									<!-- Sub Menu -->
-                            <li><a href="about-us">About Us</a></li>
-                            <li><a href="history">History</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Clubs & Events</a>
-                        <ul class="sub-menu">																<!-- Sub Menu -->
-                            <li><a href="clubs"> Clubs <i class="fa fa-angle-right pull-right"></i></a>
-                                <ul class="sub-menu">														<!-- Sub Sub Menu -->
-                                    <li><a href="clubs/club-1">Club 1</a></li>
-                                    <li><a href="clubs/club-2">Club 2</a></li>
+
+                    <% loop $Menu(1) %>
+                        <li class="<% if $IsSection %>active<% end_if %>">
+                            <a href="$link">$MenuTitle</a>
+                            <% if $Children %>
+                                <ul class="sub-menu">
+                                    <% loop $Children %>
+                                        <li><a href="$link">$MenuTitle</a></li>
+                                    <% end_loop %>
                                 </ul>
-                            </li>
-                            <li><a href="events"> Events <i class="fa fa-angle-right pull-right"></i></a>
-                                <ul class="sub-menu">														<!-- Sub Sub Menu -->
-                                    <li><a href="events/event-1">Event 1</a></li>
-                                    <li><a href="events/event-2">Event 2</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Pasifika</a>
-                        <ul class="sub-menu">																<!-- Sub Menu -->
-                            <li><a href="about-pasifika">About Pasifika</a></li>
-                            <li><a href="phusion">Phusion</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Get Involved</a>
-                        <ul class="sub-menu">																<!-- Sub Menu -->
-                            <li><a href="funders">Funders</a></li>
-                            <li><a href="volunteers">Volunteers</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Contact</a>
-                        <ul class="sub-menu">																<!-- Sub Menu -->
-                            <li><a href="contact-us">Contact Us</a></li>
-                        </ul>
-                    </li>
+                            <% end_if %>
+                        </li>
+                    <% end_loop %>
                 </ul>
             </div>
         </div>
