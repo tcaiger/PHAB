@@ -1,12 +1,12 @@
 <?php
 
-class ProgrammeHolderPage extends Page {
+class ClubHolderPage extends Page {
 
 
 
 }
 
-class ProgrammeHolderPage_Controller extends Page_Controller {
+class ClubHolderPage_Controller extends Page_Controller {
 
 
     public function init() {
