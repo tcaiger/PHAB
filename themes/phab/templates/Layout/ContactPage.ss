@@ -1,12 +1,4 @@
-<div class="page-header">
-    <div class="container">
-        <h1>$Title</h1>
-        <ul class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li class="active">$Title</li>
-        </ul>
-    </div>
-</div>
+<% include TopBanner %>
 
 <div class="container mt-80 mb-100">
     <div class="row">

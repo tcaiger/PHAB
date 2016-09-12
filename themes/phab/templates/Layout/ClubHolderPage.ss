@@ -1,100 +1,151 @@
-<div class="page-header">
+<% include TopBanner %>
+
+<div class="pt-60 pb-60 bgcolor3">
     <div class="container">
-        <h1>Programmes</h1>
-        <ul class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li class="active">Programmes</li>
-        </ul>
+        <div class="row">
+            <form class="course-search">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <input id="search-1" type="text" class="form-control">
+                        <label for="search-1">Enter Keywords...</label>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <select class="selectpicker" data-style="btn-inverse" data-width="100%">
+                            <option>1 year</option>
+                            <option>2 years</option>
+                            <option>4 years</option>
+                            <option>6 years</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <select class="selectpicker" data-style="btn-inverse" data-width="100%">
+                            <option>Ontario</option>
+                            <option>London</option>
+                            <option>New York</option>
+                            <option>Amsterdam</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-search"></i> Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
-<div class="container mt-100 mb-100">
+<div class="container mt-60 mb-60">
     <div class="row">
+        <div class="col-sm-4">
+            <div class="course-card new">
+                <img src="images/course-grid-1.jpg" class="img-responsive course-img" alt="">
+                <a href="course-detail.html" class="course-link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                <div class="course-detail">
+                    <h4 class="heading">Diploma in Marketing</h4>
+                    <span class="brief">In this course, you learn all advanced techniques and methodologies.</span>
+                    <ul class="course-features">
+                        <li><i class="fa fa-map-marker"></i> California</li>
+                        <li><i class="fa fa-clock-o"></i> 1 year</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="course-card">
+                <img src="images/course-grid-2.jpg" class="img-responsive course-img" alt="">
+                <a href="course-detail.html" class="course-link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                <div class="course-detail">
+                    <h4 class="heading">Masters in Marketing</h4>
+                    <span class="brief">In this course, you learn all advanced techniques and methodologies.</span>
+                    <ul class="course-features">
+                        <li><i class="fa fa-map-marker"></i> America</li>
+                        <li><i class="fa fa-clock-o"></i> 1 year</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="course-card new">
+                <img src="images/course-grid-3.jpg" class="img-responsive course-img" alt="">
+                <a href="course-detail.html" class="course-link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                <div class="course-detail">
+                    <h4 class="heading">Diploma in Engineering</h4>
+                    <span class="brief">In this course, you learn all advanced techniques and methodologies.</span>
+                    <ul class="course-features">
+                        <li><i class="fa fa-map-marker"></i> Paris</li>
+                        <li><i class="fa fa-clock-o"></i> 1 year</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="course-card">
+                <img src="images/course-grid-2.jpg" class="img-responsive course-img" alt="">
+                <a href="course-detail.html" class="course-link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                <div class="course-detail">
+                    <h4 class="heading">Masters in Engineering</h4>
+                    <span class="brief">In this course, you learn all advanced techniques and methodologies.</span>
+                    <ul class="course-features">
+                        <li><i class="fa fa-map-marker"></i> London</li>
+                        <li><i class="fa fa-clock-o"></i> 2 year</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="course-card new">
+                <img src="images/course-grid-3.jpg" class="img-responsive course-img" alt="">
+                <a href="course-detail.html" class="course-link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                <div class="course-detail">
+                    <h4 class="heading">Bachelors in Technology</h4>
+                    <span class="brief">In this course, you learn all advanced techniques and methodologies.</span>
+                    <ul class="course-features">
+                        <li><i class="fa fa-map-marker"></i> New York</li>
+                        <li><i class="fa fa-clock-o"></i> 3 year</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="course-card">
+                <img src="images/course-grid-1.jpg" class="img-responsive course-img" alt="">
+                <a href="course-detail.html" class="course-link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                <div class="course-detail">
+                    <h4 class="heading">Masters in Technology</h4>
+                    <span class="brief">In this course, you learn all advanced techniques and methodologies.</span>
+                    <ul class="course-features">
+                        <li><i class="fa fa-map-marker"></i> Las Vegas</li>
+                        <li><i class="fa fa-clock-o"></i> 2 year</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div class="col-sm-12">
-            <h2 class="heading text-center">Upcoming <span class="color2">Events</span>
-                <span class="sub-heading">You're welcome to all our events. We would love to see you there!</span>
-                <span class="icon-divider"></span>
-            </h2>
-        </div>
-        <div class="col-sm-6">
-            <div class="event-card">
-                <div class="event-on">
-                    <span class="date">27</span>
-                    <span class="month">SEPT</span>
-                </div>
-                <img src="$ThemeDir/images/event-grid-1.jpg" class="img-responsive event-img" alt="">
-                <a href="event-details.html" class="event-link"><i class="fa fa-link" aria-hidden="true"></i></a>
-                <div class="event-detail">
-                    <h4 class="heading">Live Band Performance</h4>
-                    <span class="brief">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</span>
-                </div>
-                <ul class="timer" data-date="2016/09/27 02:34:10">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
-                    <li><span class="days">0</span>days</li>
-                    <li><span class="hours">0</span>hrs</li>
-                    <li><span class="minutes">00</span>min</li>
-                    <li><span class="seconds">00</span>sec</li>
+            <nav>
+                <ul class="pagination">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
                 </ul>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="event-card">
-                <div class="event-on">
-                    <span class="date">31</span>
-                    <span class="month">AUG</span>
-                </div>
-                <img src="$ThemeDir/images/event-grid-3.jpg" class="img-responsive event-img" alt="">
-                <a href="event-details.html" class="event-link"><i class="fa fa-link" aria-hidden="true"></i></a>
-                <div class="event-detail">
-                    <h4 class="heading">Fashion Show</h4>
-                    <span class="brief">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</span>
-                </div>
-                <ul class="timer" data-date="2016/8/31">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
-                    <li><span class="days">0</span>days</li>
-                    <li><span class="hours">0</span>hrs</li>
-                    <li><span class="minutes">00</span>min</li>
-                    <li><span class="seconds">00</span>sec</li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="event-card">
-                <div class="event-on">
-                    <span class="date">12</span>
-                    <span class="month">SEP</span>
-                </div>
-                <img src="$ThemeDir/images/event-grid-2.jpg" class="img-responsive event-img" alt="">
-                <a href="event-details.html" class="event-link"><i class="fa fa-link" aria-hidden="true"></i></a>
-                <div class="event-detail">
-                    <h4 class="heading">English Debate</h4>
-                    <span class="brief">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</span>
-                </div>
-                <ul class="timer" data-date="2016/9/12 04:23:34">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
-                    <li><span class="days">0</span>days</li>
-                    <li><span class="hours">0</span>hrs</li>
-                    <li><span class="minutes">00</span>min</li>
-                    <li><span class="seconds">00</span>sec</li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="event-card">
-                <div class="event-on">
-                    <span class="date">3</span>
-                    <span class="month">OCT</span>
-                </div>
-                <img src="$ThemeDir/images/event-grid-4.jpg" class="img-responsive event-img" alt="">
-                <a href="event-details.html" class="event-link"><i class="fa fa-link" aria-hidden="true"></i></a>
-                <div class="event-detail">
-                    <h4 class="heading">Theatre Performance</h4>
-                    <span class="brief">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</span>
-                </div>
-                <ul class="timer" data-date="2016/09/03">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
-                    <li><span class="days">0</span>days</li>
-                    <li><span class="hours">0</span>hrs</li>
-                    <li><span class="minutes">00</span>min</li>
-                    <li><span class="seconds">00</span>sec</li>
-                </ul>
-            </div>
+            </nav>
         </div>
     </div>
 </div>
