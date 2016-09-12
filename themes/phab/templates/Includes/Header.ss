@@ -48,34 +48,35 @@
                     <li><a href="#">About</a>
                         <ul class="sub-menu">									<!-- Sub Menu -->
                             <li><a href="about-us">About Us</a></li>
-                            <li><a href=pasifika-partnership>Pasifika Partnership</a></li>
+                            <li><a href="history">History</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Clubs & Events</a>
                         <ul class="sub-menu">																<!-- Sub Menu -->
-                            <li><a href="programmes"> Clubs <i class="fa fa-angle-right pull-right"></i></a>
+                            <li><a href="clubs"> Clubs <i class="fa fa-angle-right pull-right"></i></a>
                                 <ul class="sub-menu">														<!-- Sub Sub Menu -->
-                                    <li><a href="programmes/club-1">Club 1</a></li>
-                                    <li><a href="programmes/club-2">Club 2</a></li>
+                                    <li><a href="clubs/club-1">Club 1</a></li>
+                                    <li><a href="clubs/club-2">Club 2</a></li>
                                 </ul>
                             </li>
-                            <li><a href="programmes"> Events <i class="fa fa-angle-right pull-right"></i></a>
+                            <li><a href="events"> Events <i class="fa fa-angle-right pull-right"></i></a>
                                 <ul class="sub-menu">														<!-- Sub Sub Menu -->
-                                    <li><a href="programmes/event-1">Event 1</a></li>
-                                    <li><a href="programmes/event-2">Event 2</a></li>
+                                    <li><a href="events/event-1">Event 1</a></li>
+                                    <li><a href="events/event-2">Event 2</a></li>
                                 </ul>
                             </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pasifika</a>
+                        <ul class="sub-menu">																<!-- Sub Menu -->
+                            <li><a href="about-pasifika">About Pasifika</a></li>
+                            <li><a href="phusion">Phusion</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Get Involved</a>
                         <ul class="sub-menu">																<!-- Sub Menu -->
                             <li><a href="give-funding">Funders</a></li>
                             <li><a href="volunteer">Volunteers</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">News</a>
-                        <ul class="sub-menu">																<!-- Sub Menu -->
-                            <li><a href="news">News</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Contact</a>
