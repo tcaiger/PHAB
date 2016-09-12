@@ -13,3 +13,8 @@ silverstripe.log
 silverstripe-errors.log
 themes/phab/node_modules/
 gridfieldextensions/
+betterbuttons/
+grouped-cms-menu/
+silverstripe-catalogmanager/
+silverstripe-singlepageadmin/
+sortablegridfield/
