@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "befe30eb25c35b23ab48f486d0969076",
-    "content-hash": "8f72c15f3b03537929524ca6d82950ce",
+    "hash": "ef88296fd678f44bccb8cc5d6790c159",
+    "content-hash": "c3be95838606f2f1b4bbab6ae5f64614",
     "packages": [
         {
             "name": "composer/installers",
@@ -246,6 +246,49 @@
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "time": "2016-06-06 09:09:37"
+        },
+        {
+            "name": "ryanpotter/silverstripe-cms-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Rhym/silverstripe-cms-theme.git",
+                "reference": "15220c4e8738581744a7ec084e397b3cd69f0dcb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Rhym/silverstripe-cms-theme/zipball/15220c4e8738581744a7ec084e397b3cd69f0dcb",
+                "reference": "15220c4e8738581744a7ec084e397b3cd69f0dcb",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "silverstripe/framework": "~3.3"
+            },
+            "suggest": {
+                "silverstripe-australia/grouped-cms-menu": "Group CMS menus to provide a better UX"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "silverstripe-branding"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Potter",
+                    "homepage": "http://ryanpotter.co.nz/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CMS Theme",
+            "keywords": [
+                "silverstripe",
+                "theme"
+            ],
+            "time": "2016-03-23 10:20:31"
         },
         {
             "name": "silverstripe-australia/gridfieldextensions",
@@ -621,7 +664,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "ryanpotter/silverstripe-cms-theme": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

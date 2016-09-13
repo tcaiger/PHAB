@@ -1,0 +1,17 @@
+#Form_EditForm_Metadata {
+    width : 700px;
+}
+
+.cms-menu-list li a .icon {
+    opacity     : 1;
+    margin-top  : -9px;
+    margin-left : 6px;
+}
+
+.cms-menu-list li a .icon.icon-clubs-events-admin {
+    background: url('../images/calendar-icon.png');
+}
+
+.cms-menu-list li a .icon.icon-about-admin {
+    background: url('../images/star-icon.png');
+}

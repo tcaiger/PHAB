@@ -1,7 +1,7 @@
 <?php
 
 
-class EnquiryAdmin extends ModelAdmin {
+class ContactEnquiryAdmin extends ModelAdmin {
     private static $url_segment = 'contact-enquiries';
     private static $menu_title  = 'Contact Enquiries';
 

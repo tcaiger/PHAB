@@ -7,10 +7,10 @@
     "silverstripe/framework": "3.4.0",
     "silverstripe/siteconfig": "3.4.0",
     "phpmailer/phpmailer": "^5.2",
-    "silverstripe-australia/grouped-cms-menu": "^2.4",
     "littlegiant/silverstripe-catalogmanager": "^4.0",
     "littlegiant/silverstripe-singlepageadmin": "^4.0",
-    "silverstripe-australia/gridfieldextensions": "^1.4"
+    "silverstripe-australia/gridfieldextensions": "^1.4",
+    "silverstripe-australia/grouped-cms-menu": "^2.4"
   },
   "extra": {
     "branch-alias": {

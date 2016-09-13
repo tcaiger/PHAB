@@ -1,0 +1,16 @@
+---
+Name: 'catalog'
+After: 'cms/*', 'framework/*'
+---
+
+ClubPage:
+  extensions:
+    - CatalogPageExtension
+  parentClass:
+    - 'ClubHolderPage'
+
+EventPage:
+  extensions:
+    - CatalogPageExtension
+  parentClass:
+    - 'EventHolderPage'

@@ -1,0 +1,39 @@
+---
+Name: mysite
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+# YAML configuration for SilverStripe
+# See http://doc.silverstripe.org/framework/en/topics/configuration
+# Caution: Indentation through two spaces, not tabs
+SSViewer:
+  theme: 'phab'
+Debug:
+  friendly_error_httpcode: true
+
+LeftAndMain:
+  menu_groups:
+    Admin:
+      - AssetAdmin
+      - ReportAdmin
+      - SecurityAdmin
+      - CMSSettingsController
+      - ContactEnquiryAdmin
+    Pages:
+          - CMSPagesController
+    Home:
+      - HomePageAdmin
+    About:
+      icon: 'about-admin'
+      - AboutPageAdmin
+      - HistoryPageAdmin
+      - GalleryPageAdmin
+    Clubs & Events:
+      icon: 'clubs-events-admin'
+      - ClubPageAdmin
+      - EventPageAdmin
+    Contact:
+      - ContactPageAdmin
+    Help:
+      - Help
