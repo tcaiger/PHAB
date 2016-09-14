@@ -12,6 +12,10 @@ SSViewer:
 Debug:
   friendly_error_httpcode: true
 
+Image:
+  extensions:
+    - GalleryImageExtension
+
 LeftAndMain:
   menu_groups:
     Admin:
