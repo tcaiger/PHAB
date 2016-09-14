@@ -35,18 +35,20 @@ class HomePage extends Page {
         'BannerImage2' => 'PHABImage'
     );
 
-    public function getCMSFields() {
+    public function getCMSFields($member = null) {
 
         $fields = parent::getCMSFields();
 
         $fields->addFieldsToTab('Root.Main', array(
-            HeaderField::create('Banners', 'Banners', '4'),
-            TextField::create('Banner1Heading', 'Banner 1 Heading'),
-            TextField::create('Banner1Subheading', 'Banner 1 Subheading'),
+            HeaderField::create('Banner1', 'Banner 1', '4'),
+            TextField::create('Banner1Heading', 'Heading'),
+            TextField::create('Banner1Subheading', 'Subheading'),
             $bannerImg1 = UploadField::create('BannerImage1', 'Banner 1 Image')->setDescription('Image should be <strong>1920px</strong> wide and <strong>850px</strong> high'),
-            TextField::create('Banner2Heading', 'Banner 2 Heading'),
-            TextField::create('Banner2Subheading', 'Banner 2 Subheading'),
+            HeaderField::create('Banner2', 'Banner 2', '4'),
+            TextField::create('Banner2Heading', 'Heading'),
+            TextField::create('Banner2Subheading', 'Subheading'),
             $bannerImg2 = UploadField::create('BannerImage2', 'Banner 2 Image')->setDescription('Image should be <strong>1920px</strong> wide and <strong>850px</strong> high'),
+            HeaderField::create('MainHeader', 'Main Content', '4'),
             HtmlEditorField::create('Content'),
             TextField::create('Bullet1', 'Bullet 1'),
             TextField::create('Bullet2', 'Bullet 2'),
@@ -78,6 +80,15 @@ class HomePage extends Page {
         $folderDir = 'Uploads/Homepage/';
         $bannerImg1->setFolderName($folderDir);
         $bannerImg2->setFolderName($folderDir);
+
+        // Remove delicate fields from content authors
+        if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
+            $fields->removebyName(array(
+                'BannerImage1',
+                'BannerImage2'
+            ));
+        }
+
 
         return $fields;
     }
