@@ -86,7 +86,7 @@
 
 <div class="clearfix"></div>
 
-<div class="process-1 mt-20 pt-100 pb-100" data-parallax="scroll" data-image-src="$ThemeDir/img/roll.jpg">
+<div class="process-1 mt-20 pt-100 pb-100" data-parallax="scroll" data-image-src="$ThemeDir/img/history-banner.jpg">
     <div class="container">
         <h2 class="heading inverse text-center">Our <span class="color2">Impact</span></h2>
         <div class="row">

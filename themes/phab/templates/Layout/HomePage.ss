@@ -245,7 +245,7 @@
                 </ul>
                 <div class="clearfix"></div>
                 <br/>
-                <a href="about-educomp.html" class="btn btn-primary btn-sm">Learn More <i class="fa fa-long-arrow-right"></i> </a>
+                <a href="who-we-are" class="btn btn-primary btn-sm">Learn More <i class="fa fa-long-arrow-right"></i> </a>
             </div>
             <div class="col-sm-5 mt-60">
                 <div class="newsletter">
@@ -358,34 +358,34 @@
             </div>
             <div class="col-sm-3 no-gutter">
                 <div class="img-box">
-                    <a href="$ThemeDir/images/gallery-4.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                    <img src="$ThemeDir/images/gallery-4.jpg" alt="" class="img-responsive">
+                    <a href="$ThemeDir/img/phab-home-1.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                    <img src="$ThemeDir/img/phab-home-1.jpg" alt="" class="img-responsive">
                 </div>
             </div>
             <div class="col-sm-3 no-gutter">
                 <div class="img-box">
-                    <a href="$ThemeDir/images/gallery-6.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                    <img src="$ThemeDir/images/gallery-6.jpg" alt="" class="img-responsive">
+                    <a href="$ThemeDir/img/phab-home-2.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                    <img src="$ThemeDir/img/phab-home-2.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="img-box">
-                    <a href="$ThemeDir/images/gallery-1.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                    <img src="$ThemeDir/images/gallery-1.jpg" alt="" class="img-responsive">
-                </div>
-            </div>
-            <div class="col-sm-3 no-gutter">
-                <div class="img-box">
-                    <a href="$ThemeDir/images/gallery-2.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                    <img src="$ThemeDir/images/gallery-2.jpg" alt="" class="img-responsive">
-                </div>
-                <div class="img-box">
-                    <a href="$ThemeDir/images/gallery-3.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                    <img src="$ThemeDir/images/gallery-3.jpg" alt="" class="img-responsive">
+                    <a href="$ThemeDir/img/phab-home-3.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                    <img src="$ThemeDir/img/phab-home-3.jpg" alt="" class="img-responsive">
                 </div>
             </div>
             <div class="col-sm-3 no-gutter">
                 <div class="img-box">
-                    <a href="$ThemeDir/images/gallery-5.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                    <img src="$ThemeDir/images/gallery-5.jpg" alt="" class="img-responsive">
+                    <a href="$ThemeDir/img/phab-home-4.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                    <img src="$ThemeDir/img/phab-home-4.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="img-box">
+                    <a href="$ThemeDir/img/phab-home-5.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                    <img src="$ThemeDir/img/phab-home-5.jpg" alt="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-sm-3 no-gutter">
+                <div class="img-box">
+                    <a href="$ThemeDir/img/phab-home-7.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                    <img src="$ThemeDir/img/phab-home-7.jpg" alt="" class="img-responsive">
                 </div>
             </div>
         </div>
