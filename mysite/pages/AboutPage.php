@@ -36,7 +36,7 @@ class AboutPage extends Page {
             HeaderField::create('TeamHeading', 'Team Section', '4'),
             TextAreaField::create('SectionIntro', 'Team Section Introduction'),
             GridField::create('Profiles', 'Profiles', $this->Profiles(),
-                GridFieldConfig_RelationEditor::create()
+                GridFieldConfig_RecordEditor::create()
                     ->addComponents(
                         new GridFieldOrderableRows('SortOrder')
                     )

@@ -4,41 +4,40 @@
     <div class="row">
         <div class="col-sm-7">
             <h3 class="heading">An <span class="color2">Introduction</span></h3>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="lead">$PageIntro</p>
+            $Content
         </div>
         <div class="col-sm-5">
             <h3 class="heading">Our <span class="color2">Milestones</span></h3>
             <ul class="imp-dates">
                 <li>
                     <div class="when">
-                        <span class="year">1968</span>
-                        <span class="month">Mar</span>
+                        <span class="year">$M1Year</span>
+                        <span class="month">$M1Month</span>
                     </div>
                     <div class="what">
-                        <strong>Laid Foundation Stone</strong>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur adipiscing elit.</p>
+                        <strong>$M1Heading</strong>
+                        <p>$M1Text</p>
                     </div>
                 </li>
                 <li>
                     <div class="when">
-                        <span class="year">1975</span>
-                        <span class="month">Aug</span>
+                        <span class="year">$M2Year</span>
+                        <span class="month">$M2Month</span>
                     </div>
                     <div class="what">
-                        <strong>Added 3 more Branches</strong>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur adipiscing elit.</p>
+                        <strong>$M2Heading</strong>
+                        <p>$M2Text</p>
                     </div>
                 </li>
                 <li>
                     <div class="when">
-                        <span class="year">1989</span>
-                        <span class="month">Apr</span>
+                        <span class="year">$M3Year</span>
+                        <span class="month">$M3Month</span>
                     </div>
                     <div class="what">
-                        <strong>First Batch Passed Out</strong>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur adipiscing elit.</p>
+                        <strong>$M3Heading</strong>
+                        <p>$M3Text</p>
                     </div>
                 </li>
             </ul>
@@ -52,7 +51,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 motto">
-                <img src="$ThemeDir/images/motto.png" class="motto-img hidden-xs" alt=""><p class="motto-text">Creativity, passion and excellence. We discover the hidden genius in every child.</p>
+                <img src="$ThemeDir/images/motto.png" class="motto-img hidden-xs" alt="">
+                <p class="motto-text">$Blockquote</p>
             </div>
         </div>
     </div>
@@ -86,7 +86,7 @@
 
 <div class="clearfix"></div>
 
-<div class="process-1 mt-20 pt-100 pb-100" data-parallax="scroll" data-image-src="$ThemeDir/images/process-background.jpg">
+<div class="process-1 mt-20 pt-100 pb-100" data-parallax="scroll" data-image-src="$ThemeDir/img/roll.jpg">
     <div class="container">
         <h2 class="heading inverse text-center">Our <span class="color2">Impact</span></h2>
         <div class="row">
@@ -123,23 +123,20 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="testimonials">
-                    <div class="testimonial-item">
-                        <img src="$ThemeDir/images/testi-1.png" class="testimonial-img" alt="">
-                        <div class="testimonial-text">
-                            <p>A wonderful serenity has taken possession of my entire soul has taken possession of my entire soul. A wonderful serenity has taken possession of my entire soul has taken.</p>
-                            <span class="testimonial-by">Mrs. Harry Ponting</span>
+                    <% loop $Testimonials %>
+                        <div class="testimonial-item">
+                            <% if $AuthorImage %>
+                                <img src="$AuthorImage.ReSample('350','520').URL" class="testimonial-img" alt="$AuthorImage.URL">
+                            <% end_if %>
+                            <div class="testimonial-text">
+                                <p>$Quote</p>
+                                <span class="testimonial-by">$Author</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <img src="$ThemeDir/images/testi-2.png" class="testimonial-img" alt="">
-                        <div class="testimonial-text">
-                            <p>A wonderful serenity has taken possession of my entire soul has taken possession of my entire soul. A wonderful serenity has taken possession of my entire soul has taken.</p>
-                            <span class="testimonial-by">Mrs. Harry Ponting</span>
-                        </div>
-                    </div>
+                    <% end_loop %>
                 </div>
                 <div class="owl-nav">
-                    <span class="owl-left"><i class="fa fa-angle-left"      ></i></span>
+                    <span class="owl-left"><i class="fa fa-angle-left"></i></span>
                     <span class="owl-right"><i class="fa fa-angle-right"></i></span>
                 </div>
             </div>
