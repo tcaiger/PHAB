@@ -27,7 +27,9 @@ class HomePage extends Page {
         'Box5Heading' => 'Varchar(200)',
         'Box5Text' => 'Varchar(200)',
         'Box6Heading' => 'Varchar(200)',
-        'Box6Text' => 'Varchar(200)'
+        'Box6Text' => 'Varchar(200)',
+        'Event' => 'Boolean',
+        'EventSummary' => 'Text'
     );
 
     private static $has_one = array(
@@ -73,7 +75,12 @@ class HomePage extends Page {
             TextField::create('Box5Text', 'Text'),
             HeaderField::create('Box6Header', 'Box 6', '4'),
             TextField::create('Box6Heading', 'Heading'),
-            TextField::create('Box6Text', 'Text')
+            TextField::create('Box6Text', 'Text'),
+            HeaderField::create('EventHeader', 'Upcoming Event'),
+            FieldGroup::create(
+                CheckboxField::create('Event', '')
+            )->setTitle('Include Upcoming Event'),
+            TextAreaField::create('EventSummary')
         ), 'Metadata');
 
         // Place images into a specific folder
@@ -126,8 +133,12 @@ class HomePage_Controller extends Page_Controller {
                 "{$this->ThemeDir()}/js/main.js",
                 "{$this->ThemeDir()}/js/scripts.js"
             ));
-
     }
 
-
+    /**
+     * @return DataObject
+     */
+    public function getUpcomingEvent(){
+        return EventPage::get()->Sort('Date', 'ASC')->first();
+    }
 }

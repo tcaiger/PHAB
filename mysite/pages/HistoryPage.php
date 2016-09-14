@@ -2,6 +2,7 @@
 
 class HistoryPage extends Page {
 
+    private static $can_be_root = false;
     private static $allowed_children = 'none';
 
     private static $db = [
@@ -30,6 +31,7 @@ class HistoryPage extends Page {
         $fields = parent::getCMSFields();
 
         $fields->addFieldsToTab('Root.Main', [
+            HeaderField::create('MainHeader', 'Main Content', '4'),
             TextAreaField::create('PageIntro', 'Page Introduction'),
             HtmlEditorField::create('Content'),
             HeaderField::create('MilestonesHeading', 'Milestones Section', '4'),

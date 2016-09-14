@@ -35,18 +35,18 @@ class Page_Controller extends ContentController {
      * @return Page
      */
     public function GetPage($pagetype) {
-        if ($page = $this->GetPage($pagetype)) {
+        if ($page = DataObject::get_one($pagetype)) {
             return $page;
         }
     }
 
     /**
-     * @param $pagetype
+     * @param $pagetype string
      *
      * @return string
      */
     public function PageLink($pagetype) {
-        if ($page = $this->GetPage($pagetype)) {
+        if ($page = DataObject::get_one($pagetype)) {
             return $page->Link();
         }
     }

@@ -2,6 +2,8 @@
 
 class ClubHolderPage extends Page {
 
+    private static $can_be_root = false;
+    private static $allowed_children = 'none';
 
 
 }

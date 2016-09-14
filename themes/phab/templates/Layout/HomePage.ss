@@ -82,7 +82,7 @@
                 </div>
 
                 <!-- Button -->
-                <a href="brief-history.html" class="tp-caption btn btn-primary rs-parallaxlevel-0 hidden-xs"
+                <a href="$PageLink('AboutPage')" class="tp-caption btn btn-primary rs-parallaxlevel-0 hidden-xs"
                    id="slide-1-button"
                    data-x="['right','right','right','right']" data-hoffset="['53','53','53','30']"
                    data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','50']"
@@ -182,7 +182,7 @@
                 </div>
 
                 <!-- Button -->
-                <a href="about-educomp.html" class="tp-caption btn btn-primary rs-parallaxlevel-0 hidden-xs"
+                <a href="$PageLink('HistoryPage')" class="tp-caption btn btn-primary rs-parallaxlevel-0 hidden-xs"
                    id="slide-2-button"
                    data-x="['left','left','left','left']" data-hoffset="['53','53','53','30']"
                    data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','50']"
@@ -245,7 +245,7 @@
                 </ul>
                 <div class="clearfix"></div>
                 <br/>
-                <a href="who-we-are" class="btn btn-primary btn-sm">Learn More <i class="fa fa-long-arrow-right"></i> </a>
+                <a href="$PageLink('AboutPage')" class="btn btn-primary btn-sm">Learn More <i class="fa fa-long-arrow-right"></i> </a>
             </div>
             <div class="col-sm-5 mt-60">
                 <div class="newsletter">
@@ -271,7 +271,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2 class="heading text-center">About PHAB <span class="color2">Programmes</span>
+                <h2 class="heading text-center">About PHAB <span class="color2">Clubs & Events</span>
                     <span class="sub-heading">$SectionSubheading</span>
                     <span class="icon-divider"></span>
                 </h2>
@@ -564,80 +564,84 @@
 
 <%--<div claass="clearfix"></div>--%>
 
-<div class="event pt-100 pb-100" data-parallax="scroll" data-image-src="$ThemeDir/images/event-background.jpg">
-    <div class="container">
-        <h2 class="heading text-center">Upcoming <span class="color2">Event</span>
-            <span class="sub-heading">Countdown timer for upcoming events and a detailed page for events. Allow people to participate and make it a big hit!</span>
-            <span class="icon-divider"></span>
-        </h2>
-        <div class="row">
-            <div class="col-sm-5">
-                <div class="next-event">
-                    <span class="event-date">23</span> Oct, Monday
+<% if $Event %>
+    <% with $UpcomingEvent %>
+        <div class="event pt-100 pb-100" data-parallax="scroll" data-image-src="$ThemeDir/images/event-background.jpg">
+            <div class="container">
+                <h2 class="heading text-center">Upcoming Event: <span class="color2">$Title</span>
+                    <span class="sub-heading">$Up.EventSummary</span>
+                    <span class="icon-divider"></span>
+                </h2>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="next-event">
+                            <span class="event-date">23</span> Oct, Monday
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <ul class="timer" data-date="2016/10/23 00:00:00">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
+                            <li><span class="days">0</span>days</li>
+                            <li><span class="hours">0</span>hrs</li>
+                            <li><span class="minutes">00</span>min</li>
+                            <li><span class="seconds">00</span>sec</li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-12 mt-20">
+                        <div class="event-details">
+                            <p>$SummaryText</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-7">
-                <ul class="timer" data-date="2016/10/23 00:00:00">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
-                    <li><span class="days">0</span>days</li>
-                    <li><span class="hours">0</span>hrs</li>
-                    <li><span class="minutes">00</span>min</li>
-                    <li><span class="seconds">00</span>sec</li>
-                </ul>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-sm-12 mt-20">
-                <div class="event-details">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="clearfix"></div>
+                <div class="row mt-40">
+                    <div class="col-sm-3">
+                        <div class="icon-box-5">
+                            <div class="icon-box-icon">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </div>
+                            <div class="icon-box-content">
+                                <h5 class="heading">School Grounds</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="icon-box-5">
+                            <div class="icon-box-icon">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="icon-box-content">
+                                <h5 class="heading">Sharp at 7:00 p.m.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="icon-box-5">
+                            <div class="icon-box-icon">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <div class="icon-box-content">
+                                <h5 class="heading">Space for 1000</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="icon-box-5">
+                            <div class="icon-box-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                            <div class="icon-box-content">
+                                <h5 class="heading">Award Ceremony</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center mt-60">
+                    <a href="$Up.PageLink('EventHolderPage')" class="btn btn-primary">View All Events</a>
                 </div>
             </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="row mt-40">
-            <div class="col-sm-3">
-                <div class="icon-box-5">
-                    <div class="icon-box-icon">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    </div>
-                    <div class="icon-box-content">
-                        <h5 class="heading">School Grounds</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="icon-box-5">
-                    <div class="icon-box-icon">
-                        <i class="fa fa-clock-o" aria-hidden="true"></i>
-                    </div>
-                    <div class="icon-box-content">
-                        <h5 class="heading">Sharp at 7:00 p.m.</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="icon-box-5">
-                    <div class="icon-box-icon">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                    </div>
-                    <div class="icon-box-content">
-                        <h5 class="heading">Space for 1000</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="icon-box-5">
-                    <div class="icon-box-icon">
-                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                    </div>
-                    <div class="icon-box-content">
-                        <h5 class="heading">Award Ceremony</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row text-center mt-60">
-            <a href="upcoming-events.html" class="btn btn-primary">View All Events</a>
-        </div>
-    </div>
-</div>
+    <% end_with %>
+<% end_if %>
 
 
