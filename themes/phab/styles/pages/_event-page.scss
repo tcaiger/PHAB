@@ -1,0 +1,28 @@
+// Event Page
+//-------------
+
+.EventPage, .ClubPage{
+  .tab-content{
+    ul{
+      list-style: none;
+      padding-left: 10px;
+    }
+    li{
+      font-family: Oswald,sans-serif;
+      padding: 6px 10px 6px 0;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: left;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      &:before{
+        font: normal normal normal 8px/1 FontAwesome;
+        content: "\f111";
+        color: #ff9c00;
+        margin-right: 10px;
+        vertical-align: middle;
+        line-height: 3px;
+      }
+    }
+  }
+}
