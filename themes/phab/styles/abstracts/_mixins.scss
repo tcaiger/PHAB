@@ -1,9 +1,17 @@
-// -----------------------------------------------------------------------------
-// This file contains all application-wide Sass mixins.
-// -----------------------------------------------------------------------------
+// ----------------------------------------------
+// Sass mixins.
+// ----------------------------------------------
+
+
+// Background Opacity
+// --------------------------
+@mixin background-opacity($color, $opacity){
+  background: $color; /* fallback */
+  background: rgba($color, $opacity);
+}
 
 // Cover
-// --------------------------------------------------
+// -------------------------------
 @mixin cover() {
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,7 +19,7 @@
 }
 
 // Contain
-// --------------------------------------------------
+// ------------------------------
 @mixin contain() {
   background-repeat: no-repeat;
   background-size: contain;
@@ -21,7 +29,7 @@
 
 
 // Align
-// --------------------------------------------------
+// -----------------------------
 @mixin vertical-align($position: relative) {
   position: $position;
   top: 50%;
@@ -36,7 +44,7 @@
 
 
 // Retina
-// --------------------------------------------------
+// ----------------------------------
 @mixin retinaImage1point5($imageLocation, $twoXImageLocation, $width, $height) {
   background-image  : url($imageLocation);
   background-repeat : no-repeat;
@@ -54,7 +62,7 @@
 
 
 // Generic responsive Mixin
-// --------------------------------------------------
+// -------------------------------------
 @mixin responsive($attr, $xs: null, $sm: null, $md: null, $lg: null, $xl: null, $xxl: null) {
 
   #{$attr}: $xs;
@@ -84,33 +92,5 @@
       #{$attr}: $xxl;
     }
   }
-}
-
-
-// Button variants
-// --------------------------------------------------
-
-@mixin button-variant($color, $background, $border, $hover-color: $color, $hover-background: darken($background, 10%), $hover-border: darken($background, 10%)) {
-
-  color: $color;
-  background-color: $background;
-  border-color: $border;
-
-  &:hover {
-    color: $hover-color;
-    background-color: $hover-background;
-    border-color: $hover-border;
-  }
-}
-
-
-// Button sizes
-// --------------------------------------------------
-
-@mixin button-size($pad-y, $pad-x, $font-size, $line-height, $border-radius) {
-  padding: $pad-y $pad-x;
-  font-size: $font-size;
-  line-height: $line-height;
-  border-radius: $border-radius;
 }
 

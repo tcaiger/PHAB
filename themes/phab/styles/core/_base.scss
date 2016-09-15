@@ -3,61 +3,8 @@
 // -----------------------------------------------------------------------------
 
 html {
-  box-sizing             : border-box;
-  -webkit-font-smoothing : antialiased;
-  height                 : 100%;
 
 }
 
 body {
-  color            : color(dark);
-  background-color : color(white);
-  overflow-y: scroll;
-}
-
-
-// Background Colors
-// -------------------------
-.background-brand {
-  background-color : color(brand) !important;
-}
-
-
-// Hovers
-// -------------------------
-.hover-background {
-
-  transition : all 200ms ease-out;
-  position   : relative;
-  display    : block;
-
-  &:before {
-    content          : '';
-    display          : block;
-    position         : absolute;
-    z-index          : 10;
-    left             : 0;
-    right            : 0;
-    top              : 0;
-    bottom           : 0;
-
-    background-color : #FFFFFF;
-    opacity          : 0;
-    transition       : opacity 400ms ease-out;
-  }
-  &:hover {
-    cursor : pointer;
-    &:before {
-      opacity : 0.2;
-    }
-  }
-}
-
-// Utility Classes
-.full-height {
-  height : 100% !important;
-}
-
-.full-width {
-  width : 100% !important;
 }
