@@ -34,7 +34,8 @@ class HomePage extends Page {
 
     private static $has_one = array(
         'BannerImage1' => 'PHABImage',
-        'BannerImage2' => 'PHABImage'
+        'BannerImage2' => 'PHABImage',
+        'EventBanner' => 'PHABImage'
     );
 
     public function getCMSFields($member = null) {
@@ -80,7 +81,9 @@ class HomePage extends Page {
             FieldGroup::create(
                 CheckboxField::create('Event', '')
             )->setTitle('Include Upcoming Event'),
-            TextAreaField::create('EventSummary')
+            TextAreaField::create('EventSummary'),
+            $eventBanner = UploadField::create('EventBanner', 'Event Banner Image')->setDescription('Image should be <strong>1920px</strong> wide and <strong>900px</strong> high'),
+
         ), 'Metadata');
 
         // Place images into a specific folder
@@ -92,10 +95,12 @@ class HomePage extends Page {
         if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
             $fields->removebyName(array(
                 'BannerImage1',
-                'BannerImage2'
+                'BannerImage2',
+                'Title',
+                'URLSegment',
+                'MenuTitle'
             ));
         }
-
 
         return $fields;
     }

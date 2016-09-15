@@ -21591,6 +21591,9 @@ website:    http://www.themepunch.com
 .mb-0 {
   margin-bottom: 0; }
 
+.home-event-section {
+  background-color: rgba(225, 225, 225, 0.94); }
+
 .EventPage .tab-content ul, .ClubPage .tab-content ul {
   list-style: none;
   padding-left: 10px; }

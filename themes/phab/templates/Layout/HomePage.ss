@@ -566,7 +566,13 @@
 
 <% if $Event %>
     <% with $UpcomingEvent %>
-        <div class="event pt-100 pb-100" data-parallax="scroll" data-image-src="$ThemeDir/img/home-event-background.jpg">
+        <div class="event pt-100 pb-100 home-event-section" data-parallax="scroll"
+             <% if $Up.EventBanner.URL %>
+                data-image-src="$Up.EventBanner.ReSample('1920','900').URL"
+             <% else %>
+                data-image-src="$ThemeDir/img/home-event-banner.jpg"
+             <% end_if %>
+        >
             <div class="container">
                 <h2 class="heading text-center">Upcoming Event: <span class="color2">$Title</span>
                     <span class="sub-heading">$Up.EventSummary</span>
