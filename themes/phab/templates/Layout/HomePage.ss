@@ -575,11 +575,13 @@
                 <div class="row">
                     <div class="col-sm-5">
                         <div class="next-event">
-                            <span class="event-date">23</span> Oct, Monday
+                            <% with $Date %>
+                                $Day <span class="event-date">$DayOfMonth</span> $Month,
+                            <% end_with %>
                         </div>
                     </div>
                     <div class="col-sm-7">
-                        <ul class="timer" data-date="2016/10/23 00:00:00">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
+                        <ul class="timer" data-date="$Date $StartTime">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
                             <li><span class="days">0</span>days</li>
                             <li><span class="hours">0</span>hrs</li>
                             <li><span class="minutes">00</span>min</li>
@@ -601,7 +603,7 @@
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                             </div>
                             <div class="icon-box-content">
-                                <h5 class="heading">School Grounds</h5>
+                                <h5 class="heading">$Location</h5>
                             </div>
                         </div>
                     </div>
@@ -611,7 +613,7 @@
                                 <i class="fa fa-clock-o" aria-hidden="true"></i>
                             </div>
                             <div class="icon-box-content">
-                                <h5 class="heading">Sharp at 7:00 p.m.</h5>
+                                <h5 class="heading">Starts at $StartTime.Nice</h5>
                             </div>
                         </div>
                     </div>
@@ -637,7 +639,7 @@
                     </div>
                 </div>
                 <div class="row text-center mt-60">
-                    <a href="$Up.PageLink('EventHolderPage')" class="btn btn-primary">View All Events</a>
+                    <a href="$Link" class="btn btn-primary">View Event</a>
                 </div>
             </div>
         </div>

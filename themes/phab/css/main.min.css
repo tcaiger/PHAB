@@ -21585,6 +21585,12 @@ website:    http://www.themepunch.com
 .post-tabs .tp-thumb:hover .tp-thumb-title {
   color: #000; }
 
+.mt-30 {
+  margin-top: 30px; }
+
+.mb-0 {
+  margin-bottom: 0; }
+
 .EventPage .tab-content ul, .ClubPage .tab-content ul {
   list-style: none;
   padding-left: 10px; }
@@ -21604,5 +21610,8 @@ website:    http://www.themepunch.com
     margin-right: 10px;
     vertical-align: middle;
     line-height: 3px; }
+
+.event-full {
+  min-height: 520px; }
 
 /*# sourceMappingURL=main.min.css.map */

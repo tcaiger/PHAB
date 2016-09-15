@@ -8,12 +8,12 @@
                 <span class="icon-divider"></span>
             </h2>
         </div>
-        <% loop $Children %>
+        <% loop $Children.Sort('Date', 'ASC') %>
             <div class="col-sm-6">
                 <div class="event-card">
                     <div class="event-on">
-                        <span class="date">27</span>
-                        <span class="month">SEPT</span>
+                        <span class="date">$Date.DayOfMonth</span>
+                        <span class="month">$Date.ShortMonth</span>
                     </div>
                     <% if $BannerImage %>
                         <img src="$BannerImage.ReSample('900', '600').URL"  class="img-responsive" alt="$BannerImage.URL">
@@ -27,7 +27,7 @@
                             $SummaryText
                         </span>
                     </div>
-                    <ul class="timer" data-date="2016/09/27 02:34:10">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
+                    <ul class="timer" data-date="$Date $StartTime">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
                         <li><span class="days">0</span>days</li>
                         <li><span class="hours">0</span>hrs</li>
                         <li><span class="minutes">00</span>min</li>

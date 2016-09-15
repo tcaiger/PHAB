@@ -9,7 +9,7 @@
                 <% else %>
                     <img src="$ThemeDir/img/event-default.jpg" class="img-responsive" alt="BannerImage">
                 <% end_if %>
-                <ul class="timer" data-date="2016/09/27 09:23:34">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
+                <ul class="timer" data-date="$Date $StartTime">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
                     <li><span class="days">0</span>days</li>
                     <li><span class="hours">0</span>hrs</li>
                     <li><span class="minutes">00</span>min</li>
@@ -20,30 +20,27 @@
         <div class="col-sm-4 no-gutter">
             <div class="event-full">
                 <h2 class="heading">$Title</h2>
-                <ul class="social">
-                    <li><a href="#"><i class=" fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class=" fa fa-twitter"></i></a></li>
-                </ul>
                 <div class="info">
                     <div>
                         <span>Event Location</span>
                         <span>$Location</span>
                     </div>
                     <div>
-                        <span>Starting Time</span>
-                        <span>$Time</span>
+                        <span>Event Address</span>
+                        <span>$Address</span>
+                    </div>
+                    <div>
+                        <span>Time</span>
+                        <span>$StartTime.Nice - $EndTime.Nice</span>
                     </div>
                     <div>
                         <span>Date</span>
-                        <% if $Date %><span>$Date</span><% else %><span>TBC</span><% end_if %>
+                        <% if $Date %><span>$Date.Long</span><% else %><span>TBC</span><% end_if %>
                     </div>
-                    <div>
-                        <span>Band Performing</span>
-                        <span>Slipknot</span>
-                    </div>
-                    <div>
-                        <a href="contact.html" class="btn btn-primary">Sign Up!</a>
-                    </div>
+                    <ul class="social mt-30 mb-0">
+                        <li><a href="#"><i class=" fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class=" fa fa-twitter"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -58,10 +55,10 @@
                     <a href="#t1body1" aria-controls="t1body1" role="tab" data-toggle="tab" aria-expanded="true"><i class="fa fa-futbol-o fa-fw"></i> Event Brief</a>
                 </li>
                 <li role="presentation" class="">
-                    <a href="#t1body2" aria-controls="t1body2" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-university fa-fw"></i> Performers</a>
+                    <a href="#t1body2" aria-controls="t1body2" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-university fa-fw"></i> More Details</a>
                 </li>
                 <li role="presentation" class="">
-                    <a href="#t1body3" aria-controls="t1body3" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-map-marker fa-fw"></i> Locations</a>
+                    <a href="#t1body3" aria-controls="t1body3" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-map-marker fa-fw"></i> Location Map</a>
                 </li>
             </ul>
 

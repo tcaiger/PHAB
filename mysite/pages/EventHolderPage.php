@@ -3,9 +3,6 @@
 class EventHolderPage extends Page {
 
     private static $can_be_root = false;
-    private static $allowed_children = 'none';
-
-
 }
 
 class EventHolderPage_Controller extends Page_Controller {

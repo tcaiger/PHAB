@@ -7,15 +7,18 @@ class EventPage extends Page {
 
     private static $db = [
         'SummaryText' => 'Varchar(200)',
-        'Location'    => 'Varchar(200)',
-        'Time'        => 'Varchar'
+        'Location'    => 'Varchar(100)',
+        'Address'     => 'Varchar(100)',
+        'StartTime'   => 'Time',
+        'EndTime'     => 'Time',
+        'Date'        => 'Date'
     ];
 
     private static $defaults = [
         'SummaryText' => 'TBC. Please contact us to find out more information.',
         'Content'     => 'TBC. Please contact us to find out more information.',
         'Location'    => 'TBC',
-        'Time'        => 'TBC'
+        'Address'     => 'TBC'
     ];
 
     private static $has_one = [
@@ -25,7 +28,7 @@ class EventPage extends Page {
     private static $summary_fields = [
         'Title'    => 'Title',
         'Location' => 'Location',
-        'Time'     => 'Time'
+        'Date'     => 'Date'
     ];
 
     public function getCMSFields() {
@@ -36,7 +39,14 @@ class EventPage extends Page {
             TextareaField::create('SummaryText')->setDescription('This text is displayed on the clubs overview page.'),
             $bannerImg = UploadField::create('BannerImage')->setDescription('Image should be <strong>900px</strong> wide and <strong>600px</strong> high.'),
             TextField::create('Location'),
-            DateField::create('Date'),
+            TextField::create('Address'),
+            TimeField::create('StartTime')
+                ->setConfig('use_strtotime', true)
+                ->setConfig('timeformat', 'hh:mm:ss'),
+            TimeField::create('EndTime')
+                ->setConfig('use_strtotime', true)
+                ->setConfig('timeformat', 'hh:mm:ss'),
+            DateField::create('Date')->setConfig('showcalendar', true),
             HtmlEditorField::create('Content')
         ], 'Metadata');
 
