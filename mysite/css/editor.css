@@ -8,10 +8,22 @@
     margin-left : 6px;
 }
 
+.cms-menu-list li a .icon.icon-admin-admin {
+    background : url('../images/folder-icon.png');
+}
+
 .cms-menu-list li a .icon.icon-clubs-events-admin {
-    background: url('../images/calendar-icon.png');
+    background : url('../images/tak-icon.png');
 }
 
 .cms-menu-list li a .icon.icon-about-admin {
-    background: url('../images/star-icon.png');
+    background : url('../images/star-icon.png');
+}
+
+.cms-menu-list li a .icon.icon-pasifika-admin {
+    background : url('../images/circle-icon.png');
+}
+
+.cms-menu-list li a .icon.icon-involved-admin {
+    background : url('../images/square-icon.png');
 }

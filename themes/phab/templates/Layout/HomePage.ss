@@ -566,7 +566,7 @@
 
 <% if $Event %>
     <% with $UpcomingEvent %>
-        <div class="event pt-100 pb-100" data-parallax="scroll" data-image-src="$ThemeDir/images/event-background.jpg">
+        <div class="event pt-100 pb-100" data-parallax="scroll" data-image-src="$ThemeDir/img/home-event-background.jpg">
             <div class="container">
                 <h2 class="heading text-center">Upcoming Event: <span class="color2">$Title</span>
                     <span class="sub-heading">$Up.EventSummary</span>

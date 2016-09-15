@@ -19,6 +19,7 @@ Image:
 LeftAndMain:
   menu_groups:
     Admin:
+      icon: 'admin-admin'
       - AssetAdmin
       - ReportAdmin
       - SecurityAdmin
@@ -37,6 +38,14 @@ LeftAndMain:
       icon: 'clubs-events-admin'
       - ClubPageAdmin
       - EventPageAdmin
+    Pasifika:
+        icon: 'pasifika-admin'
+        - PasifikaPageAdmin
+        - PhusionPageAdmin
+    Get Involved:
+            icon: 'involved-admin'
+            - FundersPageAdmin
+            - VolunteersPageAdmin
     Contact:
       - ContactPageAdmin
     Help:
