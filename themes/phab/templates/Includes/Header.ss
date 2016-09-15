@@ -10,19 +10,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <a href="tel:1800-234-2845" class="call-us"><i class="fa fa-phone"></i> 1800-234-2845</a>          <!-- Change Phone Number Here -->
+                    <% with $GetPage('ContactPage') %>
+                        <a href="tel:{$Phone}" class="call-us"><i class="fa fa-phone"></i> $Phone</a>
+                    <% end_with %>
                 </div>
                 <div class="col-sm-6">
-                    <div class="dropdown">          <!-- Language Dropdown -->
-                        <button class="btn btn-xs" type="button" id="select-lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-globe"></i> English
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="select-lang">
-                            <li><a href="#">English</a></li>
-                            <li><a href="#">Spanish</a></li>
-                            <li><a href="#">Vietnamese</a></li>
-                        </ul>
-                    </div>
+                    <%--<div class="dropdown">          <!-- Language Dropdown -->--%>
+                        <%--<button class="btn btn-xs" type="button" id="select-lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--%>
+                            <%--<i class="fa fa-globe"></i> English--%>
+                        <%--</button>--%>
+                        <%--<ul class="dropdown-menu" aria-labelledby="select-lang">--%>
+                            <%--<li><a href="#">English</a></li>--%>
+                            <%--<li><a href="#">Spanish</a></li>--%>
+                            <%--<li><a href="#">Vietnamese</a></li>--%>
+                        <%--</ul>--%>
+                    <%--</div>--%>
                     <form class="search form-inline">           <!-- Search Form -->
                         <input type="text" class="form-control" placeholder="Start typing...">
                         <button class="btn-search" type="submit"><i class="fa fa-search fa-fw"></i></button>
@@ -39,7 +41,10 @@
                     <span class="sr-only">Toggle Menu</span>
                     <span>Menu</span>
                 </button>
-                <a class="navbar-brand" href="$AbsoluteBaseURL"><img src="$ThemeDir/images/logo.png" alt=""></a> <!-- Replace with your Logo -->
+                <a class="navbar-brand" href="$AbsoluteBaseURL">
+                    <%--<img src="$ThemeDir/images/logo.png" alt="">--%>
+                    <span style="font-size: 46px; font-weight: 800; color: #ffffff; position: relative; top: 17px">phab.</span>
+                </a>
             </div>
 
             <div class="collapse navbar-collapse" id="main-navigation">

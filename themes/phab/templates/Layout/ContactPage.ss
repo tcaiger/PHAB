@@ -9,7 +9,7 @@
         <div class="col-sm-5 mt-20">
             <h4 class="heading">Or Contact us <span class="color2">directly</span></h4>
             <address>
-                <strong>PHAB Head Office</strong>
+                <strong>PHAB Association (Auckland) Incorporated</strong>
                 <br/>
                 <span>$Street,<br> $Suburb,<br> $City</span>
             </address>
