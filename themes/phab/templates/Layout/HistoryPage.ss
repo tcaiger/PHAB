@@ -127,6 +127,8 @@
                         <div class="testimonial-item">
                             <% if $AuthorImage %>
                                 <img src="$AuthorImage.ReSample('350','520').URL" class="testimonial-img" alt="$AuthorImage.URL">
+                            <% else %>
+                                <img src="$ThemeDir/images/testi-2.png"" class="testimonial-img" alt="">
                             <% end_if %>
                             <div class="testimonial-text">
                                 <p>$Quote</p>

@@ -47,12 +47,14 @@
 
 <div class="clearfix"></div>
 
-<div class="bgcolor2 mt-100 mb-100">
+<div class="bgcolor3 pt-100 pb-100 mb-60">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 motto">
-                <img src="$ThemeDir/images/motto.png" class="motto-img hidden-xs" alt="">
-                <p class="motto-text">$Blockquote</p>
+            <div class="col-sm-12">
+                <h3 class="heading">The way you <span class="color2">like it</span></h3>
+                <blockquote>
+                    <p>$Blockquote</p>
+                </blockquote>
             </div>
         </div>
     </div>
@@ -86,33 +88,15 @@
 
 <div class="clearfix"></div>
 
-<div class="process-1 mt-20 pt-100 pb-100" data-parallax="scroll" data-image-src="$ThemeDir/img/history-banner.jpg">
+
+<div class="cta-dark-full cta-anim">
     <div class="container">
-        <h2 class="heading inverse text-center">Our <span class="color2">Impact</span></h2>
         <div class="row">
-            <div class="col-sm-6 col-md-3 process-box">
-                <div class="process-round">
-                    <span class="number">01.</span>
-                    <p>A wonderful serenity has taken possession of my entire soul.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 process-box">
-                <div class="process-round">
-                    <span class="number">02.</span>
-                    <p>A wonderful serenity has taken possession of my entire soul.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 process-box">
-                <div class="process-round">
-                    <span class="number">03.</span>
-                    <p>A wonderful serenity has taken possession of my entire soul.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 process-box">
-                <div class="process-round">
-                    <span class="number">04.</span>
-                    <p>A wonderful serenity has taken possession of my entire soul.</p>
-                </div>
+            <div class="col-sm-12 text-center">
+                <span class="text">Ready to Begin?</span>
+                <h3>Get Involved in PHAB Pasifika. Drop Us a Line!</h3>
+                <br/><br/>
+                <a href="$PageLink('ContactPage')" class="btn btn-primary">Contact Us Here &nbsp;&nbsp; <i class="fa fa-arrow-right"></i></a>
             </div>
         </div>
     </div>

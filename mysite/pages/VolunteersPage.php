@@ -40,7 +40,6 @@ class VolunteersPage_Controller extends Page_Controller {
                 "{$this->ThemeDir()}/js/jquery.min.js",
                 "{$this->ThemeDir()}/js/bootstrap.min.js",
                 "{$this->ThemeDir()}/js/owl.carousel.min.js",
-                "{$this->ThemeDir()}/js/parallax.js",
                 "{$this->ThemeDir()}/js/main.js"
             ));
 
