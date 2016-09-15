@@ -13,7 +13,7 @@ class ContactPage extends Page {
         'ContactFormEmail' => 'Varchar(200)'
     );
 
-    public function getCMSFields() {
+    public function getCMSFields($member = null) {
 
         $fields = parent::getCMSFields();
 
@@ -29,6 +29,16 @@ class ContactPage extends Page {
             HeaderField::create('FormEmail', 'Contact Form', '4'),
             TextField::create('ContactFormEmail')
         ), 'Metadata');
+
+        // Remove delicate fields from content authors
+        if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
+            $fields->removebyName(array(
+                'Title',
+                'URLSegment',
+                'MenuTitle',
+                'Dependent'
+            ));
+        }
 
 
         return $fields;

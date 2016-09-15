@@ -16,11 +16,11 @@ class AboutPage extends Page {
         'SectionIntro'   => 'Varchar(200)'
     ];
 
-    private static $has_many = [
-      'Profiles' => 'Profile'
-    ];
+    //private static $has_many = [
+    //  'Profiles' => 'Profile'
+    //];
 
-    public function getCMSFields() {
+    public function getCMSFields($member = null) {
 
         $fields = parent::getCMSFields();
 
@@ -37,13 +37,23 @@ class AboutPage extends Page {
             TextAreaField::create('V3Text', 'Value 3 Text'),
             HeaderField::create('TeamHeading', 'Team Section', '4'),
             TextAreaField::create('SectionIntro', 'Team Section Introduction'),
-            GridField::create('Profiles', 'Profiles', $this->Profiles(),
+            GridField::create('Profiles', 'Staff Profiles', $this->Profiles(),
                 GridFieldConfig_RecordEditor::create()
                     ->addComponents(
                         new GridFieldOrderableRows('SortOrder')
                     )
             )
         ], 'Metadata');
+
+        // Remove delicate fields from content authors
+        if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
+            $fields->removebyName(array(
+                'Title',
+                'URLSegment',
+                'MenuTitle',
+                'Dependent'
+            ));
+        }
 
         return $fields;
     }

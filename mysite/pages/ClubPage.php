@@ -30,7 +30,7 @@ class ClubPage extends Page {
         'Frequency' => 'Frequency'
     ];
 
-    public function getCMSFields() {
+    public function getCMSFields($member = null) {
 
         $fields = parent::getCMSFields();
 

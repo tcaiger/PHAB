@@ -9,7 +9,7 @@ class FundersPage extends Page {
 
     ];
 
-    public function getCMSFields() {
+    public function getCMSFields($member = null) {
 
         $fields = parent::getCMSFields();
 
@@ -17,6 +17,16 @@ class FundersPage extends Page {
 
 
         ], 'Metadata');
+
+        // Remove delicate fields from content authors
+        if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
+            $fields->removebyName(array(
+                'Title',
+                'URLSegment',
+                'MenuTitle',
+                'Dependent'
+            ));
+        }
 
         return $fields;
     }

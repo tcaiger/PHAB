@@ -9,7 +9,7 @@ class GalleryPage extends Page {
         'GalleryImages' => 'PHABImage'
     );
 
-    public function getCMSFields() {
+    public function getCMSFields($member = null) {
 
         $fields = parent::getCMSFields();
 
@@ -28,6 +28,15 @@ class GalleryPage extends Page {
         $sizeMB = 2; // 2 MB
         $size = $sizeMB * 1024 * 1024; // 2 MB in bytes
         $images->getValidator()->setAllowedMaxFileSize($size);
+
+        // Remove delicate fields from content authors
+        if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
+            $fields->removebyName(array(
+                'Title',
+                'URLSegment',
+                'MenuTitle'
+            ));
+        }
 
         return $fields;
     }

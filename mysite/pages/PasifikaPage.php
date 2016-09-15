@@ -22,7 +22,7 @@ class PasifikaPage extends Page {
         'Blockquote' => 'Varchar(200)'
     ];
 
-    public function getCMSFields() {
+    public function getCMSFields($member = null) {
 
         $fields = parent::getCMSFields();
 
@@ -47,6 +47,16 @@ class PasifikaPage extends Page {
             TextAreaField::create('Blockquote')
 
         ], 'Metadata');
+
+        // Remove delicate fields from content authors
+        if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
+            $fields->removebyName(array(
+                'Title',
+                'URLSegment',
+                'MenuTitle',
+                'Dependent'
+            ));
+        }
 
         return $fields;
     }

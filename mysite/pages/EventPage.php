@@ -31,7 +31,7 @@ class EventPage extends Page {
         'Date'     => 'Date'
     ];
 
-    public function getCMSFields() {
+    public function getCMSFields($member = null) {
 
         $fields = parent::getCMSFields();
 
