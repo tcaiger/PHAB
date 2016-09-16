@@ -7,9 +7,10 @@ class ClubPage extends Page {
 
     private static $db = [
         'SummaryText' => 'Varchar(200)',
-        'Location'    => 'Varchar(200)',
+        'Location'    => 'Varchar(100)',
+        'Address'     => 'Varchar(100)',
         'Time'        => 'Varchar',
-        'Frequency'   => 'Varchar'
+        'Day'   => 'Varchar'
     ];
 
     private static $defaults = [
@@ -17,7 +18,7 @@ class ClubPage extends Page {
         'Content'     => 'TBC. Please contact us to find out more information.',
         'Location'    => 'TBC',
         'Time'        => 'TBC',
-        'Frequency'        => 'TBC'
+        'Day'   => 'TBC'
     ];
 
     private static $has_one = [
@@ -27,7 +28,7 @@ class ClubPage extends Page {
     private static $summary_fields = [
         'Title'     => 'Title',
         'Location'  => 'Location',
-        'Frequency' => 'Frequency'
+        'Day' => 'Day'
     ];
 
     public function getCMSFields($member = null) {
@@ -37,9 +38,14 @@ class ClubPage extends Page {
         $fields->addFieldsToTab('Root.Main', [
             TextareaField::create('SummaryText')->setDescription('This text is displayed on the clubs overview page.'),
             $bannerImg = UploadField::create('BannerImage')->setDescription('Image should be <strong>900px</strong> wide and <strong>600px</strong> high.'),
-            TextField::create('Location'),
-            TextField::create('Time'),
-            TextField::create('Frequency'),
+            TextField::create('Location')
+                ->setDescription('Albany House'),
+            TextField::create('Address')
+                ->setDescription('eg. 575 Albany Highway, Albany'),
+            TextField::create('Time')
+                ->setDescription('6:00PM - 8:30PM'),
+            TextField::create('Day')
+                ->setDescription('eg. Every Monday'),
             HtmlEditorField::create('Content')
         ], 'Metadata');
 

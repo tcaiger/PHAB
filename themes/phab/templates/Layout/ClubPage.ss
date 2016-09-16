@@ -14,30 +14,27 @@
         <div class="col-sm-4 no-gutter">
             <div class="event-full">
                 <h2 class="heading">$Title</h2>
-                <ul class="social">
-                    <li><a href="#"><i class=" fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class=" fa fa-twitter"></i></a></li>
-                </ul>
                 <div class="info">
                     <div>
-                        <span>Event Location</span>
+                        <span>Club Location</span>
                         <span>$Location</span>
                     </div>
                     <div>
-                        <span>Starting Time</span>
+                        <span>Club Address</span>
+                        <span>$Address</span>
+                    </div>
+                    <div>
+                        <span>Day</span>
+                        <span>$Day</span>
+                    </div>
+                    <div>
+                        <span>Time</span>
                         <span>$Time</span>
                     </div>
-                    <div>
-                        <span>Frequency</span>
-                        <span>TBC</span>
-                    </div>
-                    <div>
-                        <span>Band Performing</span>
-                        <span>Slipknot</span>
-                    </div>
-                    <div>
-                        <a href="contact.html" class="btn btn-primary">Sign Up!</a>
-                    </div>
+                    <ul class="social mt-30 mb-0">
+                        <li><a href="#"><i class=" fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class=" fa fa-twitter"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>

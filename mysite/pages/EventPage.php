@@ -38,14 +38,18 @@ class EventPage extends Page {
         $fields->addFieldsToTab('Root.Main', [
             TextareaField::create('SummaryText')->setDescription('This text is displayed on the clubs overview page.'),
             $bannerImg = UploadField::create('BannerImage')->setDescription('Image should be <strong>900px</strong> wide and <strong>600px</strong> high.'),
-            TextField::create('Location'),
-            TextField::create('Address'),
+            TextField::create('Location')
+                ->setDescription('Albany House'),
+            TextField::create('Address')
+                ->setDescription('eg. 575 Albany Highway, Albany'),
             TimeField::create('StartTime')
                 ->setConfig('use_strtotime', true)
-                ->setConfig('timeformat', 'hh:mm:ss'),
+                ->setConfig('timeformat', 'hh:mm:ss')
+                ->setDescription('eg. 9pm'),
             TimeField::create('EndTime')
                 ->setConfig('use_strtotime', true)
-                ->setConfig('timeformat', 'hh:mm:ss'),
+                ->setConfig('timeformat', 'hh:mm:ss')
+                ->setDescription('eg. 6pm'),
             DateField::create('Date')->setConfig('showcalendar', true),
             HtmlEditorField::create('Content')
         ], 'Metadata');

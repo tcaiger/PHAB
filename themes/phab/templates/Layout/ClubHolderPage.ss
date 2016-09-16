@@ -28,8 +28,8 @@
                         <h4 class="heading">$Title</h4>
                         <span class="brief">$SummaryText</span>
                         <ul class="course-features">
-                            <li><i class="fa fa-map-marker"></i> $Location</li>
-                            <li><i class="fa fa-clock-o"></i> $Frequency</li>
+                            <li><i class="fa fa-map-marker"></i> $Location.LimitCharacters(15)</li>
+                            <li><i class="fa fa-clock-o"></i> $Day.LimitCharacters(15)</li>
                         </ul>
                     </div>
                 </div>

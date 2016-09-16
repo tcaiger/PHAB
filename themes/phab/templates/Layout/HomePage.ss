@@ -400,13 +400,13 @@
                     <div class="facts">
                         <div class="fact col-sm-4">
                                 <span class="head">
-                                    <span class="count" data-from="0" data-to="9" data-speed="3000"></span> Branches
+                                    <span class="count" data-from="0" data-to="30" data-speed="3000"></span> Clubs
                                 </span>
                             <span class="foot">With 9 braches in function, we are very soon inaugurating the 10th one!</span>
                         </div>
                         <div class="fact col-sm-4">
                                 <span class="head">
-                                    <span class="count" data-from="0" data-to="56" data-speed="3000"></span> Members
+                                    <span class="count" data-from="0" data-to="156" data-speed="3000"></span> Members
                                 </span>
                             <span class="foot">Average number of students per class. Offering world class education.</span>
                         </div>
