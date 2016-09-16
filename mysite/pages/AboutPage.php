@@ -16,9 +16,9 @@ class AboutPage extends Page {
         'SectionIntro'   => 'Varchar(200)'
     ];
 
-    //private static $has_many = [
-    //  'Profiles' => 'Profile'
-    //];
+    private static $has_many = [
+      'Profiles' => 'Profile'
+    ];
 
     public function getCMSFields($member = null) {
 
