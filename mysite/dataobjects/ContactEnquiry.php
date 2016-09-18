@@ -6,13 +6,13 @@ class ContactEnquiry extends DataObject {
     public static $db = array(
         'Name'    => 'Varchar',
         'Email'   => 'Varchar(250)',
+        'Phone'   => 'Varchar',
         'Subject' => 'Varchar(200)',
         'Message' => 'Text'
     );
 
     private static $summary_fields = array(
         'Name'         => 'Name',
-        'Subject'      => 'Subject',
         'Email'        => 'Email',
         'Created.Nice' => 'Created'
     );

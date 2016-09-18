@@ -31,20 +31,14 @@ class MailController extends Controller {
     /*
      * Contact Form Email
      */
-    Public Function ContactFormEmail($data, $admin) {
+    Public Function ContactFormEmail($enquiry, $admin) {
         $mail = $this->setup();
 
         $mail->addAddress($admin);
 
         $mail->Subject = 'PHAB Website Contact Form';
 
-        $arraydata = new ArrayData(array(
-            'Name'     => $data['Name'],
-            'Email'    => $data['Email'],
-            'Subject'  => $data['Subject'],
-            'Message'  => $data['Message']
-        ));
-        $body = $arraydata->renderWith('ContactFormEmail');
+        $body = $enquiry->renderWith('ContactFormEmail');
 
         $mail->MsgHTML($body);
 

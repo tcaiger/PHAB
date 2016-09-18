@@ -21591,28 +21591,44 @@ website:    http://www.themepunch.com
 .mb-0 {
   margin-bottom: 0; }
 
+@media screen and (min-width: 768px) {
+  .enquiry-form .CompositeField {
+    font-size: 0; }
+    .enquiry-form .CompositeField .form-group {
+      display: inline-block;
+      width: 32%;
+      margin-right: 2%; }
+      .enquiry-form .CompositeField .form-group:last-child {
+        margin-right: 0; } }
+
 .home-event-section {
   background-color: rgba(225, 225, 225, 0.94); }
 
-.EventPage .tab-content ul, .ClubPage .tab-content ul {
-  list-style: none;
-  padding-left: 10px; }
+.event-card .brief {
+  display: block;
+  min-height: 51px;
+  padding: 0 10px; }
 
-.EventPage .tab-content li, .ClubPage .tab-content li {
-  font-family: Oswald,sans-serif;
-  padding: 6px 10px 6px 0;
-  font-size: 16px;
-  font-weight: 400;
-  text-align: left;
-  text-transform: uppercase;
-  letter-spacing: 0.03em; }
-  .EventPage .tab-content li:before, .ClubPage .tab-content li:before {
-    font: normal normal normal 8px/1 FontAwesome;
-    content: "\f111";
-    color: #ff9c00;
-    margin-right: 10px;
-    vertical-align: middle;
-    line-height: 3px; }
+.EventPage .tab-content, .ClubPage .tab-content {
+  min-height: 180px; }
+  .EventPage .tab-content ul, .ClubPage .tab-content ul {
+    list-style: none;
+    padding-left: 10px; }
+  .EventPage .tab-content li, .ClubPage .tab-content li {
+    font-family: Oswald,sans-serif;
+    padding: 6px 10px 6px 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.03em; }
+    .EventPage .tab-content li:before, .ClubPage .tab-content li:before {
+      font: normal normal normal 8px/1 FontAwesome;
+      content: "\f111";
+      color: #ff9c00;
+      margin-right: 10px;
+      vertical-align: middle;
+      line-height: 3px; }
 
 .event-full {
   min-height: 520px; }

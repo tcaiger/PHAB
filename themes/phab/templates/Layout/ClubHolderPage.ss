@@ -17,7 +17,7 @@
     <div class="row">
         <% loop $Children %>
             <div class="col-sm-4">
-                <div class="course-card new">
+                <div class="course-card">
                     <% if $BannerImage %>
                         <img src="$BannerImage.ReSample('900', '600').URL" class="img-responsive" alt="$BannerImage.URL">
                     <% else %>
