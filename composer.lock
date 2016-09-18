@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef88296fd678f44bccb8cc5d6790c159",
-    "content-hash": "c3be95838606f2f1b4bbab6ae5f64614",
+    "hash": "147f9f38abca7d3503c5c685e9fe4fc5",
+    "content-hash": "3c7cd7accf72076abe619276e36f2e73",
     "packages": [
         {
             "name": "composer/installers",
@@ -246,49 +246,6 @@
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "time": "2016-06-06 09:09:37"
-        },
-        {
-            "name": "ryanpotter/silverstripe-cms-theme",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Rhym/silverstripe-cms-theme.git",
-                "reference": "15220c4e8738581744a7ec084e397b3cd69f0dcb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Rhym/silverstripe-cms-theme/zipball/15220c4e8738581744a7ec084e397b3cd69f0dcb",
-                "reference": "15220c4e8738581744a7ec084e397b3cd69f0dcb",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "*",
-                "silverstripe/framework": "~3.3"
-            },
-            "suggest": {
-                "silverstripe-australia/grouped-cms-menu": "Group CMS menus to provide a better UX"
-            },
-            "type": "silverstripe-module",
-            "extra": {
-                "installer-name": "silverstripe-branding"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Ryan Potter",
-                    "homepage": "http://ryanpotter.co.nz/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "CMS Theme",
-            "keywords": [
-                "silverstripe",
-                "theme"
-            ],
-            "time": "2016-03-23 10:20:31"
         },
         {
             "name": "silverstripe-australia/gridfieldextensions",
@@ -586,16 +543,16 @@
         },
         {
             "name": "unclecheese/betterbuttons",
-            "version": "1.3.10",
+            "version": "1.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-gridfield-betterbuttons.git",
-                "reference": "37bdaa8246c324a91abfd3966a4cbad9a979cda9"
+                "reference": "a703795fce8d4d50400c9ac2b82601fde1b67074"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-gridfield-betterbuttons/zipball/37bdaa8246c324a91abfd3966a4cbad9a979cda9",
-                "reference": "37bdaa8246c324a91abfd3966a4cbad9a979cda9",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-gridfield-betterbuttons/zipball/a703795fce8d4d50400c9ac2b82601fde1b67074",
+                "reference": "a703795fce8d4d50400c9ac2b82601fde1b67074",
                 "shasum": ""
             },
             "require": {
@@ -618,7 +575,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2016-09-05 03:51:55"
+            "time": "2016-09-16 00:03:03"
         },
         {
             "name": "undefinedoffset/sortablegridfield",
@@ -664,9 +621,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "ryanpotter/silverstripe-cms-theme": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
