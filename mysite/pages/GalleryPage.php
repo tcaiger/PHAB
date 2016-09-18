@@ -5,6 +5,11 @@ class GalleryPage extends Page {
     private static $can_be_root = false;
     private static $allowed_children = 'none';
 
+    private static $db = [
+        'SubHeading' => 'Varchar',
+        'Intro' => 'Varchar(200)'
+    ];
+
     private static $has_many = array(
         'GalleryImages' => 'GalleryImage'
     );
@@ -16,17 +21,32 @@ class GalleryPage extends Page {
         $fields->removeByName('Content');
 
         $fields->addFieldsToTab('Root.Main', [
-            GridField::create('GalleryImages','GalleryImages',$this->GalleryImages(),
+            TextField::create('SubHeading'),
+            TextAreaField::create('Intro')
+                ->setDescription('You need to save the gallery page before uploading images.'),
+            $grid = GridField::create('GalleryImages','GalleryImages',$this->GalleryImages(),
                 GridFieldConfig_RecordEditor::create()
-                    ->addComponents(
-                        new GridFieldOrderableRows('SortOrder')
+                    ->addComponent(
+                        new GridFieldBulkUpload()
                     )
                 )
         ], 'Metadata');
 
+        // Add the orderablerows component if the parent object has an ID
+        if($this->ID){
+            $grid->getConfig()->addComponent(
+                new GridFieldOrderableRows('SortOrder')
+            );
+        }
+
 
 
         return $fields;
+    }
+
+    public function CoverImage() {
+        $image = $this->GalleryImages()->Sort('SortOrder')->first();
+        return $image;
     }
 
 }
@@ -49,7 +69,8 @@ class GalleryPage_Controller extends Page_Controller {
                 "{$this->ThemeDir()}/js/jquery.prettyPhoto.js",
                 "{$this->ThemeDir()}/js/main.js"
             ));
-
     }
+
+
 
 }

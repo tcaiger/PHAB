@@ -10,7 +10,8 @@
     "littlegiant/silverstripe-catalogmanager": "^4.0",
     "littlegiant/silverstripe-singlepageadmin": "^4.0",
     "silverstripe-australia/gridfieldextensions": "^1.4",
-    "silverstripe-australia/grouped-cms-menu": "^2.4"
+    "silverstripe-australia/grouped-cms-menu": "^2.4",
+    "colymba/gridfield-bulk-editing-tools": "^2.1"
   },
   "extra": {
     "branch-alias": {

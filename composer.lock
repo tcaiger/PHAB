@@ -4,9 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef88296fd678f44bccb8cc5d6790c159",
-    "content-hash": "c3be95838606f2f1b4bbab6ae5f64614",
+    "hash": "3ca5132ce8c01f5fd9727b23e6c822b0",
+    "content-hash": "0869cd60fb80ec85cae678c5d51adbfc",
     "packages": [
+        {
+            "name": "colymba/gridfield-bulk-editing-tools",
+            "version": "v2.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
+                "reference": "29482dbd17e42c3de364aa3d46d20ba65175c9d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/29482dbd17e42c3de364aa3d46d20ba65175c9d3",
+                "reference": "29482dbd17e42c3de364aa3d46d20ba65175c9d3",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": ">=3.1"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD Simplified"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Francois",
+                    "homepage": "http://colymba.com"
+                },
+                {
+                    "name": "GitHub contributors",
+                    "homepage": "https://github.com/colymba/GridFieldBulkEditingTools/contributors"
+                }
+            ],
+            "description": "SilverStripe 3 GridField component to upload images and edit records in bulk",
+            "homepage": "https://github.com/colymba/GridFieldBulkEditingTools",
+            "keywords": [
+                "Image upload",
+                "bulk upload",
+                "gridfield bulk upload",
+                "silverstripe"
+            ],
+            "time": "2016-04-11 19:31:21"
+        },
         {
             "name": "composer/installers",
             "version": "v1.2.0",
@@ -664,9 +706,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "ryanpotter/silverstripe-cms-theme": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

@@ -3,7 +3,6 @@
 class GalleryImage extends dataobject {
 
     private static $db = [
-        'Caption' => 'Varchar(200)',
         'SortOrder'      => 'Int'
     ];
 

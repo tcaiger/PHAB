@@ -23,5 +23,4 @@ class GalleryHolderPage_Controller extends Page_Controller {
                 "{$this->ThemeDir()}/js/main.js"
             ));
     }
-
 }
