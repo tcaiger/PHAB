@@ -1,10 +1,10 @@
 <?php
 
-class GalleryPageAdmin extends SinglePageAdmin {
+class GalleryPageAdmin extends CatalogPageAdmin {
 
     private static $menu_title = 'Gallery';
-    private static $tree_class = 'GalleryPage';
+    private static $tree_class = 'Gallery';
+    private static $managed_models = 'GalleryPage';
     private static $url_segment = 'gallery';
-    private static $menu_icon = 'mysite/images/file-icon.png';
-
+    private static $menu_icon = 'mysite/images/notebook-icon.png';
 }

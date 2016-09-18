@@ -6,7 +6,7 @@ class GalleryPage extends Page {
     private static $allowed_children = 'none';
 
     private static $has_many = array(
-        'GalleryImages' => 'PHABImage'
+        'GalleryImages' => 'GalleryImage'
     );
 
     public function getCMSFields($member = null) {
@@ -16,27 +16,15 @@ class GalleryPage extends Page {
         $fields->removeByName('Content');
 
         $fields->addFieldsToTab('Root.Main', [
-            $images = UploadField::create('GalleryImages', 'Gallery Images')
-                ->setDescription('Image should be no wider than <strong>1000px</strong>, no higher than <strong>1000px</strong> and no bigger than <strong>1MB</strong>'),
+            GridField::create('GalleryImages','GalleryImages',$this->GalleryImages(),
+                GridFieldConfig_RecordEditor::create()
+                    ->addComponents(
+                        new GridFieldOrderableRows('SortOrder')
+                    )
+                )
         ], 'Metadata');
 
-        $images->getValidator()->setAllowedExtensions(array(
-            'png', 'jpeg', 'jpg', 'gif'
-        ));
-        $images->setFolderName('gallery-images');
-        $images->setAllowedMaxFileNumber(27);
-        $sizeMB = 2; // 2 MB
-        $size = $sizeMB * 1024 * 1024; // 2 MB in bytes
-        $images->getValidator()->setAllowedMaxFileSize($size);
 
-        // Remove delicate fields from content authors
-        if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
-            $fields->removebyName(array(
-                'Title',
-                'URLSegment',
-                'MenuTitle'
-            ));
-        }
 
         return $fields;
     }

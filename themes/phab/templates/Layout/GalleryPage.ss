@@ -11,8 +11,8 @@
         <% loop $GalleryImages %>
             <div class="col-md-4">
                 <div class="gallery-card">
-                    <a href="$URL" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                    <img src="$reSample('770','640').URL" class="img-responsive" alt="">
+                    <a href="$Image.URL" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                    <img src="$Image.ReSample('770','640').URL" class="img-responsive" alt="">
                 </div>
             </div>
         <% end_loop %>
