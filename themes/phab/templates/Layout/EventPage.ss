@@ -5,7 +5,7 @@
         <div class="col-sm-8 no-gutter">
             <div class="event-intro">
                 <% if $BannerImage %>
-                    <img src="$BannerImage.ReSample('900', '600').URL"  class="img-responsive" alt="$BannerImage.URL">
+                    <img src="$BannerImage.ReSample('900', '600').URL" class="img-responsive" alt="$BannerImage.URL">
                 <% else %>
                     <img src="$ThemeDir/img/event-default.jpg" class="img-responsive" alt="BannerImage">
                 <% end_if %>
@@ -26,10 +26,6 @@
                         <span>$Location</span>
                     </div>
                     <div>
-                        <span>Event Address</span>
-                        <span>$Address</span>
-                    </div>
-                    <div>
                         <span>Time</span>
                         <span>$StartTime.Nice - $EndTime.Nice</span>
                     </div>
@@ -39,7 +35,6 @@
                     </div>
                     <ul class="social mt-30 mb-0">
                         <li><a href="#"><i class=" fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class=" fa fa-twitter"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -54,12 +49,11 @@
                 <li role="presentation" class="active">
                     <a href="#t1body1" aria-controls="t1body1" role="tab" data-toggle="tab" aria-expanded="true"><i class="fa fa-futbol-o fa-fw"></i> Event Brief</a>
                 </li>
-                <li role="presentation" class="">
-                    <a href="#t1body2" aria-controls="t1body2" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-university fa-fw"></i> More Details</a>
-                </li>
-                <li role="presentation" class="">
-                    <a href="#t1body3" aria-controls="t1body3" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-map-marker fa-fw"></i> Location Map</a>
-                </li>
+                <% if $MoreDetails %>
+                    <li role="presentation" class="">
+                        <a href="#t1body2" aria-controls="t1body2" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-university fa-fw"></i> More Details</a>
+                    </li>
+                <% end_if %>
             </ul>
 
             <div class="tab-content">
@@ -67,54 +61,17 @@
                     <br>
                     $Content
                 </div>
-                <div role="tabpanel" class="tab-pane fade" id="t1body2">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
-                    <br/>
-                    <ul class="list-styled">
-                        <li>Single stroke at the present moment</li>
-                        <li>Drawing a single stroke at the present moment</li>
-                    </ul>
-                </div>
-                <div role="tabpanel" class="tab-pane fade" id="t1body3">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
-                    <br/>
-                    <ul class="list-styled">
-                        <li>Single stroke at the present moment</li>
-                        <li>Drawing a single stroke at the present moment</li>
-                    </ul>
-                </div>
+                <% if $MoreDetails %>
+                    <div role="tabpanel" class="tab-pane fade" id="t1body2">
+                        $MoreDetailsContent
+                    </div>
+                <% end_if %>
             </div>
         </div>
     </div>
 
     <div class="row">
         <h3 class="heading text-center">Participate Now!</h3>
-        <form>
-            <div class="col-sm-4">
-                <div class="form-group">
-                    <input id="contact-name" type="text" class="form-control">
-                    <label for="contact-name">Your Name</label>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="form-group">
-                    <input id="contact-email" type="text" class="form-control">
-                    <label for="contact-email">Email ID</label>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="form-group">
-                    <input id="contact-number" type="text" class="form-control">
-                    <label for="contact-number">Phone Number</label>
-                </div>
-            </div>
-            <div class="col-sm-12">
-                <div class="form-group">
-                    <textarea id="contact-message" class="form-control" rows="6"></textarea>
-                    <label for="contact-message">Your Message</label>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary center-block">Send Query</button>
-        </form>
+        $EnquiryForm
     </div>
 </div>

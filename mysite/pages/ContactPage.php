@@ -85,7 +85,7 @@ class ContactPage_Controller extends Page_Controller {
         );
 
         $actions = new FieldList(
-            FormAction::create('SubmitContactForm')
+            FormAction::create('SubmitEnquiryForm')
                 ->addExtraClass('btn btn-primary')
                 ->setTitle('Send Query')
         );
@@ -100,27 +100,4 @@ class ContactPage_Controller extends Page_Controller {
 
         return $form;
     }
-
-    function SubmitContactForm($data, $form) {
-
-        // Get enquiry data
-        $enquiry = new ContactEnquiry;
-        foreach ($data as $name => $value) {
-            $enquiry->$name = $value;
-        }
-
-        // Send email
-        $mail = new MailController;
-        $mail->ContactFormEmail($data, $this->ContactFormEmail);
-
-        // Write the enquiry to the database
-        if ($enquiry->write()) {
-            $form->sessionMessage("Your enquiry has been sent. You will receive a response soon.", 'good');
-        } else {
-            $form->sessionMessage("There was a problem with the form. Please try again.", 'bad');
-        }
-
-        return $this->redirectBack();
-    }
-
 }

@@ -5,8 +5,13 @@ class GalleryPage extends Page {
     private static $can_be_root = false;
     private static $allowed_children = 'none';
 
+    private static $db = [
+        'SubHeading' => 'Varchar',
+        'Intro' => 'Varchar(200)'
+    ];
+
     private static $has_many = array(
-        'GalleryImages' => 'PHABImage'
+        'GalleryImages' => 'GalleryImage'
     );
 
     public function getCMSFields($member = null) {
@@ -16,29 +21,32 @@ class GalleryPage extends Page {
         $fields->removeByName('Content');
 
         $fields->addFieldsToTab('Root.Main', [
-            $images = UploadField::create('GalleryImages', 'Gallery Images')
-                ->setDescription('Image should be no wider than <strong>1000px</strong>, no higher than <strong>1000px</strong> and no bigger than <strong>1MB</strong>'),
+            TextField::create('SubHeading'),
+            TextAreaField::create('Intro')
+                ->setDescription('You need to save the gallery page before uploading images.'),
+            $grid = GridField::create('GalleryImages','GalleryImages',$this->GalleryImages(),
+                GridFieldConfig_RecordEditor::create()
+                    ->addComponent(
+                        new GridFieldBulkUpload()
+                    )
+                )
         ], 'Metadata');
 
-        $images->getValidator()->setAllowedExtensions(array(
-            'png', 'jpeg', 'jpg', 'gif'
-        ));
-        $images->setFolderName('gallery-images');
-        $images->setAllowedMaxFileNumber(27);
-        $sizeMB = 2; // 2 MB
-        $size = $sizeMB * 1024 * 1024; // 2 MB in bytes
-        $images->getValidator()->setAllowedMaxFileSize($size);
-
-        // Remove delicate fields from content authors
-        if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
-            $fields->removebyName(array(
-                'Title',
-                'URLSegment',
-                'MenuTitle'
-            ));
+        // Add the orderablerows component if the parent object has an ID
+        if($this->ID){
+            $grid->getConfig()->addComponent(
+                new GridFieldOrderableRows('SortOrder')
+            );
         }
 
+
+
         return $fields;
+    }
+
+    public function CoverImage() {
+        $image = $this->GalleryImages()->Sort('SortOrder')->first();
+        return $image;
     }
 
 }
@@ -61,7 +69,8 @@ class GalleryPage_Controller extends Page_Controller {
                 "{$this->ThemeDir()}/js/jquery.prettyPhoto.js",
                 "{$this->ThemeDir()}/js/main.js"
             ));
-
     }
+
+
 
 }

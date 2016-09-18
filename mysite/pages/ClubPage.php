@@ -8,9 +8,10 @@ class ClubPage extends Page {
     private static $db = [
         'SummaryText' => 'Varchar(200)',
         'Location'    => 'Varchar(100)',
-        'Address'     => 'Varchar(100)',
         'Time'        => 'Varchar',
-        'Day'   => 'Varchar'
+        'Day'   => 'Varchar',
+        'MoreDetails' => 'Boolean',
+        'MoreDetailsContent' => 'HTMLText'
     ];
 
     private static $defaults = [
@@ -40,13 +41,16 @@ class ClubPage extends Page {
             $bannerImg = UploadField::create('BannerImage')->setDescription('Image should be <strong>900px</strong> wide and <strong>600px</strong> high.'),
             TextField::create('Location')
                 ->setDescription('Albany House'),
-            TextField::create('Address')
-                ->setDescription('eg. 575 Albany Highway, Albany'),
             TextField::create('Time')
                 ->setDescription('6:00PM - 8:30PM'),
             TextField::create('Day')
                 ->setDescription('eg. Every Monday'),
-            HtmlEditorField::create('Content')
+            HtmlEditorField::create('Content'),
+            HeaderField::create('DetailsHeader', 'More Details'),
+            FieldGroup::create(
+                CheckboxField::create('MoreDetails', '(Ticking the box will show the more details tab)')
+            )->setTitle('Include More Details Section'),
+            HTMLEditorField::create('MoreDetailsContent', 'More Details Content')
         ], 'Metadata');
 
         // Place images into a specific folder

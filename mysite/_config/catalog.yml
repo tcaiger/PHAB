@@ -3,6 +3,14 @@ Name: 'catalog'
 After: 'cms/*', 'framework/*'
 ---
 
+
+GalleryPage:
+  extensions:
+    - CatalogPageExtension
+  parentClass:
+    - 'GalleryHolderPage'
+
+
 ClubPage:
   extensions:
     - CatalogPageExtension
