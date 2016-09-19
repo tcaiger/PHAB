@@ -12,8 +12,7 @@ class GalleryImage extends dataobject {
     ];
 
     private static $summary_fields = [
-        'Image.CMSThumbnail' => 'Image',
-        'Caption' => 'Caption'
+        'Image.CMSThumbnail' => 'Image'
     ];
 
     public function getCMSFields() {

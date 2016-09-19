@@ -15,7 +15,7 @@
 
 <div class="container mb-60">
     <div class="row">
-        <% loop $Children %>
+        <% loop $Children.Sort('SortOrder') %>
             <div class="col-sm-4">
                 <div class="course-card">
                     <% if $BannerImage %>

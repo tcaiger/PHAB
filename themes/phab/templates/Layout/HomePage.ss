@@ -19,7 +19,7 @@
                 data-description="Nurturing the most awesome minds.">
 
                 <!-- MAIN IMAGE -->
-                <img src="$ThemeDir/images/dummy.jpg" data-lazyload="$BannerImage1.URL" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                <img src="$ThemeDir/images/dummy.jpg" data-lazyload="$BannerImage1.URL" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                 <!-- Overlay-->
                 <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0"
                      id="slide-1-overlay"
@@ -119,7 +119,7 @@
                 data-title="A STUDY ON HAPPINESS"
                 data-description="Nurturing the most awesome minds.">
                 <!-- MAIN IMAGE -->
-                <img src="$ThemeDir/images/dummy.jpg" data-lazyload="$BannerImage2.URL" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                <img src="$ThemeDir/images/dummy.jpg" data-lazyload="$BannerImage2.URL" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                 <!-- Overlay -->
                 <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0"
                      id="slide-2-overlay"
@@ -208,29 +208,29 @@
 <!-- Revolution Slider Ends -->
 
 <%--<div class="bgcolor2 text-center">--%>
-    <%--<div class="container">--%>
-        <%--<div class="row">--%>
-            <%--<div class="col-sm-12">--%>
-                <%--<button class="btn-announce"><i class="fa fa-bullhorn"></i></button>--%>
-                <%--<div class="announcement">--%>
-                    <%--<div class="announcement-text">--%>
-                        <%--<span>School will remain closed on account of heavy rains</span>--%>
-                        <%--<span>Exams postponed by 10 days due to Annual Day celebrations</span>--%>
-                        <%--<span>Late Fee of 10% to be charged from defaulters</span>--%>
-                    <%--</div>--%>
-                    <%--<div class="owl-nav">--%>
-                        <%--<span class="owl-left"><i class="fa fa-angle-left"></i></span>--%>
-                        <%--<span class="owl-right"><i class="fa fa-angle-right"></i></span>--%>
-                    <%--</div>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-    <%--</div>--%>
+<%--<div class="container">--%>
+<%--<div class="row">--%>
+<%--<div class="col-sm-12">--%>
+<%--<button class="btn-announce"><i class="fa fa-bullhorn"></i></button>--%>
+<%--<div class="announcement">--%>
+<%--<div class="announcement-text">--%>
+<%--<span>School will remain closed on account of heavy rains</span>--%>
+<%--<span>Exams postponed by 10 days due to Annual Day celebrations</span>--%>
+<%--<span>Late Fee of 10% to be charged from defaulters</span>--%>
+<%--</div>--%>
+<%--<div class="owl-nav">--%>
+<%--<span class="owl-left"><i class="fa fa-angle-left"></i></span>--%>
+<%--<span class="owl-right"><i class="fa fa-angle-right"></i></span>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
 <%--</div>--%>
 
 <div class="mb-100">
     <div class="container">
-        <div class="row">
+        <div class="row mb-60">
             <div class="col-sm-7 mt-100">
                 <h3 class="heading">Who We <span class="color2">Are</span></h3>
                 $Content
@@ -245,410 +245,403 @@
                 </ul>
                 <div class="clearfix"></div>
                 <br/>
-                <a href="$PageLink('AboutPage')" class="btn btn-primary btn-sm">Learn More <i class="fa fa-long-arrow-right"></i> </a>
+                <a href="$PageLink('AboutPage')" class="btn btn-primary btn-sm">Learn More
+                    <i class="fa fa-long-arrow-right"></i> </a>
             </div>
             <div class="col-sm-5 mt-60">
-                <div class="newsletter">
-                    <h4 class="newsletter-heading">Stay updated. Subscribe !</h4>
-                    <form>
-                        <div class="form-group">
-                            <input class="form-control" placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" placeholder="Email Id">
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-primary btn-block">Subscribe</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="bgcolor3 pt-100 pb-100">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="heading text-center">About PHAB <span class="color2">Clubs & Events</span>
-                    <span class="sub-heading">$SectionSubheading</span>
-                    <span class="icon-divider"></span>
-                </h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="icon-box-1">
-                    <div class="icon-box-icon">
-                        <i class="fa fa-book"></i>
-                    </div>
-                    <div class="icon-box-content">
-                        <h5 class="heading">$Box1Heading</h5>
-                        <span>$Box1Text</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="icon-box-1">
-                    <div class="icon-box-icon">
-                        <i class="fa fa-users"></i>
-                    </div>
-                    <div class="icon-box-content">
-                        <h5 class="heading">$Box2Heading</h5>
-                        <span>$Box2Text</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="icon-box-1">
-                    <div class="icon-box-icon">
-                        <i class="fa fa-calendar-check-o"></i>
-                    </div>
-                    <div class="icon-box-content">
-                        <h5 class="heading">$Box3Heading</h5>
-                        <span>$Box4Text</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="icon-box-1">
-                    <div class="icon-box-icon">
-                        <i class="fa fa-check-square-o"></i>
-                    </div>
-                    <div class="icon-box-content">
-                        <h5 class="heading">$Box4Heading</h5>
-                        <span>$Box4Text</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="icon-box-1">
-                    <div class="icon-box-icon">
-                        <i class="fa fa-map-marker"></i>
-                    </div>
-                    <div class="icon-box-content">
-                        <h5 class="heading">$Box5Heading</h5>
-                        <span>$Box5Text</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="icon-box-1">
-                    <div class="icon-box-icon">
-                        <i class="fa fa-youtube"></i>
-                    </div>
-                    <div class="icon-box-content">
-                        <h5 class="heading">$Box6Heading</h5>
-                        <span>$Box6Text</span>
+                <div class="facebook-container mt-40 bgcolor3">
+                    <%--<h4>Like Us On Facebook</h4>--%>
+                    <div class="fb-page" data-href="https://www.facebook.com/phabnz" data-tabs="timeline" data-width="400" data-height="360" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                        <blockquote cite="https://www.facebook.com/phabnz" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/phabnz">PHAB NZ</a></blockquote>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="gallery">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="gallery-overlay">
-                <h2 class="gallery-heading">Life At PHAB</h2>
-            </div>
-            <div class="col-sm-3 no-gutter">
-                <div class="img-box">
-                    <a href="$ThemeDir/img/phab-home-1.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                    <img src="$ThemeDir/img/phab-home-1.jpg" alt="" class="img-responsive">
+    <div class="bgcolor3 pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="heading text-center">About PHAB <span class="color2">Clubs & Events</span>
+                        <span class="sub-heading">$SectionSubheading</span>
+                        <span class="icon-divider"></span>
+                    </h2>
                 </div>
             </div>
-            <div class="col-sm-3 no-gutter">
-                <div class="img-box">
-                    <a href="$ThemeDir/img/phab-home-2.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                    <img src="$ThemeDir/img/phab-home-2.jpg" alt="" class="img-responsive">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="icon-box-1">
+                        <div class="icon-box-icon">
+                            <i class="fa fa-book"></i>
+                        </div>
+                        <div class="icon-box-content">
+                            <h5 class="heading">$Box1Heading</h5>
+                            <span>$Box1Text</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="img-box">
-                    <a href="$ThemeDir/img/phab-home-3.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                    <img src="$ThemeDir/img/phab-home-3.jpg" alt="" class="img-responsive">
+                <div class="col-sm-4">
+                    <div class="icon-box-1">
+                        <div class="icon-box-icon">
+                            <i class="fa fa-users"></i>
+                        </div>
+                        <div class="icon-box-content">
+                            <h5 class="heading">$Box2Heading</h5>
+                            <span>$Box2Text</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="icon-box-1">
+                        <div class="icon-box-icon">
+                            <i class="fa fa-calendar-check-o"></i>
+                        </div>
+                        <div class="icon-box-content">
+                            <h5 class="heading">$Box3Heading</h5>
+                            <span>$Box4Text</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-3 no-gutter">
-                <div class="img-box">
-                    <a href="$ThemeDir/img/phab-home-4.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                    <img src="$ThemeDir/img/phab-home-4.jpg" alt="" class="img-responsive">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="icon-box-1">
+                        <div class="icon-box-icon">
+                            <i class="fa fa-check-square-o"></i>
+                        </div>
+                        <div class="icon-box-content">
+                            <h5 class="heading">$Box4Heading</h5>
+                            <span>$Box4Text</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="img-box">
-                    <a href="$ThemeDir/img/phab-home-5.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                    <img src="$ThemeDir/img/phab-home-5.jpg" alt="" class="img-responsive">
+                <div class="col-sm-4">
+                    <div class="icon-box-1">
+                        <div class="icon-box-icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="icon-box-content">
+                            <h5 class="heading">$Box5Heading</h5>
+                            <span>$Box5Text</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-3 no-gutter">
-                <div class="img-box">
-                    <a href="$ThemeDir/img/phab-home-7.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                    <img src="$ThemeDir/img/phab-home-7.jpg" alt="" class="img-responsive">
+                <div class="col-sm-4">
+                    <div class="icon-box-1">
+                        <div class="icon-box-icon">
+                            <i class="fa fa-youtube"></i>
+                        </div>
+                        <div class="icon-box-content">
+                            <h5 class="heading">$Box6Heading</h5>
+                            <span>$Box6Text</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="mt-80 mb-80">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="row">
-                    <div class="facts">
-                        <div class="fact col-sm-4">
+    <div class="gallery">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="gallery-overlay">
+                    <h2 class="gallery-heading">Life At PHAB</h2>
+                </div>
+                <div class="col-sm-3 no-gutter">
+                    <div class="img-box">
+                        <a href="$ThemeDir/img/phab-home-1.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                        <img src="$ThemeDir/img/phab-home-1.jpg" alt="" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-sm-3 no-gutter">
+                    <div class="img-box">
+                        <a href="$ThemeDir/img/phab-home-2.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                        <img src="$ThemeDir/img/phab-home-2.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="img-box">
+                        <a href="$ThemeDir/img/phab-home-3.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                        <img src="$ThemeDir/img/phab-home-3.jpg" alt="" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-sm-3 no-gutter">
+                    <div class="img-box">
+                        <a href="$ThemeDir/img/phab-home-4.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                        <img src="$ThemeDir/img/phab-home-4.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="img-box">
+                        <a href="$ThemeDir/img/phab-home-5.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                        <img src="$ThemeDir/img/phab-home-5.jpg" alt="" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-sm-3 no-gutter">
+                    <div class="img-box">
+                        <a href="$ThemeDir/img/phab-home-7.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                        <img src="$ThemeDir/img/phab-home-7.jpg" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-80 mb-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="facts">
+                            <div class="fact col-sm-4">
                                 <span class="head">
                                     <span class="count" data-from="0" data-to="30" data-speed="3000"></span> Clubs
                                 </span>
-                            <span class="foot">With 9 braches in function, we are very soon inaugurating the 10th one!</span>
-                        </div>
-                        <div class="fact col-sm-4">
+                                <span class="foot">With 9 braches in function, we are very soon inaugurating the 10th one!</span>
+                            </div>
+                            <div class="fact col-sm-4">
                                 <span class="head">
                                     <span class="count" data-from="0" data-to="156" data-speed="3000"></span> Members
                                 </span>
-                            <span class="foot">Average number of students per class. Offering world class education.</span>
-                        </div>
-                        <div class="fact col-sm-4">
+                                <span class="foot">Average number of students per class. Offering world class education.</span>
+                            </div>
+                            <div class="fact col-sm-4">
                                 <span class="head">
                                     <span class="count" data-from="0" data-to="15" data-speed="3000"></span> Mentors
                                 </span>
-                            <span class="foot">Best <i>"Student and Teacher Ratio"</i> in the world. Award 10 times in a row.</span>
+                                <span class="foot">Best <i>"Student and Teacher Ratio"</i> in the world. Award 10 times in a row.</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 <%--<div class="clearfix"></div>--%>
 
 <%--<div class="container mb-100">--%>
-    <%--<div class="row">--%>
-        <%--<div class="col-sm-12">--%>
-            <%--<h2 class="heading text-center">We're making a <span class="color2">Difference</span>--%>
-                <%--<span class="sub-heading">EDUComp is a modern theme for the leading Educational Institutions. Bundled with Slider Revolution, this is beautiful!</span>--%>
-                <%--<span class="icon-divider"></span>--%>
-            <%--</h2>--%>
-        <%--</div>--%>
-    <%--</div>--%>
-    <%--<div class="row mt-20">--%>
-        <%--<div class="col-sm-6">--%>
-            <%--<img src="$ThemeDir/images/child-studying.jpg" class="img-responsive" alt="">--%>
-        <%--</div>--%>
-        <%--<div class="col-sm-6">--%>
-            <%--<div class="accordion-2">--%>
-                <%--<div class="panel-group" id="a2" role="tablist" aria-multiselectable="true">--%>
-                    <%--<div class="panel panel-default">--%>
-                        <%--<div class="panel-heading" role="tab" id="a2heading1">--%>
-                            <%--<h4 class="panel-title">--%>
-                                <%--<a role="button" data-toggle="collapse" data-parent="#a2" href="#a2body1" aria-expanded="true" aria-controls="a2body1">--%>
-                                    <%--What's so awesome about Educomp?--%>
-                                <%--</a>--%>
-                            <%--</h4>--%>
-                        <%--</div>--%>
-                        <%--<div id="a2body1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="a2heading1" aria-expanded="true">--%>
-                            <%--<div class="panel-body">--%>
-                                <%--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.--%>
-                            <%--</div>--%>
-                        <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="panel panel-default">--%>
-                        <%--<div class="panel-heading" role="tab" id="a2heading2">--%>
-                            <%--<h4 class="panel-title">--%>
-                                <%--<a class="collapsed" role="button" data-toggle="collapse" data-parent="#a2" href="#a2body2" aria-expanded="false" aria-controls="a2body2">--%>
-                                    <%--Why we are the best?--%>
-                                <%--</a>--%>
-                            <%--</h4>--%>
-                        <%--</div>--%>
-                        <%--<div id="a2body2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="a2heading2" aria-expanded="false">--%>
-                            <%--<div class="panel-body">--%>
-                                <%--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.--%>
-                            <%--</div>--%>
-                        <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="panel panel-default">--%>
-                        <%--<div class="panel-heading" role="tab" id="a2heading3">--%>
-                            <%--<h4 class="panel-title">--%>
-                                <%--<a class="collapsed" role="button" data-toggle="collapse" data-parent="#a2" href="#a2body3" aria-expanded="false" aria-controls="a2body3">--%>
-                                    <%--Why you would love Educomp?--%>
-                                <%--</a>--%>
-                            <%--</h4>--%>
-                        <%--</div>--%>
-                        <%--<div id="a2body3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="a2heading3" aria-expanded="false">--%>
-                            <%--<div class="panel-body">--%>
-                                <%--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.--%>
-                            <%--</div>--%>
-                        <%--</div>--%>
-                    <%--</div>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-    <%--</div>--%>
+<%--<div class="row">--%>
+<%--<div class="col-sm-12">--%>
+<%--<h2 class="heading text-center">We're making a <span class="color2">Difference</span>--%>
+<%--<span class="sub-heading">EDUComp is a modern theme for the leading Educational Institutions. Bundled with Slider Revolution, this is beautiful!</span>--%>
+<%--<span class="icon-divider"></span>--%>
+<%--</h2>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--<div class="row mt-20">--%>
+<%--<div class="col-sm-6">--%>
+<%--<img src="$ThemeDir/images/child-studying.jpg" class="img-responsive" alt="">--%>
+<%--</div>--%>
+<%--<div class="col-sm-6">--%>
+<%--<div class="accordion-2">--%>
+<%--<div class="panel-group" id="a2" role="tablist" aria-multiselectable="true">--%>
+<%--<div class="panel panel-default">--%>
+<%--<div class="panel-heading" role="tab" id="a2heading1">--%>
+<%--<h4 class="panel-title">--%>
+<%--<a role="button" data-toggle="collapse" data-parent="#a2" href="#a2body1" aria-expanded="true" aria-controls="a2body1">--%>
+<%--What's so awesome about Educomp?--%>
+<%--</a>--%>
+<%--</h4>--%>
+<%--</div>--%>
+<%--<div id="a2body1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="a2heading1" aria-expanded="true">--%>
+<%--<div class="panel-body">--%>
+<%--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--<div class="panel panel-default">--%>
+<%--<div class="panel-heading" role="tab" id="a2heading2">--%>
+<%--<h4 class="panel-title">--%>
+<%--<a class="collapsed" role="button" data-toggle="collapse" data-parent="#a2" href="#a2body2" aria-expanded="false" aria-controls="a2body2">--%>
+<%--Why we are the best?--%>
+<%--</a>--%>
+<%--</h4>--%>
+<%--</div>--%>
+<%--<div id="a2body2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="a2heading2" aria-expanded="false">--%>
+<%--<div class="panel-body">--%>
+<%--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--<div class="panel panel-default">--%>
+<%--<div class="panel-heading" role="tab" id="a2heading3">--%>
+<%--<h4 class="panel-title">--%>
+<%--<a class="collapsed" role="button" data-toggle="collapse" data-parent="#a2" href="#a2body3" aria-expanded="false" aria-controls="a2body3">--%>
+<%--Why you would love Educomp?--%>
+<%--</a>--%>
+<%--</h4>--%>
+<%--</div>--%>
+<%--<div id="a2body3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="a2heading3" aria-expanded="false">--%>
+<%--<div class="panel-body">--%>
+<%--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
 <%--</div>--%>
 
 <%--<div class="clearfix"></div>--%>
 
 <%--<div class="container-fluid mb-100">--%>
-    <%--<div class="row">--%>
-        <%--<div class="tweets" data-parallax="scroll" data-image-src="$ThemeDir/images/twitter.jpg" data-speed="0.4">--%>
-            <%--<p>Educomp has been awarded the most beautiful theme in educational category.<a href="#">#award</a></p>--%>
-            <%--<p>Wow is the word for <a href="#">@Educomp</a> theme. Buy now!!</p>--%>
-            <%--<p>Educomp has all the elements needed for <a href="">#education</a> website.</p>--%>
-        <%--</div>--%>
-    <%--</div>--%>
+<%--<div class="row">--%>
+<%--<div class="tweets" data-parallax="scroll" data-image-src="$ThemeDir/images/twitter.jpg" data-speed="0.4">--%>
+<%--<p>Educomp has been awarded the most beautiful theme in educational category.<a href="#">#award</a></p>--%>
+<%--<p>Wow is the word for <a href="#">@Educomp</a> theme. Buy now!!</p>--%>
+<%--<p>Educomp has all the elements needed for <a href="">#education</a> website.</p>--%>
+<%--</div>--%>
+<%--</div>--%>
 <%--</div>--%>
 
 <%--<div class="clearfix"></div>--%>
 
 <%--<div class="container mb-80">--%>
-    <%--<div class="row">--%>
-        <%--<div class="col-sm-12">--%>
-            <%--<h2 class="heading text-center">Meet our <span class="color2">Teachers</span>--%>
-                <%--<span class="sub-heading">Our highly qualified teachers put in their best efforts for outstanding results in both studies and co-curricular activities.</span>--%>
-                <%--<span class="icon-divider"></span>--%>
-            <%--</h2>--%>
-        <%--</div>--%>
-        <%--<div class="col-sm-4">--%>
-            <%--<div class="teacher-card">--%>
-                <%--<ul class="social-links">--%>
-                    <%--<li><a href=""><i class="fa fa-facebook"></i></a></li>--%>
-                    <%--<li><a href=""><i class="fa fa-twitter"></i></a></li>--%>
-                    <%--<li><a href=""><i class="fa fa-google-plus"></i></a></li>--%>
-                    <%--<li><a href=""><i class="fa fa-linkedin"></i></a></li>--%>
-                <%--</ul>--%>
-                <%--<img src="$ThemeDir/images/teacher-1.png" class="teacher-img img-responsive" alt="">--%>
-                <%--<a href="teacher-profile.html" class="teacher-link">View Profile</a>--%>
-                <%--<div class="teacher-detail">--%>
-                    <%--<h4 class="heading">Ms. Simcy Janes</h4>--%>
-                    <%--<span class="position">HOD, Science Department</span>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-        <%--<div class="col-sm-4">--%>
-            <%--<div class="teacher-card">--%>
-                <%--<ul class="social-links">--%>
-                    <%--<li><a href=""><i class="fa fa-facebook"></i></a></li>--%>
-                    <%--<li><a href=""><i class="fa fa-twitter"></i></a></li>--%>
-                    <%--<li><a href=""><i class="fa fa-google-plus"></i></a></li>--%>
-                    <%--<li><a href=""><i class="fa fa-linkedin"></i></a></li>--%>
-                <%--</ul>--%>
-                <%--<img src="$ThemeDir/images/teacher-2.png" class="teacher-img img-responsive" alt="">--%>
-                <%--<a href="teacher-profile.html" class="teacher-link">View Profile</a>--%>
-                <%--<div class="teacher-detail">--%>
-                    <%--<h4 class="heading">Mr. Janes Simcy</h4>--%>
-                    <%--<span class="position">HOD, Maths Department</span>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-        <%--<div class="col-sm-4">--%>
-            <%--<div class="teacher-card">--%>
-                <%--<ul class="social-links">--%>
-                    <%--<li><a href=""><i class="fa fa-facebook"></i></a></li>--%>
-                    <%--<li><a href=""><i class="fa fa-twitter"></i></a></li>--%>
-                    <%--<li><a href=""><i class="fa fa-google-plus"></i></a></li>--%>
-                    <%--<li><a href=""><i class="fa fa-linkedin"></i></a></li>--%>
-                <%--</ul>--%>
-                <%--<img src="$ThemeDir/images/teacher-3.png" class="teacher-img img-responsive" alt="">--%>
-                <%--<a href="teacher-profile.html" class="teacher-link">View Profile</a>--%>
-                <%--<div class="teacher-detail">--%>
-                    <%--<h4 class="heading">Ms. Simcy Janes</h4>--%>
-                    <%--<span class="position">HOD, English Department</span>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-    <%--</div>--%>
+<%--<div class="row">--%>
+<%--<div class="col-sm-12">--%>
+<%--<h2 class="heading text-center">Meet our <span class="color2">Teachers</span>--%>
+<%--<span class="sub-heading">Our highly qualified teachers put in their best efforts for outstanding results in both studies and co-curricular activities.</span>--%>
+<%--<span class="icon-divider"></span>--%>
+<%--</h2>--%>
+<%--</div>--%>
+<%--<div class="col-sm-4">--%>
+<%--<div class="teacher-card">--%>
+<%--<ul class="social-links">--%>
+<%--<li><a href=""><i class="fa fa-facebook"></i></a></li>--%>
+<%--<li><a href=""><i class="fa fa-twitter"></i></a></li>--%>
+<%--<li><a href=""><i class="fa fa-google-plus"></i></a></li>--%>
+<%--<li><a href=""><i class="fa fa-linkedin"></i></a></li>--%>
+<%--</ul>--%>
+<%--<img src="$ThemeDir/images/teacher-1.png" class="teacher-img img-responsive" alt="">--%>
+<%--<a href="teacher-profile.html" class="teacher-link">View Profile</a>--%>
+<%--<div class="teacher-detail">--%>
+<%--<h4 class="heading">Ms. Simcy Janes</h4>--%>
+<%--<span class="position">HOD, Science Department</span>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--<div class="col-sm-4">--%>
+<%--<div class="teacher-card">--%>
+<%--<ul class="social-links">--%>
+<%--<li><a href=""><i class="fa fa-facebook"></i></a></li>--%>
+<%--<li><a href=""><i class="fa fa-twitter"></i></a></li>--%>
+<%--<li><a href=""><i class="fa fa-google-plus"></i></a></li>--%>
+<%--<li><a href=""><i class="fa fa-linkedin"></i></a></li>--%>
+<%--</ul>--%>
+<%--<img src="$ThemeDir/images/teacher-2.png" class="teacher-img img-responsive" alt="">--%>
+<%--<a href="teacher-profile.html" class="teacher-link">View Profile</a>--%>
+<%--<div class="teacher-detail">--%>
+<%--<h4 class="heading">Mr. Janes Simcy</h4>--%>
+<%--<span class="position">HOD, Maths Department</span>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--<div class="col-sm-4">--%>
+<%--<div class="teacher-card">--%>
+<%--<ul class="social-links">--%>
+<%--<li><a href=""><i class="fa fa-facebook"></i></a></li>--%>
+<%--<li><a href=""><i class="fa fa-twitter"></i></a></li>--%>
+<%--<li><a href=""><i class="fa fa-google-plus"></i></a></li>--%>
+<%--<li><a href=""><i class="fa fa-linkedin"></i></a></li>--%>
+<%--</ul>--%>
+<%--<img src="$ThemeDir/images/teacher-3.png" class="teacher-img img-responsive" alt="">--%>
+<%--<a href="teacher-profile.html" class="teacher-link">View Profile</a>--%>
+<%--<div class="teacher-detail">--%>
+<%--<h4 class="heading">Ms. Simcy Janes</h4>--%>
+<%--<span class="position">HOD, English Department</span>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
 <%--</div>--%>
 
 <%--<div claass="clearfix"></div>--%>
 
 <% if $Event %>
     <% with $UpcomingEvent %>
-        <div class="event pt-100 pb-100 home-event-section" data-parallax="scroll"
-             <% if $Up.EventBanner.URL %>
-                data-image-src="$Up.EventBanner.ReSample('1920','900').URL"
-             <% else %>
-                data-image-src="$ThemeDir/img/home-event-banner.jpg"
-             <% end_if %>
-        >
-            <div class="container">
-                <h2 class="heading text-center">Upcoming Event: <span class="color2">$Title</span>
-                    <span class="sub-heading">$Up.EventSummary</span>
-                    <span class="icon-divider"></span>
-                </h2>
-                <div class="row">
-                    <div class="col-sm-5">
-                        <div class="next-event">
-                            <% with $Date %>
-                                $Day <span class="event-date">$DayOfMonth</span> $Month,
-                            <% end_with %>
+            <div class="event pt-100 pb-100 home-event-section" data-parallax="scroll"
+                <% if $Up.EventBanner.URL %>
+                 data-image-src="$Up.EventBanner.ReSample('1920','900').URL"
+                <% else %>
+                 data-image-src="$ThemeDir/img/home-event-banner.jpg"
+                <% end_if %>
+            >
+                <div class="container">
+                    <h2 class="heading text-center">Upcoming Event: <span class="color2">$Title</span>
+                        <span class="sub-heading">$Up.EventSummary</span>
+                        <span class="icon-divider"></span>
+                    </h2>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="next-event">
+                                <% with $Date %>
+                                    $Day <span class="event-date">$DayOfMonth</span> $Month,
+                                <% end_with %>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <ul class="timer" data-date="$Date $StartTime">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
-                            <li><span class="days">0</span>days</li>
-                            <li><span class="hours">0</span>hrs</li>
-                            <li><span class="minutes">00</span>min</li>
-                            <li><span class="seconds">00</span>sec</li>
-                        </ul>
+                        <div class="col-sm-7">
+                            <ul class="timer" data-date="$Date $StartTime">           <!-- Put event Date in YYYY/MM/DD hh:mm:ss format -->
+                                <li><span class="days">0</span>days</li>
+                                <li><span class="hours">0</span>hrs</li>
+                                <li><span class="minutes">00</span>min</li>
+                                <li><span class="seconds">00</span>sec</li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-sm-12 mt-20">
+                            <div class="event-details">
+                                <p>$SummaryText</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-sm-12 mt-20">
-                        <div class="event-details">
-                            <p>$SummaryText</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="row mt-40">
-                    <div class="col-sm-3">
-                        <div class="icon-box-5">
-                            <div class="icon-box-icon">
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            </div>
-                            <div class="icon-box-content">
-                                <h5 class="heading">$Location</h5>
+                    <div class="row mt-40">
+                        <div class="col-sm-3">
+                            <div class="icon-box-5">
+                                <div class="icon-box-icon">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                </div>
+                                <div class="icon-box-content">
+                                    <h5 class="heading">$Location</h5>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="icon-box-5">
-                            <div class="icon-box-icon">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
-                            </div>
-                            <div class="icon-box-content">
-                                <h5 class="heading">Starts at $StartTime.Nice</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="icon-box-5">
-                            <div class="icon-box-icon">
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                            </div>
-                            <div class="icon-box-content">
-                                <h5 class="heading">Space for 1000</h5>
+                        <div class="col-sm-3">
+                            <div class="icon-box-5">
+                                <div class="icon-box-icon">
+                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                </div>
+                                <div class="icon-box-content">
+                                    <h5 class="heading">Starts at $StartTime.Nice</h5>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="icon-box-5">
-                            <div class="icon-box-icon">
-                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        <div class="col-sm-3">
+                            <div class="icon-box-5">
+                                <div class="icon-box-icon">
+                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                </div>
+                                <div class="icon-box-content">
+                                    <h5 class="heading">Space for 1000</h5>
+                                </div>
                             </div>
-                            <div class="icon-box-content">
-                                <h5 class="heading">Award Ceremony</h5>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="icon-box-5">
+                                <div class="icon-box-icon">
+                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                </div>
+                                <div class="icon-box-content">
+                                    <h5 class="heading">Award Ceremony</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row text-center mt-60">
-                    <a href="$Link" class="btn btn-primary">View Event</a>
+                    <div class="row text-center mt-60">
+                        <a href="$Link" class="btn btn-primary">View Event</a>
+                    </div>
                 </div>
             </div>
-        </div>
     <% end_with %>
 <% end_if %>
 
