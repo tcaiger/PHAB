@@ -34,6 +34,10 @@
                         <% if $Date %><span>$Date.Long</span><% else %><span>TBC</span><% end_if %>
                     </div>
                     <ul class="social mt-30 mb-0">
+                        <li class="fb-like">
+                            <div class="fb-like" data-href="$GETUrl" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                        </li>
+                        <br>
                         <li><a href="#"><i class=" fa fa-facebook"></i></a></li>
                     </ul>
                 </div>

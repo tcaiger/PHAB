@@ -2,8 +2,8 @@
 
 class PasifikaPage extends Page {
 
-    private static $can_be_root = false;
-    private static $allowed_children = 'none';
+    //private static $can_be_root = false;
+    //private static $allowed_children = 'none';
 
     private static $db = [
         'PageIntro'    => 'Varchar(200)',

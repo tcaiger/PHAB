@@ -14,28 +14,31 @@ class HomePage extends Page {
         'Bullet3'           => 'Varchar(200)',
         'Bullet4'           => 'Varchar(200)',
         'SectionSubheading' => 'Varchar(200)',
-        'Box1Heading' => 'Varchar(200)',
-        'Box1Text' => 'Varchar(200)',
-        'Box2Heading' => 'Varchar(200)',
-        'Box2Text' => 'Varchar(200)',
-        'Box3Heading' => 'Varchar(200)',
-        'Box3Text' => 'Varchar(200)',
-        'Box3Heading' => 'Varchar(200)',
-        'Box3Text' => 'Varchar(200)',
-        'Box4Heading' => 'Varchar(200)',
-        'Box4Text' => 'Varchar(200)',
-        'Box5Heading' => 'Varchar(200)',
-        'Box5Text' => 'Varchar(200)',
-        'Box6Heading' => 'Varchar(200)',
-        'Box6Text' => 'Varchar(200)',
-        'Event' => 'Boolean',
-        'EventSummary' => 'Text'
+        'Box1Heading'       => 'Varchar(200)',
+        'Box1Text'          => 'Varchar(200)',
+        'Box2Heading'       => 'Varchar(200)',
+        'Box2Text'          => 'Varchar(200)',
+        'Box3Heading'       => 'Varchar(200)',
+        'Box3Text'          => 'Varchar(200)',
+        'Box3Heading'       => 'Varchar(200)',
+        'Box3Text'          => 'Varchar(200)',
+        'Box4Heading'       => 'Varchar(200)',
+        'Box4Text'          => 'Varchar(200)',
+        'Box5Heading'       => 'Varchar(200)',
+        'Box5Text'          => 'Varchar(200)',
+        'Box6Heading'       => 'Varchar(200)',
+        'Box6Text'          => 'Varchar(200)',
+        'Clubs'             => 'Int',
+        'Members'           => 'Int',
+        'Mentors'           => 'Int',
+        'Event'             => 'Boolean',
+        'EventSummary'      => 'Text'
     );
 
     private static $has_one = array(
         'BannerImage1' => 'PHABImage',
         'BannerImage2' => 'PHABImage',
-        'EventBanner' => 'PHABImage'
+        'EventBanner'  => 'PHABImage'
     );
 
     public function getCMSFields($member = null) {
@@ -77,6 +80,10 @@ class HomePage extends Page {
             HeaderField::create('Box6Header', 'Box 6', '4'),
             TextField::create('Box6Heading', 'Heading'),
             TextField::create('Box6Text', 'Text'),
+            HeaderField::create('NumbersHeader', 'Numbers', '4'),
+            NumericField::create('Clubs'),
+            NumericField::create('Members'),
+            NumericField::create('Mentors'),
             HeaderField::create('EventHeader', 'Upcoming Event'),
             FieldGroup::create(
                 CheckboxField::create('Event', '')
@@ -92,7 +99,7 @@ class HomePage extends Page {
         $bannerImg2->setFolderName($folderDir);
 
         // Remove delicate fields from content authors
-        if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
+        if ( ! Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
             $fields->removebyName(array(
                 'BannerImage1',
                 'BannerImage2',
@@ -143,7 +150,7 @@ class HomePage_Controller extends Page_Controller {
     /**
      * @return DataObject
      */
-    public function getUpcomingEvent(){
+    public function getUpcomingEvent() {
         return EventPage::get()->Sort('Date', 'ASC')->first();
     }
 }

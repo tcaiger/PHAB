@@ -27,7 +27,9 @@ class Page_Controller extends ContentController {
             ));
     }
 
-
+    /**
+     * @return BootstrapForm
+     */
     public function EnquiryForm() {
 
         $fields = new FieldList(
@@ -56,6 +58,11 @@ class Page_Controller extends ContentController {
         return $form;
     }
 
+    /**
+     * @param $data
+     * @param $form
+     * @return bool|SS_HTTPResponse
+     */
     function SubmitEnquiryForm($data, $form) {
 
         // Get enquiry data
@@ -100,5 +107,16 @@ class Page_Controller extends ContentController {
         if ($page = DataObject::get_one($pagetype)) {
             return $page->Link();
         }
+    }
+
+    /**
+     * @return string
+     */
+    public function GetUrl() {
+        $base = Director::absoluteBaseURL();
+        $base = trim($base, "/");
+        $url = $base . $_SERVER['REQUEST_URI'];
+
+        return $url;
     }
 }

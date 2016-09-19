@@ -29,7 +29,8 @@ class GalleryPage extends Page {
                     ->addComponent(
                         new GridFieldBulkUpload()
                     )
-                )
+                )->setDescription('Image should be no wider than <strong>1000px</strong>, no higher than <strong>1000px</strong> and no bigger than <strong>1MB</strong>. Max of 18 images'),
+
         ], 'Metadata');
 
         // Add the orderablerows component if the parent object has an ID
