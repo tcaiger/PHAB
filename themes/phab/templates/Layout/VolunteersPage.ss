@@ -21,59 +21,7 @@
     <div class="clearfix"></div>
 </div>
 
-
-<div class="container pt-100 pb-100">
-    <h2 class="heading text-center">Icon Box <span class="color2">Style 2</span></h2>
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="icon-box-2">            <!-- ***** Icon Box Style 2 ***** -->
-                <div class="icon-box-icon">
-                    <i class="fa fa-rocket" aria-hidden="true"></i>
-                </div>
-                <div class="icon-box-content">
-                    <h5 class="heading">Work Together</h5>
-                    <span>We believe in working towards the common goal.</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="icon-box-2">            <!-- ***** Icon Box Style 2 ***** -->
-                <div class="icon-box-icon">
-                    <i class="fa fa-diamond" aria-hidden="true"></i>
-                </div>
-                <div class="icon-box-content">
-                    <h5 class="heading">Our Leadership</h5>
-                    <span>We believe in working towards the common goal.</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="icon-box-2">            <!-- ***** Icon Box Style 2 ***** -->
-                <div class="icon-box-icon">
-                    <i class="fa fa-cubes" aria-hidden="true"></i>
-                </div>
-                <div class="icon-box-content">
-                    <h5 class="heading">Better World</h5>
-                    <span>We believe in working towards the common goal.</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="cta-dark-full">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h3>Bring your career on the right track. Begin today!</h3>
-                <br/><br/>
-                <a href="contact.html" class="btn btn-primary">Get Started &nbsp;&nbsp; <i class="fa fa-arrow-right"></i></a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="bgcolor3 pt-80">
+<div class="bgcolor3 mt-60 mb-80 pt-80">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -94,12 +42,24 @@
                     </div>
                 </div>
                 <div class="owl-nav">
-                    <span class="owl-left"><i class="fa fa-angle-left"      ></i></span>
+                    <span class="owl-left"><i class="fa fa-angle-left"></i></span>
                     <span class="owl-right"><i class="fa fa-angle-right"></i></span>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+<div class="container mt-40 mb-100">
+    <div class="row">
+        <h3 class="heading text-center">Get Involved Now!</h3>
+        $EnquiryForm
+    </div>
+</div>
+
+
+
+
 
 

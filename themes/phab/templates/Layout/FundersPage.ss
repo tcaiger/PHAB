@@ -117,36 +117,55 @@
 
 <div class="clearfix"></div>
 
-<div class="container mt-40 mb-100">
+
+<div class="container pt-40 pb-100">
+    <h2 class="heading text-center">A Big Thank You To All <span class="color2">Our Funders</span></h2>
     <div class="row">
-        <h3 class="heading text-center">Get Involved Now!</h3>
-        <form>
-            <div class="col-sm-4">
-                <div class="form-group">
-                    <input id="contact-name" type="text" class="form-control">
-                    <label for="contact-name">Your Name</label>
+        <div class="col-sm-4">
+            <div class="icon-box-2">            <!-- ***** Icon Box Style 2 ***** -->
+                <div class="icon-box-icon">
+                    <i class="fa fa-rocket" aria-hidden="true"></i>
+                </div>
+                <div class="icon-box-content">
+                    <h5 class="heading">Auckland Council</h5>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="form-group">
-                    <input id="contact-email" type="text" class="form-control">
-                    <label for="contact-email">Email ID</label>
+        </div>
+        <div class="col-sm-4">
+            <div class="icon-box-2">            <!-- ***** Icon Box Style 2 ***** -->
+                <div class="icon-box-icon">
+                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                </div>
+                <div class="icon-box-content">
+                    <h5 class="heading">Company Two</h5>
+                    <span>Lorem ipsum dolor sit amet, consectetur..</span>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="form-group">
-                    <input id="contact-number" type="text" class="form-control">
-                    <label for="contact-number">Phone Number</label>
+        </div>
+        <div class="col-sm-4">
+            <div class="icon-box-2">            <!-- ***** Icon Box Style 2 ***** -->
+                <div class="icon-box-icon">
+                    <i class="fa fa-cubes" aria-hidden="true"></i>
+                </div>
+                <div class="icon-box-content">
+                    <h5 class="heading">Company 3</h5>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing..</span>
                 </div>
             </div>
-            <div class="col-sm-12">
-                <div class="form-group">
-                    <textarea id="contact-message" class="form-control" rows="6"></textarea>
-                    <label for="contact-message">Your Message</label>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary center-block">Send Query</button>
-        </form>
+        </div>
     </div>
 </div>
 
+
+<div class="cta-dark-full">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h3>Make a real difference. Get involved today.</h3>
+                <br/><br/>
+                <a href="$PageLink('ContactPage')" class="btn btn-primary">Contact Us &nbsp;&nbsp; <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
