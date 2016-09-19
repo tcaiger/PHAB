@@ -21585,6 +21585,9 @@ website:    http://www.themepunch.com
 .post-tabs .tp-thumb:hover .tp-thumb-title {
   color: #000; }
 
+html {
+  box-sizing: border-box; }
+
 .mt-30 {
   margin-top: 30px; }
 
@@ -21638,5 +21641,8 @@ website:    http://www.themepunch.com
 
 .event-full {
   min-height: 520px; }
+
+.fb-like {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=main.min.css.map */

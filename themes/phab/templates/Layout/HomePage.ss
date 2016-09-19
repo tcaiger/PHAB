@@ -251,7 +251,7 @@
             <div class="col-sm-5 mt-60">
                 <div class="facebook-container mt-40 bgcolor3">
                     <%--<h4>Like Us On Facebook</h4>--%>
-                    <div class="fb-page" data-href="https://www.facebook.com/phabnz" data-tabs="timeline" data-width="400" data-height="360" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                    <div class="fb-page" data-href="https://www.facebook.com/phabnz" data-tabs="timeline" data-width="400" data-height="320" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
                         <blockquote cite="https://www.facebook.com/phabnz" class="fb-xfbml-parse-ignore">
                             <a href="https://www.facebook.com/phabnz">PHAB NZ</a></blockquote>
                     </div>
@@ -393,19 +393,19 @@
                         <div class="facts">
                             <div class="fact col-sm-4">
                                 <span class="head">
-                                    <span class="count" data-from="0" data-to="30" data-speed="3000"></span> Clubs
+                                    <span class="count" data-from="0" data-to="$Clubs" data-speed="3000"></span> Clubs
                                 </span>
                                 <span class="foot">With 9 braches in function, we are very soon inaugurating the 10th one!</span>
                             </div>
                             <div class="fact col-sm-4">
                                 <span class="head">
-                                    <span class="count" data-from="0" data-to="156" data-speed="3000"></span> Members
+                                    <span class="count" data-from="0" data-to="$Members" data-speed="3000"></span> Members
                                 </span>
                                 <span class="foot">Average number of students per class. Offering world class education.</span>
                             </div>
                             <div class="fact col-sm-4">
                                 <span class="head">
-                                    <span class="count" data-from="0" data-to="15" data-speed="3000"></span> Mentors
+                                    <span class="count" data-from="0" data-to="$Mentors" data-speed="3000"></span> Mentors
                                 </span>
                                 <span class="foot">Best <i>"Student and Teacher Ratio"</i> in the world. Award 10 times in a row.</span>
                             </div>
