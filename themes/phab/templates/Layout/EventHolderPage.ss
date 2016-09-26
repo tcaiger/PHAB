@@ -44,7 +44,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col-sm-12">
-                    <h2 class="heading text-center">Recent <span class="color2">Events</span>
+                    <h2 class="heading text-center">Our Past <span class="color2">Events</span>
                         <span class="sub-heading">Here are some of the recent events we had. We hope you enjoyed them.</span>
                         <span class="icon-divider"></span>
                     </h2>

@@ -88,6 +88,7 @@ class HomePage extends Page {
             FieldGroup::create(
                 CheckboxField::create('Event', '')
             )->setTitle('Include Upcoming Event'),
+            LiteralField::create('EventLiteral', '<p>If selected, the soonest upcoming event will be displayed at the bottom of the homepage.<br>You will also need to add the event description and a banner image to go behind the event information.<br>The soonest upcoming event is currently <strong>'. $this->getUpcomingEvent()->Title . '</strong>.</p>'),
             TextAreaField::create('EventSummary'),
             $eventBanner = UploadField::create('EventBanner', 'Event Banner Image')->setDescription('Image should be <strong>1920px</strong> wide and <strong>900px</strong> high'),
 
@@ -111,6 +112,14 @@ class HomePage extends Page {
 
         return $fields;
     }
+
+    /**
+     * @return DataObject
+     */
+    public function getUpcomingEvent() {
+        return EventPage::get()->filter('Date:GreaterThanOrEqual', strtotime('0 Days'))->Sort('Date', 'ASC')->first();
+    }
+
 
 }
 
@@ -151,6 +160,6 @@ class HomePage_Controller extends Page_Controller {
      * @return DataObject
      */
     public function getUpcomingEvent() {
-        return EventPage::get()->Sort('Date', 'ASC')->first();
+        return EventPage::get()->filter('Date:GreaterThanOrEqual', strtotime('0 Days'))->Sort('Date', 'ASC')->first();
     }
 }
