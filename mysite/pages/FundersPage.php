@@ -6,7 +6,12 @@ class FundersPage extends Page {
     private static $allowed_children = 'none';
 
     private static $db = [
+        'PageHeading' => 'Varchar'
+    ];
 
+    private static $has_one = [
+        'IntroImage' => 'PHABImage',
+        'Document' => 'File'
     ];
 
     private static $has_many = [
@@ -18,19 +23,21 @@ class FundersPage extends Page {
         $fields = parent::getCMSFields();
 
         $fields->addFieldsToTab('Root.Main', [
+            TextField::create('PageHeading'),
+            $image = UploadField::create('IntroImage')->setDescription('Image should be <strong>770px</strong> wide and <strong>700px</strong> high'),
             HTMLEditorField::create('Content'),
+            $document = UploadField::create('Document'),
             GridField::create('Logos', 'Logos', $this->Logos(),
                 GridFieldConfig_RecordEditor::create()
                     ->addComponents(
                         new GridFieldOrderableRows('SortOrder'),
                         new GridFieldBulkUpload()
                     )
-            ),
-            TextareaField::create('FooterContent')
+            )
         ], 'Metadata');
 
         // Remove delicate fields from content authors
-        if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
+        if ( ! Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
             $fields->removebyName(array(
                 'Title',
                 'URLSegment',
@@ -38,6 +45,11 @@ class FundersPage extends Page {
                 'Dependent'
             ));
         }
+
+        // Place images into a specific folder
+        $folderDir = 'Uploads/Pages/';
+        $image->setFolderName($folderDir);
+        $document->setFolderName($folderDir);
 
         return $fields;
     }

@@ -6,7 +6,16 @@ class VolunteersPage extends Page {
     private static $allowed_children = 'none';
 
     private static $db = [
+        'PageHeading' => 'Varchar'
+    ];
 
+    private static $has_one = [
+        'IntroImage' => 'PHABImage',
+        'Document' => 'File'
+    ];
+
+    private static $has_many = [
+        'Logos' => 'Logo'
     ];
 
     public function getCMSFields($member = null) {
@@ -14,8 +23,10 @@ class VolunteersPage extends Page {
         $fields = parent::getCMSFields();
 
         $fields->addFieldsToTab('Root.Main', [
-
-
+            TextField::create('PageHeading'),
+            $image = UploadField::create('IntroImage')->setDescription('Image should be <strong>770px</strong> wide and <strong>700px</strong> high'),
+            HTMLEditorField::create('Content'),
+            $document = UploadField::create('Document')
         ], 'Metadata');
 
         // Remove delicate fields from content authors
@@ -26,6 +37,11 @@ class VolunteersPage extends Page {
                 'MenuTitle'
             ));
         }
+
+        // Place images into a specific folder
+        $folderDir = 'Uploads/Pages/';
+        $image->setFolderName($folderDir);
+        $document->setFolderName($folderDir);
 
         return $fields;
     }

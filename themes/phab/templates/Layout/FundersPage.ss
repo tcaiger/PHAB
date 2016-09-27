@@ -1,36 +1,60 @@
 <% include TopBanner %>
 
 
-<div class="container mt-100 mb-20">
+<div class="container mt-100 mb-40">
     <div class="row">
         <div class="col-sm-4">
             <div class="course-intro">
-                <img src="$ThemeDir/images/course-single.jpg" class="img-responsive" alt="">
+                <img src="$IntroImage.ReSample('770','700').URL" class="img-responsive mb-15" alt="">
             </div>
         </div>
         <div class="col-sm-8">
             <div class="course-full">
-                <h2 class="heading">Get Involved With PHAB</h2>
-                <%--<div class="personal">--%>
-                    <%--<div>--%>
-                        <%--<span>Report Title</span>--%>
-                        <%--<span>Financial Statement</span>--%>
-                    <%--</div>--%>
-                    <%--<div>--%>
-                        <%--<span>Duration</span>--%>
-                        <%--<span>12 Months</span>--%>
-                    <%--</div>--%>
-                    <%--<div>--%>
-                        <%--<span>Year</span>--%>
-                        <%--<span>2015</span>--%>
-                    <%--</div>--%>
-                    <%--<div>--%>
-                        <%--<a href="#" class="btn btn-primary">Download PDF</a>--%>
-                    <%--</div>--%>
-                <%--</div>--%>
-                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+                <h2 class="heading">$PageHeading</h2>
+                <div class="personal">
+                    <div>
+                        <span>Document Title</span>
+                        <span>PHAB Brochure</span>
+                    </div>
+                    <div>
+                        <span>Duration</span>
+                        <span>12 Months</span>
+                    </div>
+                    <div>
+                        <span>Year</span>
+                        <span>2016</span>
+                    </div>
+                    <div>
+                        <a href="$Document.URL" target="_blank" class="btn btn-primary">Download PDF</a>
+                    </div>
+                </div>
+                $Content
+            </div>
+        </div>
+    </div>
+    <div class="row mt-60">
+        <div class="col-sm-4">
+            <label>PHAB Members</label>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                    156
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <label>Clubs In New Zealand</label>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                    82
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <label>Volunteers and Mentors</label>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                    63
+                </div>
             </div>
         </div>
     </div>
@@ -55,11 +79,11 @@
 </div>
 
 
-<div class="cta-dark-full">
+<div class="cta-light-full cta-tint" style="background-image: url('$ThemeDir/img/cta-background.jpg')">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 text-center">
-                <h3>Make a real difference. Get involved today.</h3>
+            <div class="col-sm-12 text-center cta-content">
+                <h3>Make a difference. Get involved today.</h3>
                 <br/><br/>
                 <a href="$PageLink('ContactPage')" class="btn btn-primary">Contact Us &nbsp;&nbsp; <i class="fa fa-arrow-right"></i></a>
             </div>

@@ -21594,6 +21594,21 @@ html {
 .mb-0 {
   margin-bottom: 0; }
 
+.mb-15 {
+  margin-bottom: 15px; }
+
+.cta-tint {
+  background-position: top center;
+  position: relative; }
+  .cta-tint:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color: rgba(250, 250, 250, 0.8); }
+
 @media screen and (min-width: 768px) {
   .enquiry-form .CompositeField {
     font-size: 0; }

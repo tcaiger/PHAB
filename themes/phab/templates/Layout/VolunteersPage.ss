@@ -5,16 +5,30 @@
     <div class="row">
         <div class="col-sm-4">
             <div class="course-intro">
-                <img src="$ThemeDir/images/course-single.jpg" class="img-responsive" alt="">
+                <img src="$IntroImage.ReSample('770','700').URL" class="img-responsive mb-15" alt="">
             </div>
         </div>
         <div class="col-sm-8">
             <div class="course-full">
-                <h2 class="heading">Get Involved With PHAB</h2>
-                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
-                <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+                <h2 class="heading">$PageHeading</h2>
+                <div class="personal">
+                    <div>
+                        <span>Document Title</span>
+                        <span>PHAB Brochure</span>
+                    </div>
+                    <div>
+                        <span>Duration</span>
+                        <span>12 Months</span>
+                    </div>
+                    <div>
+                        <span>Year</span>
+                        <span>2016</span>
+                    </div>
+                    <div>
+                        <a href="$Document.URL" target="_blank" class="btn btn-primary">Download PDF</a>
+                    </div>
+                </div>
+                $Content
             </div>
         </div>
     </div>
