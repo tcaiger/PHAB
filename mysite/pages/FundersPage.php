@@ -9,13 +9,24 @@ class FundersPage extends Page {
 
     ];
 
+    private static $has_many = [
+        'Logos' => 'Logo'
+    ];
+
     public function getCMSFields($member = null) {
 
         $fields = parent::getCMSFields();
 
         $fields->addFieldsToTab('Root.Main', [
-
-
+            HTMLEditorField::create('Content'),
+            GridField::create('Logos', 'Logos', $this->Logos(),
+                GridFieldConfig_RecordEditor::create()
+                    ->addComponents(
+                        new GridFieldOrderableRows('SortOrder'),
+                        new GridFieldBulkUpload()
+                    )
+            ),
+            TextareaField::create('FooterContent')
         ], 'Metadata');
 
         // Remove delicate fields from content authors
