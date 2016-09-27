@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-sm-4">
             <div class="course-intro">
-                <img src="$IntroImage.ReSample('770','700').URL" class="img-responsive mb-15" alt="">
+                <img src="$IntroImage.ReSample('770','770').URL" class="img-responsive mb-15" alt="">
             </div>
         </div>
         <div class="col-sm-8">

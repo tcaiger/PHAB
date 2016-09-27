@@ -24,7 +24,7 @@ class VolunteersPage extends Page {
 
         $fields->addFieldsToTab('Root.Main', [
             TextField::create('PageHeading'),
-            $image = UploadField::create('IntroImage')->setDescription('Image should be <strong>770px</strong> wide and <strong>700px</strong> high'),
+            $image = UploadField::create('IntroImage')->setDescription('Image should be <strong>770px</strong> wide and <strong>770px</strong> high'),
             HTMLEditorField::create('Content'),
             $document = UploadField::create('Document')
         ], 'Metadata');
