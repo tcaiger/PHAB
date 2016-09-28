@@ -21660,4 +21660,12 @@ html {
 .fb-like {
   margin-bottom: 20px; }
 
+.course-card {
+  padding: 4px 4px 10px 4px; }
+  .course-card .course-detail .course-features {
+    margin-top: 0; }
+    .course-card .course-detail .course-features li {
+      display: block;
+      margin: 10px; }
+
 /*# sourceMappingURL=main.min.css.map */

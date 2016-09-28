@@ -6,7 +6,7 @@ class ClubPage extends Page {
     private static $allowed_children = 'none';
 
     private static $db = [
-        'SummaryText' => 'Varchar(200)',
+        'SummaryText' => 'Varchar(100)',
         'Location'    => 'Varchar(100)',
         'Time'        => 'Varchar',
         'Day'   => 'Varchar',
@@ -37,7 +37,7 @@ class ClubPage extends Page {
         $fields = parent::getCMSFields();
 
         $fields->addFieldsToTab('Root.Main', [
-            TextareaField::create('SummaryText')->setDescription('This text is displayed on the clubs overview page.'),
+            TextField::create('SummaryText')->setDescription('This text is displayed on the clubs overview page.'),
             $bannerImg = UploadField::create('BannerImage')->setDescription('Image should be <strong>900px</strong> wide and <strong>600px</strong> high.'),
             TextField::create('Location')
                 ->setDescription('Albany House'),
