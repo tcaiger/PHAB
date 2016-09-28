@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-    <div class="row mt-60">
+    <div class="row mt-0">
         <div class="col-sm-4">
             <label>PHAB Members</label>
             <div class="progress">
