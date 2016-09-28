@@ -205,28 +205,7 @@
         </ul>
     </div>
 </div>
-<!-- Revolution Slider Ends -->
 
-<%--<div class="bgcolor2 text-center">--%>
-<%--<div class="container">--%>
-<%--<div class="row">--%>
-<%--<div class="col-sm-12">--%>
-<%--<button class="btn-announce"><i class="fa fa-bullhorn"></i></button>--%>
-<%--<div class="announcement">--%>
-<%--<div class="announcement-text">--%>
-<%--<span>School will remain closed on account of heavy rains</span>--%>
-<%--<span>Exams postponed by 10 days due to Annual Day celebrations</span>--%>
-<%--<span>Late Fee of 10% to be charged from defaulters</span>--%>
-<%--</div>--%>
-<%--<div class="owl-nav">--%>
-<%--<span class="owl-left"><i class="fa fa-angle-left"></i></span>--%>
-<%--<span class="owl-right"><i class="fa fa-angle-right"></i></span>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
 
 <div class="mb-100">
     <div class="container">
@@ -264,7 +243,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h2 class="heading text-center">About PHAB <span class="color2">Clubs & Events</span>
+                    <h2 class="heading text-center">PHAB <span class="color2">Clubs & Events</span>
                         <span class="sub-heading">$SectionSubheading</span>
                         <span class="icon-divider"></span>
                     </h2>
