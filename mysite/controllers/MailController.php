@@ -14,8 +14,8 @@ class MailController extends Controller {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'tom@weareonfire.co.nz';
-        $mail->Password = 'Pin!tom32';
+        $mail->Username = 'caigertom@gmail.com';
+        $mail->Password = 'quetza1!';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
