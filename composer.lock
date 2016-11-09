@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
-            "version": "v2.1.6",
+            "version": "v2.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
-                "reference": "29482dbd17e42c3de364aa3d46d20ba65175c9d3"
+                "reference": "caed3813eed940b7d1823284e2f521035b5351c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/29482dbd17e42c3de364aa3d46d20ba65175c9d3",
-                "reference": "29482dbd17e42c3de364aa3d46d20ba65175c9d3",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/caed3813eed940b7d1823284e2f521035b5351c7",
+                "reference": "caed3813eed940b7d1823284e2f521035b5351c7",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "gridfield bulk upload",
                 "silverstripe"
             ],
-            "time": "2016-04-11 19:31:21"
+            "time": "2016-10-26 08:51:31"
         },
         {
             "name": "composer/installers",
