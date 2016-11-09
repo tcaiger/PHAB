@@ -1,19 +1,20 @@
 {
-  "name": "OnfireDigital",
-  "version": "0.0.1",
-  "author": "Nathan",
-  "contact": "nathan@weareonfire.co.nz",
-  "description": "Package file for Onfire Digital Project",
-  "repository": {},
+  "name": "taskrunner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "time-grunt": "*",
     "grunt-autoprefixer": "*",
-    "grunt-contrib-cssmin": "*"
-  },
-  "devDependencies": {
+    "grunt-contrib-cssmin": "*",
     "grunt": "*",
     "grunt-sass": "*",
     "grunt-contrib-watch": "*",
     "load-grunt-tasks": "*"
-  }
+  },
+  "author": "",
+  "license": "ISC"
 }
