@@ -118,30 +118,32 @@
     </div>
 </div>
 
-<div class="bgcolor3 pt-80">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="testimonials">
-                    <% loop $Testimonials %>
-                        <div class="testimonial-item">
-                            <% if $AuthorImage %>
-                                <img src="$AuthorImage.ReSample('350','520').URL" class="testimonial-img" alt="$AuthorImage.URL">
-                            <% else %>
-                                <img src="$ThemeDir/images/testi-2.png"" class="testimonial-img" alt="">
-                            <% end_if %>
-                            <div class="testimonial-text">
-                                <p>$Quote</p>
-                                <span class="testimonial-by">$Author</span>
+<% if $IncludeTestimonials %>
+    <div class="bgcolor3 pt-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="testimonials">
+                        <% loop $Testimonials %>
+                            <div class="testimonial-item">
+                                <% if $AuthorImage %>
+                                    <img src="$AuthorImage.ReSample('350','520').URL" class="testimonial-img" alt="$AuthorImage.URL">
+                                <% else %>
+                                    <img src="$ThemeDir/images/testi-2.png"" class="testimonial-img" alt="">
+                                <% end_if %>
+                                <div class="testimonial-text">
+                                    <p>$Quote</p>
+                                    <span class="testimonial-by">$Author</span>
+                                </div>
                             </div>
-                        </div>
-                    <% end_loop %>
-                </div>
-                <div class="owl-nav">
-                    <span class="owl-left"><i class="fa fa-angle-left"></i></span>
-                    <span class="owl-right"><i class="fa fa-angle-right"></i></span>
+                        <% end_loop %>
+                    </div>
+                    <div class="owl-nav">
+                        <span class="owl-left"><i class="fa fa-angle-left"></i></span>
+                        <span class="owl-right"><i class="fa fa-angle-right"></i></span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+<% end_if %>

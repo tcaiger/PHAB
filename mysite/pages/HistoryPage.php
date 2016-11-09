@@ -19,7 +19,8 @@ class HistoryPage extends Page {
         'M3Month'       => 'Varchar',
         'M3Heading'    => 'Varchar',
         'M3Text'       => 'Varchar(200)',
-        'Blockquote' => 'Varchar(200)'
+        'Blockquote' => 'Varchar(200)',
+        'IncludeTestimonials' => 'Boolean'
     ];
 
     private static $has_many = [
@@ -48,15 +49,19 @@ class HistoryPage extends Page {
             TextField::create('M3Heading', 'Milestone 3 Heading'),
             TextAreaField::create('M3Text', 'Milestone 3 Text'),
             HeaderField::create('QuoteHeading', 'Blockquote', '4'),
-            TextAreaField::create('Blockquote'),
-            HeaderField::create('TestimonialsHeader', 'Testimonials Section', '4'),
+            TextAreaField::create('Blockquote')
+
+        ], 'Metadata');
+
+        $fields->addFieldsToTab('Root.Testimonials', [
+            CheckboxField::create('IncludeTestimonials'),
             GridField::create('Testimonials', 'Testimonials', $this->Testimonials(),
                 GridFieldConfig_RecordEditor::create()
                     ->addComponents(
                         new GridFieldOrderableRows('SortOrder')
                     )
             )
-        ], 'Metadata');
+        ]);
 
         // Remove delicate fields from content authors
         if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {

@@ -42,34 +42,23 @@
                         <% end_with %>
                     </ul>
                 </div>
-                <div class="col-sm-2 footer-widget">            <!-- Footer Widget - Affiliations -->
-                    <h5 class="heading inverse">Affiliations &amp; <span class="color2">Awards</span></h5>
-                    <ul class="affiliations">
-                        <li><img src="$ThemeDir/images/university-1.png" class="img-responsive" alt=""></li>
-                        <li><img src="$ThemeDir/images/university-2.png" class="img-responsive" alt=""></li>
-                    </ul>
-                </div>
-                <div class="col-sm-2 footer-widget">            <!-- Footer Widget - Policies -->
+                <div class="col-sm-3 footer-widget">            <!-- Footer Widget - Policies -->
                     <h5 class="heading inverse">External <span class="color2">Links</span></h5>
                     <ul class="quick-links">
-                        <li><a href="icon-boxes.html">Pasifika</a></li>
-                        <li><a href="accordion.html">The Cube</a></li>
-                        <li><a href="tables.html">Another Link</a></li>
-                        <li><a href="tabs.html">Another Link</a></li>
-                        <li><a href="modals.html">Another Link</a></li>
-                        <li><a href="progress-bars.html">Another Link</a></li>
+                        <li><a href="http://thecube.org.nz/" target="_blank">The Cube</a></li>
+                        <li><a href="http://www.linkage.co.nz/" target="_blank">Linkage NZ</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-2 footer-widget">            <!-- Footer Widget - Contact Info -->
+                <div class="col-sm-3 footer-widget">            <!-- Footer Widget - Contact Info -->
                     <h5 class="heading inverse">Contact <span class="color2">Us</span></h5>
                     <% with $GetPage('ContactPage') %>
                         <address>
                             <strong>PHAB</strong>
                             <span>$Street,<br/> $Suburb,<br/> $City</span>
                         </address>
-                        <a href="tel:+4525644563" class="phone"><i class="fa fa-phone fa-fw"></i> +452 564 4563</a>
+                        <a href="tel:+4525644563" class="phone"><i class="fa fa-phone fa-fw"></i> $Phone</a>
                         <br>
-                        <a href="mailto:test@example.com" class="email"><i class="fa fa-envelope fa-fw"></i> info@company.com</a>
+                        <a href="mailto:test@example.com" class="email"><i class="fa fa-envelope fa-fw"></i> $Email</a>
                     <% end_with %>
                 </div>
             </div>
@@ -83,9 +72,9 @@
                 </div>
                 <div class="col-sm-6 text-center">
                     <ul class="social">          <!-- Social Media Links -->
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/phabnz/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <%--<li><a href="#"><i class="fa fa-twitter"></i></a></li>--%>
+                        <%--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>--%>
                     </ul>
                 </div>
             </div>

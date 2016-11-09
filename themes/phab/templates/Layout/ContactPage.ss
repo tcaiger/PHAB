@@ -18,11 +18,11 @@
             <br/>
             <h5 class="heading">We're <span class="color2">Social</span></h5>
             <ul class="social">
-                <li><a href="#"><i class=" fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class=" fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class=" fa fa-pinterest-p"></i></a></li>
-                <li><a href="#"><i class=" fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class=" fa fa-reddit-alien"></i></a></li>
+                <li><a href="https://www.facebook.com/phabnz/" target="_blank"><i class=" fa fa-facebook"></i></a></li>
+                <%--<li><a href="#"><i class=" fa fa-twitter"></i></a></li>--%>
+                <%--<li><a href="#"><i class=" fa fa-pinterest-p"></i></a></li>--%>
+                <%--<li><a href="#"><i class=" fa fa-linkedin"></i></a></li>--%>
+                <%--<li><a href="#"><i class=" fa fa-reddit-alien"></i></a></li>--%>
             </ul>
         </div>
 

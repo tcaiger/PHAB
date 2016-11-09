@@ -40,24 +40,27 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="testimonials">
+
                     <div class="testimonial-item">
                         <img src="$ThemeDir/images/testi-1.png" class="testimonial-img" alt="">
                         <div class="testimonial-text">
-                            <p>A wonderful serenity has taken possession of my entire soul has taken possession of my entire soul. A wonderful serenity has taken possession of my entire soul has taken.</p>
-                            <span class="testimonial-by">Mrs. Harry Ponting</span>
+                            <p>This new initiative is our response to the national Pasifika Disability Plan.</p>
+                            <span class="testimonial-by">- Faiva Ora.</span>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <img src="$ThemeDir/images/testi-2.png" class="testimonial-img" alt="">
                         <div class="testimonial-text">
                             <p>A wonderful serenity has taken possession of my entire soul has taken possession of my entire soul. A wonderful serenity has taken possession of my entire soul has taken.</p>
-                            <span class="testimonial-by">Mrs. Harry Ponting</span>
+                            <span class="testimonial-by">- Faiva Ora.</span>
                         </div>
                     </div>
+
+
                 </div>
                 <div class="owl-nav">
-                    <span class="owl-left"><i class="fa fa-angle-left"></i></span>
-                    <span class="owl-right"><i class="fa fa-angle-right"></i></span>
+                    <%--<span class="owl-left"><i class="fa fa-angle-left"></i></span>--%>
+                    <%--<span class="owl-right"><i class="fa fa-angle-right"></i></span>--%>
                 </div>
             </div>
         </div>

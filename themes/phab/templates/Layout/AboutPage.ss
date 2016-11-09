@@ -11,12 +11,7 @@
         </div>
         <div class="col-sm-4">
             <aside class="applynow-widget">
-                <img src="$ThemeDir/images/applynow.png" class="img-responsive center-block" alt="">
-                <div class="apply-info text-center">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p class="font20">Admissions are open!</p>
-                    <a href="admission-process.html" class="btn btn-primary">Apply Now</a>
-                </div>
+                <img src="http://placehold.it/360x320">
             </aside>
         </div>
     </div>

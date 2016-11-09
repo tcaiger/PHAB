@@ -6,16 +6,23 @@ class PhusionPage extends Page {
     private static $allowed_children = 'none';
 
     private static $db = [
-
+        'PageIntro'      => 'Varchar(200)',
+        'PageContent'      => 'Text',
+        'Quote'      => 'Text'
     ];
 
     public function getCMSFields($member = null) {
 
         $fields = parent::getCMSFields();
 
+        //$fields->removeByName('Content');
+
         $fields->addFieldsToTab('Root.Main', [
-
-
+            HeaderField::create('MainHeader', 'Main Content', '4'),
+            TextAreaField::create('PageIntro', 'Page Introduction'),
+            HTMLEditorField::create('Content'),
+            HeaderField::create('QuoteHeading', 'Blockquote', '4'),
+            TextareaField::create('Quote', 'Blockquote')
         ], 'Metadata');
 
         // Remove delicate fields from content authors
