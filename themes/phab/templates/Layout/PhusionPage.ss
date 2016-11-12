@@ -10,11 +10,13 @@
                 $Content
             </div>
         </div>
-        <div class="col-sm-4">
-            <aside class="applynow-widget">
-                <img src="http://placehold.it/360x320">
-            </aside>
-        </div>
+        <% if $SideImage.URL %>
+            <div class="col-sm-4">
+                <aside class="applynow-widget">
+                    <img src="$SideImage.ReSample('360','320').URL">
+                </aside>
+            </div>
+        <% end_if %>
     </div>
 </div>
 

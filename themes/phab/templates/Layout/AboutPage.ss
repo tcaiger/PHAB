@@ -9,11 +9,13 @@
                 $Content
             </div>
         </div>
-        <div class="col-sm-4">
-            <aside class="applynow-widget">
-                <img src="http://placehold.it/360x320">
-            </aside>
-        </div>
+        <% if $SideImage.URL %>
+            <div class="col-sm-4">
+                <aside class="applynow-widget">
+                    <img src="$SideImage.ReSample('360','320').URL">
+                </aside>
+            </div>
+        <% end_if %>
     </div>
 </div>
 
@@ -95,15 +97,15 @@
 <%--<div class="clearfix"></div>--%>
 
 <%--<div class="bgcolor3 pt-100 pb-100">--%>
-    <%--<div class="container">--%>
-        <%--<div class="col-md-12">--%>
-            <%--<div class="logo-scroll">--%>
-                <%--<img src="$ThemeDir/images/logo-1.png" alt="">--%>
-                <%--<img src="$ThemeDir/images/logo-2.png" alt="">--%>
-                <%--<img src="$ThemeDir/images/logo-3.png" alt="">--%>
-                <%--<img src="$ThemeDir/images/logo-4.png" alt="">--%>
-                <%--<img src="$ThemeDir/images/logo-5.png" alt="">--%>
-            <%--</div>--%>
-        <%--</div>--%>
-    <%--</div>--%>
+<%--<div class="container">--%>
+<%--<div class="col-md-12">--%>
+<%--<div class="logo-scroll">--%>
+<%--<img src="$ThemeDir/images/logo-1.png" alt="">--%>
+<%--<img src="$ThemeDir/images/logo-2.png" alt="">--%>
+<%--<img src="$ThemeDir/images/logo-3.png" alt="">--%>
+<%--<img src="$ThemeDir/images/logo-4.png" alt="">--%>
+<%--<img src="$ThemeDir/images/logo-5.png" alt="">--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
 <%--</div>--%>

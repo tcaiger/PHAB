@@ -11,15 +11,18 @@ class PhusionPage extends Page {
         'Quote'      => 'Text'
     ];
 
+    private static $has_one = [
+        'SideImage' => 'PHABImage'
+    ];
+
     public function getCMSFields($member = null) {
 
         $fields = parent::getCMSFields();
 
-        //$fields->removeByName('Content');
-
         $fields->addFieldsToTab('Root.Main', [
             HeaderField::create('MainHeader', 'Main Content', '4'),
             TextAreaField::create('PageIntro', 'Page Introduction'),
+            UploadField::create('SideImage')->setDescription('Image should be <strong>360px</strong> wide and <strong>320px</strong> high'),
             HTMLEditorField::create('Content'),
             HeaderField::create('QuoteHeading', 'Blockquote', '4'),
             TextareaField::create('Quote', 'Blockquote')

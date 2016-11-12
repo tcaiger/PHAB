@@ -20,6 +20,10 @@ class AboutPage extends Page {
       'Profiles' => 'Profile'
     ];
 
+    private static $has_one = [
+        'SideImage' => 'PHABImage'
+    ];
+
     public function getCMSFields($member = null) {
 
         $fields = parent::getCMSFields();
@@ -27,6 +31,7 @@ class AboutPage extends Page {
         $fields->addFieldsToTab('Root.Main', [
             HeaderField::create('MainHeader', 'Main Content', '4'),
             TextAreaField::create('PageIntro', 'Page Introduction'),
+            UploadField::create('SideImage')->setDescription('Image should be <strong>360px</strong> wide and <strong>320px</strong> high'),
             HtmlEditorField::create('Content'),
             HeaderField::create('ValuesHeading', 'Values Section', '4'),
             TextField::create('V1Heading', 'Value 1 Heading'),
