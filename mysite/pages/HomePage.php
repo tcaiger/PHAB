@@ -128,7 +128,7 @@ class HomePage_Controller extends Page_Controller {
      * @return DataList|SS_Limitable
      */
     public function getClubsEvents(){
-        $clubs = ClubPage::get()->limit(5);
+        $clubs = ClubPage::get()->filter('IncludeOnHomePage', '1')->limit(5);
         return $clubs;
     }
 
