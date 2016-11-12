@@ -14,20 +14,6 @@ class HomePage extends Page {
         'Bullet3'           => 'Varchar(200)',
         'Bullet4'           => 'Varchar(200)',
         'SectionSubheading' => 'Varchar(200)',
-        'Box1Heading'       => 'Varchar(200)',
-        'Box1Text'          => 'Varchar(200)',
-        'Box2Heading'       => 'Varchar(200)',
-        'Box2Text'          => 'Varchar(200)',
-        'Box3Heading'       => 'Varchar(200)',
-        'Box3Text'          => 'Varchar(200)',
-        'Box3Heading'       => 'Varchar(200)',
-        'Box3Text'          => 'Varchar(200)',
-        'Box4Heading'       => 'Varchar(200)',
-        'Box4Text'          => 'Varchar(200)',
-        'Box5Heading'       => 'Varchar(200)',
-        'Box5Text'          => 'Varchar(200)',
-        'Box6Heading'       => 'Varchar(200)',
-        'Box6Text'          => 'Varchar(200)',
         'Clubs'             => 'Int',
         'Members'           => 'Int',
         'Mentors'           => 'Int',
@@ -62,24 +48,6 @@ class HomePage extends Page {
             TextField::create('Bullet4', 'Bullet 4'),
             HeaderField::create('SectionHeader', 'Clubs And Events', '4'),
             TextAreaField::create('SectionSubheading', 'Clubs And Events Summary'),
-            HeaderField::create('Box1Header', 'Box 1', '4'),
-            TextField::create('Box1Heading', 'Heading'),
-            TextField::create('Box1Text', 'Text'),
-            HeaderField::create('Box2Header', 'Box 2', '4'),
-            TextField::create('Box2Heading', 'Heading'),
-            TextField::create('Box2Text', 'Text'),
-            HeaderField::create('Box3Header', 'Box 3', '4'),
-            TextField::create('Box3Heading', 'Heading'),
-            TextField::create('Box3Text', 'Text'),
-            HeaderField::create('Box4Header', 'Box 4', '4'),
-            TextField::create('Box4Heading', 'Heading'),
-            TextField::create('Box4Text', 'Text'),
-            HeaderField::create('Box5Header', 'Box 5', '4'),
-            TextField::create('Box5Heading', 'Box 5 Heading'),
-            TextField::create('Box5Text', 'Text'),
-            HeaderField::create('Box6Header', 'Box 6', '4'),
-            TextField::create('Box6Heading', 'Heading'),
-            TextField::create('Box6Text', 'Text'),
             HeaderField::create('NumbersHeader', 'Numbers', '4'),
             NumericField::create('Clubs'),
             NumericField::create('Members'),
@@ -154,6 +122,14 @@ class HomePage_Controller extends Page_Controller {
                 "{$this->ThemeDir()}/js/main.js",
                 "{$this->ThemeDir()}/js/scripts.js"
             ));
+    }
+
+    /**
+     * @return DataList|SS_Limitable
+     */
+    public function getClubsEvents(){
+        $clubs = ClubPage::get()->limit(5);
+        return $clubs;
     }
 
     /**
