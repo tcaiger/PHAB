@@ -88,9 +88,9 @@ class HomePage extends Page {
             FieldGroup::create(
                 CheckboxField::create('Event', '')
             )->setTitle('Include Upcoming Event'),
-            LiteralField::create('EventLiteral', '<p>If selected, the soonest upcoming event will be displayed at the bottom of the homepage.<br>You will also need to add the event description and a banner image to go behind the event information.<br>The soonest upcoming event is currently <strong>'. $this->getUpcomingEvent()->Title . '</strong>.</p>'),
+            LiteralField::create('EventLiteral', '<p>If selected, the soonest upcoming event will be displayed at the bottom of the homepage.<br>You will also need to add the event description and a banner image to go behind the event information</p>'),
             TextAreaField::create('EventSummary'),
-            $eventBanner = UploadField::create('EventBanner', 'Event Banner Image')->setDescription('Image should be <strong>1920px</strong> wide and <strong>900px</strong> high'),
+            $eventBanner = UploadField::create('EventBanner', 'Event Banner Image')->setDescription('Image should be <strong>1920px</strong> wide and <strong>900px</strong> high')
 
         ), 'Metadata');
 
