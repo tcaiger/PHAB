@@ -15,8 +15,11 @@ class HomePage extends Page {
         'Bullet4'           => 'Varchar(200)',
         'SectionSubheading' => 'Varchar(200)',
         'Clubs'             => 'Int',
+        'ClubsText'         => 'Varchar',
         'Members'           => 'Int',
+        'MembersText'       => 'Varchar',
         'Mentors'           => 'Int',
+        'MentorsText'       => 'Varchar',
         'Event'             => 'Boolean',
         'EventSummary'      => 'Text'
     );
@@ -50,8 +53,11 @@ class HomePage extends Page {
             TextAreaField::create('SectionSubheading', 'Clubs And Events Summary'),
             HeaderField::create('NumbersHeader', 'Numbers', '4'),
             NumericField::create('Clubs'),
+            TextareaField::create('ClubsText'),
             NumericField::create('Members'),
+            TextareaField::create('MembersText'),
             NumericField::create('Mentors'),
+            TextareaField::create('MentorsText'),
             HeaderField::create('EventHeader', 'Upcoming Event'),
             FieldGroup::create(
                 CheckboxField::create('Event', '')
@@ -127,8 +133,9 @@ class HomePage_Controller extends Page_Controller {
     /**
      * @return DataList|SS_Limitable
      */
-    public function getClubsEvents(){
+    public function getClubsEvents() {
         $clubs = ClubPage::get()->filter('IncludeOnHomePage', '1')->limit(5);
+
         return $clubs;
     }
 

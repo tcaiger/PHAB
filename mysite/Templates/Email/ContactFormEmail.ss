@@ -1,6 +1,5 @@
 <p>Dear Administrator,</p>
 <p>The following enquiry has been submitted on the PHAB website contact form.</p>
-<br>
 <p><strong>Page</strong>: $url</p>
 <p><strong>Name</strong>: $Name</p>
 <p><strong>Email</strong>: $Email</p>

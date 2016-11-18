@@ -35,6 +35,7 @@ LeftAndMain:
       - ClubPageAdmin
       - EventPageAdmin
       - PeersPageAdmin
+      - PhdsPageAdmin
     Pasifika:
         icon: 'pasifika-admin'
         - PasifikaPageAdmin

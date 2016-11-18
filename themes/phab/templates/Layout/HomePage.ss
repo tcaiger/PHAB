@@ -330,19 +330,19 @@
                                 <span class="head">
                                     <span class="count" data-from="0" data-to="$Clubs" data-speed="3000"></span> Clubs
                                 </span>
-                                <span class="foot">We have active clubs all over the Auckland Region.</span>
+                                <span class="foot">$ClubsText</span>
                             </div>
                             <div class="fact col-sm-4">
                                 <span class="head">
                                     <span class="count" data-from="0" data-to="$Members" data-speed="3000"></span> Members
                                 </span>
-                                <span class="foot">We have a big group of active members. Young and old, big and small.</span>
+                                <span class="foot">$MembersText</span>
                             </div>
                             <div class="fact col-sm-4">
                                 <span class="head">
                                     <span class="count" data-from="0" data-to="$Mentors" data-speed="3000"></span> Mentors
                                 </span>
-                                <span class="foot">A great group of volunteers who facilitate our clubs and events.</span>
+                                <span class="foot">$MentorsText</span>
                             </div>
                         </div>
                     </div>

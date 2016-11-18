@@ -15,16 +15,6 @@
                     <% end_with %>
                 </div>
                 <div class="col-sm-6">
-                    <%--<div class="dropdown">          <!-- Language Dropdown -->--%>
-                        <%--<button class="btn btn-xs" type="button" id="select-lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--%>
-                            <%--<i class="fa fa-globe"></i> English--%>
-                        <%--</button>--%>
-                        <%--<ul class="dropdown-menu" aria-labelledby="select-lang">--%>
-                            <%--<li><a href="#">English</a></li>--%>
-                            <%--<li><a href="#">Spanish</a></li>--%>
-                            <%--<li><a href="#">Vietnamese</a></li>--%>
-                        <%--</ul>--%>
-                    <%--</div>--%>
                     <form class="search form-inline">           <!-- Search Form -->
                         <input type="text" class="form-control" placeholder="Start typing...">
                         <button class="btn-search" type="submit"><i class="fa fa-search fa-fw"></i></button>
