@@ -55,7 +55,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on"
-                     style="z-index: 6; white-space: nowrap; font-weight:bold; font-family: 'Libre Baskerville', serif;">$Banner1Heading.
+                     style="z-index: 6; white-space: nowrap; font-weight:bold; font-family: 'Libre Baskerville', serif;">$Banner1Heading
                 </div>
 
                 <!-- Main Text -->
@@ -78,7 +78,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on"
-                     style="z-index: 7; min-width: 600px; max-width: 600px; white-space: normal; text-shadow:0px 2px 2px #000; text-transform:capitalize; font-weight:600; text-align:right; font-family: 'Montserrat', sans-serif;">$Banner1Subheading.
+                     style="z-index: 7; min-width: 600px; max-width: 600px; white-space: normal; text-shadow:0px 2px 2px #000; text-transform:capitalize; font-weight:600; text-align:right; font-family: 'Montserrat', sans-serif;">$Banner1Subheading
                 </div>
 
                 <!-- Button -->
@@ -155,7 +155,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on"
-                     style="z-index: 10; white-space: nowrap; font-weight:bold; font-family: 'Libre Baskerville', serif;">$Banner2Heading.
+                     style="z-index: 10; white-space: nowrap; font-weight:bold; font-family: 'Libre Baskerville', serif;">$Banner2Heading
                 </div>
 
                 <!-- Main Text -->
@@ -178,7 +178,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on"
-                     style="z-index: 11; min-width: 600px; max-width: 600px; white-space: normal; text-shadow:0px 2px 2px #000; text-transform:capitalize; font-weight:600; text-align:left; font-family: 'Montserrat', sans-serif;">$Banner2Subheading.
+                     style="z-index: 11; min-width: 600px; max-width: 600px; white-space: normal; text-shadow:0px 2px 2px #000; text-transform:capitalize; font-weight:600; text-align:left; font-family: 'Montserrat', sans-serif;">$Banner2Subheading
                 </div>
 
                 <!-- Button -->
