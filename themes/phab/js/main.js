@@ -13,6 +13,10 @@ $(window).on("load",function(){
 jQuery(document).ready(function() {	
     
 // ************ Function Calls ************//
+
+    if($(".js-mh").length){
+        $('.js-mh').matchHeight();               // Call to Match Height
+    }
     
     if($("#slider").length){
         callSliderRevolution();                  // Call to Slider Revolution

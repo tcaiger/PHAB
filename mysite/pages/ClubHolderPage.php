@@ -22,6 +22,7 @@ class ClubHolderPage_Controller extends Page_Controller {
                 "{$this->ThemeDir()}/js/jquery.min.js",
                 "{$this->ThemeDir()}/js/bootstrap.min.js",
                 "{$this->ThemeDir()}/js/jquery.countdown.min.js",
+                "{$this->ThemeDir()}/js/jquery.matchHeight.min.js",
                 "{$this->ThemeDir()}/js/main.js"
             ));
 

@@ -17,7 +17,7 @@
     <div class="row">
         <% loop $Children.Sort('SortOrder') %>
             <div class="col-sm-4">
-                <div class="course-card">
+                <div class="course-card js-mh">
                     <% if $BannerImage %>
                         <img src="$BannerImage.ReSample('900', '600').URL" class="img-responsive" alt="$BannerImage.URL">
                     <% else %>

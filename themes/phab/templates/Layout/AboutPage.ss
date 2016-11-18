@@ -73,10 +73,7 @@
             <div class="col-sm-4">
                 <div class="teacher-card">
                     <ul class="social-links">
-                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        <%--<li><a href=""><i class="fa fa-google-plus"></i></a></li>--%>
                     </ul>
                     <% if $ProfileImage %>
                         <img src="$ProfileImage.ReSample('450','620').URL" class="teacher-img img-responsive" alt="">
@@ -93,19 +90,3 @@
         <% end_loop %>
     </div>
 </div>
-
-<%--<div class="clearfix"></div>--%>
-
-<%--<div class="bgcolor3 pt-100 pb-100">--%>
-<%--<div class="container">--%>
-<%--<div class="col-md-12">--%>
-<%--<div class="logo-scroll">--%>
-<%--<img src="$ThemeDir/images/logo-1.png" alt="">--%>
-<%--<img src="$ThemeDir/images/logo-2.png" alt="">--%>
-<%--<img src="$ThemeDir/images/logo-3.png" alt="">--%>
-<%--<img src="$ThemeDir/images/logo-4.png" alt="">--%>
-<%--<img src="$ThemeDir/images/logo-5.png" alt="">--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
