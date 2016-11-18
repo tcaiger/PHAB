@@ -21588,37 +21588,6 @@ website:    http://www.themepunch.com
 html {
   box-sizing: border-box; }
 
-.mt-30 {
-  margin-top: 30px; }
-
-.mb-0 {
-  margin-bottom: 0; }
-
-.mb-15 {
-  margin-bottom: 15px; }
-
-.cta-tint {
-  background-position: top center;
-  position: relative; }
-  .cta-tint:before {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    content: '';
-    background-color: rgba(250, 250, 250, 0.8); }
-
-@media screen and (min-width: 768px) {
-  .enquiry-form .CompositeField {
-    font-size: 0; }
-    .enquiry-form .CompositeField .form-group {
-      display: inline-block;
-      width: 32%;
-      margin-right: 2%; }
-      .enquiry-form .CompositeField .form-group:last-child {
-        margin-right: 0; } }
-
 .home-event-section {
   background-color: rgba(225, 225, 225, 0.94); }
 
@@ -21627,11 +21596,6 @@ html {
   @media screen and (min-width: 768px) {
     .facebook-container {
       margin-left: 30px; } }
-
-.event-card .brief {
-  display: block;
-  min-height: 51px;
-  padding: 0 10px; }
 
 .EventPage .tab-content, .ClubPage .tab-content {
   min-height: 180px; }
@@ -21667,5 +21631,44 @@ html {
     .course-card .course-detail .course-features li {
       display: block;
       margin: 10px; }
+
+.event-card .brief {
+  display: block;
+  min-height: 51px;
+  padding: 0 10px; }
+
+.motto-text {
+  padding-left: 0; }
+
+@media screen and (min-width: 768px) {
+  .enquiry-form .CompositeField {
+    font-size: 0; }
+    .enquiry-form .CompositeField .form-group {
+      display: inline-block;
+      width: 32%;
+      margin-right: 2%; }
+      .enquiry-form .CompositeField .form-group:last-child {
+        margin-right: 0; } }
+
+.mt-30 {
+  margin-top: 30px; }
+
+.mb-0 {
+  margin-bottom: 0; }
+
+.mb-15 {
+  margin-bottom: 15px; }
+
+.cta-tint {
+  background-position: top center;
+  position: relative; }
+  .cta-tint:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color: rgba(250, 250, 250, 0.8); }
 
 /*# sourceMappingURL=main.min.css.map */

@@ -1,6 +1,6 @@
 <% include TopBanner %>
 
-<div class="container mt-100 mb-40">
+<div class="container mt-100 mb-80">
     <div class="row">
         <div class="col-sm-7">
             <h3 class="heading">An <span class="color2">Introduction</span></h3>
@@ -47,7 +47,7 @@
 
 <div class="clearfix"></div>
 
-<div class="bgcolor3 pt-100 pb-100 mb-60">
+<div class="bgcolor3 pt-100 pb-100">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -59,35 +59,6 @@
         </div>
     </div>
 </div>
-
-<div class="clearfix"></div>
-
-<div class="container mt-20 mb-100">
-    <div class="row">
-        <div class="col-md-8 no-right-gutter hide-overflow">
-            <div class="col-sm-6 info-box bgcolor3">
-                <p class="fact">Estd. <span class="fact-fig">1968</span></p>
-            </div>
-            <div class="col-sm-6 info-box">
-                <p class="font22 color2">We're taking pride every year.</p>
-                <p>A wonderful serenity has taken possession of my entire soul.</p>
-            </div>
-            <div class="col-sm-6 info-box">
-                <p class="font22 color2">We're taking pride every year.</p>
-                <p>A wonderful serenity has taken possession of my entire soul.</p>
-            </div>
-            <div class="col-sm-6 info-box bgcolor3">
-                <p class="fact">Ranked <span class="fact-fig">#1</span></p>
-            </div>
-        </div>
-        <div class="col-md-4 info-box2x no-gutter">
-            <img src="$ThemeDir/images/gallery-4.jpg" alt="">
-        </div>
-    </div>
-</div>
-
-<div class="clearfix"></div>
-
 
 <div class="cta-dark-full cta-anim">
     <div class="container">

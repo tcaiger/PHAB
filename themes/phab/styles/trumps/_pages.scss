@@ -1,6 +1,23 @@
+// -------------------
+// TRUMPS.PAGES
+// -------------------
+
+// Home Page
+// --------------------------
+.home-event-section {
+  background-color : rgba(225, 225, 225, 0.94);
+}
+
+.facebook-container {
+  padding : 30px;
+  @media screen and (min-width: $screen-sm) {
+    margin-left : 30px;
+  }
+}
+
+
 // Event Page
 //-------------
-
 .EventPage, .ClubPage{
   .tab-content{
     min-height: 180px;
@@ -39,11 +56,30 @@
 .course-card {
   padding: 4px 4px 10px 4px;
   .course-detail .course-features{
-      margin-top: 0;
+    margin-top: 0;
     li{
       display: block;
       margin: 10px;
     }
   }
 
+}
+
+
+// Event Holder Page
+// ----------------------
+.event-card{
+  .brief{
+    display: block;
+    min-height: 51px;
+    padding :0 10px;
+  }
+}
+
+
+
+// History Page
+// ----------------------
+.motto-text{
+  padding-left: 0;
 }
