@@ -15,11 +15,11 @@ class HomePage extends Page {
         'Bullet4'           => 'Varchar(200)',
         'SectionSubheading' => 'Varchar(200)',
         'Clubs'             => 'Int',
-        'ClubsText'         => 'Varchar',
+        'ClubsText'         => 'Text',
         'Members'           => 'Int',
-        'MembersText'       => 'Varchar',
+        'MembersText'       => 'Text',
         'Mentors'           => 'Int',
-        'MentorsText'       => 'Varchar',
+        'MentorsText'       => 'Text',
         'Event'             => 'Boolean',
         'EventSummary'      => 'Text'
     );
