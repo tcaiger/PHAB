@@ -14,12 +14,12 @@
                         <a href="tel:{$Phone}" class="call-us"><i class="fa fa-phone"></i> $Phone</a>
                     <% end_with %>
                 </div>
-                <div class="col-sm-6">
-                    <form class="search form-inline">           <!-- Search Form -->
-                        <input type="text" class="form-control" placeholder="Start typing...">
-                        <button class="btn-search" type="submit"><i class="fa fa-search fa-fw"></i></button>
-                    </form>
-                </div>
+                <%--<div class="col-sm-6">--%>
+                    <%--<form class="search form-inline">           <!-- Search Form -->--%>
+                        <%--<input type="text" class="form-control" placeholder="Start typing...">--%>
+                        <%--<button class="btn-search" type="submit"><i class="fa fa-search fa-fw"></i></button>--%>
+                    <%--</form>--%>
+                <%--</div>--%>
             </div>
         </div>
     </div>
