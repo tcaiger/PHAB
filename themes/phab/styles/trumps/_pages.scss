@@ -2,6 +2,23 @@
 // TRUMPS.PAGES
 // -------------------
 
+.t-logo {
+  width      : 120px;
+  margin-top : -2px;
+  @media screen and (min-width : $screen-sm) {
+    width      : 140px;
+    margin-top : 5px;
+  }
+}
+
+.t-footer-logo {
+  display: inline-block;
+  width: 60px;
+  margin-left: 10px;
+  vertical-align: baseline;
+}
+
+
 // Home Page
 // --------------------------
 .home-event-section {
@@ -10,76 +27,72 @@
 
 .facebook-container {
   padding : 30px;
-  @media screen and (min-width: $screen-sm) {
+  @media screen and (min-width : $screen-sm) {
     margin-left : 30px;
   }
 }
 
-
 // Event Page
 //-------------
-.EventPage, .ClubPage{
-  .tab-content{
-    min-height: 180px;
-    ul{
-      list-style: none;
-      padding-left: 10px;
+.EventPage, .ClubPage {
+  .tab-content {
+    min-height : 180px;
+    ul {
+      list-style   : none;
+      padding-left : 10px;
     }
-    li{
-      font-family: Oswald,sans-serif;
-      padding: 6px 10px 6px 0;
-      font-size: 16px;
-      font-weight: 400;
-      text-align: left;
-      text-transform: uppercase;
-      letter-spacing: 0.03em;
-      &:before{
-        font: normal normal normal 8px/1 FontAwesome;
-        content: "\f111";
-        color: $brand;
-        margin-right: 10px;
-        vertical-align: middle;
-        line-height: 3px;
+    li {
+      font-family    : Oswald, sans-serif;
+      padding        : 6px 10px 6px 0;
+      font-size      : 16px;
+      font-weight    : 400;
+      text-align     : left;
+      text-transform : uppercase;
+      letter-spacing : 0.03em;
+      &:before {
+        font           : normal normal normal 8px/1 FontAwesome;
+        content        : "\f111";
+        color          : $brand;
+        margin-right   : 10px;
+        vertical-align : middle;
+        line-height    : 3px;
       }
     }
   }
 }
 
-.event-full{
-  min-height: 520px;
+.event-full {
+  min-height : 520px;
 }
 
-.fb-like{
-  margin-bottom: 20px;
+.fb-like {
+  margin-bottom : 20px;
 }
 
 .course-card {
-  padding: 4px 4px 10px 4px;
-  .course-detail .course-features{
-    margin-top: 0;
-    li{
-      display: block;
-      margin: 10px;
+  padding : 4px 4px 10px 4px;
+  .course-detail .course-features {
+    margin-top : 0;
+    li {
+      display : block;
+      margin  : 10px;
     }
   }
 
 }
 
-
 // Event Holder Page
 // ----------------------
-.event-card{
-  .brief{
-    display: block;
-    min-height: 51px;
-    padding :0 10px;
+.event-card {
+  .brief {
+    display    : block;
+    min-height : 51px;
+    padding    : 0 10px;
   }
 }
 
-
-
 // History Page
 // ----------------------
-.motto-text{
-  padding-left: 0;
+.motto-text {
+  padding-left : 0;
 }

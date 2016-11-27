@@ -207,7 +207,7 @@
 </div>
 
 
-<div class="mb-100">
+<div >
     <div class="container">
         <div class="row mb-60">
             <div class="col-sm-7 mt-100">

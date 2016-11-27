@@ -67,15 +67,17 @@
     <div class="footer-sec">            <!-- Secondary Footer -->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-6 text-center">
+                <div class="col-md-9 col-sm-6">
                     <span class="copyright">&copy; Copyright PHAB Association (Auckland) Incorporated 2016</span>           <!-- Copyright Text -->
                 </div>
-                <div class="col-sm-6 text-center">
+                <div class="col-md-3 col-sm-6">
                     <ul class="social">          <!-- Social Media Links -->
                         <li><a href="https://www.facebook.com/phabnz/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <%--<li><a href="#"><i class="fa fa-twitter"></i></a></li>--%>
                         <%--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>--%>
                     </ul>
+                    <a href="$AbsoluteBaseURL">
+                        <img class="t-footer-logo" src="$ThemeDir/img/logos/phab-circle-logo.svg" alt="phab">
+                    </a>
                 </div>
             </div>
         </div>

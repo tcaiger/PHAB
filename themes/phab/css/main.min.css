@@ -21588,6 +21588,20 @@ website:    http://www.themepunch.com
 html {
   box-sizing: border-box; }
 
+.t-logo {
+  width: 120px;
+  margin-top: -2px; }
+  @media screen and (min-width: 768px) {
+    .t-logo {
+      width: 140px;
+      margin-top: 5px; } }
+
+.t-footer-logo {
+  display: inline-block;
+  width: 60px;
+  margin-left: 10px;
+  vertical-align: baseline; }
+
 .home-event-section {
   background-color: rgba(225, 225, 225, 0.94); }
 
@@ -21603,7 +21617,7 @@ html {
     list-style: none;
     padding-left: 10px; }
   .EventPage .tab-content li, .ClubPage .tab-content li {
-    font-family: Oswald,sans-serif;
+    font-family: Oswald, sans-serif;
     padding: 6px 10px 6px 0;
     font-size: 16px;
     font-weight: 400;

@@ -32,8 +32,8 @@
                     <span>Menu</span>
                 </button>
                 <a class="navbar-brand" href="$AbsoluteBaseURL">
-                    <%--<img src="$ThemeDir/images/logo.png" alt="">--%>
-                    <span style="font-size: 46px; font-weight: 800; color: #ffffff; position: relative; top: 17px">phab.</span>
+                    <img class="t-logo" src="$ThemeDir/img/logos/phab-logo.svg" alt="phab">
+                    <%--<span style="font-size: 46px; font-weight: 800; color: #ffffff; position: relative; top: 17px">phab.</span>--%>
                 </a>
             </div>
 
