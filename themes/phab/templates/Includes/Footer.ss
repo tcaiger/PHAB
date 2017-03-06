@@ -75,7 +75,7 @@
                         <li><a href="$FacebookURL" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     </ul>
                     <a href="$AbsoluteBaseURL">
-                        <img class="t-footer-logo" src="$ThemeDir/img/logos/phab-circle-logo.svg" alt="phab">
+                        <img class="t-footer-logo" src="$ThemeDir/img/logos/phabcirclelogo.svg" alt="phab">
                     </a>
                 </div>
             </div>
