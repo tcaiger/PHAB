@@ -62,7 +62,7 @@
     </div>
 </div>
 
-<div class="cta-dark-full cta-anim">
+<div class="cta-dark-full cta-anim" style="background-image: url('$ThemeDir/img/cta-background.png')">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">

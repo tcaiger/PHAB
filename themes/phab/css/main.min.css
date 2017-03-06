@@ -9002,7 +9002,7 @@ body {
 
 a {
   font-family: 'Montserrat', sans-serif;
-  color: #ff9c00;
+  color: #ff9540;
   -webkit-transition: 350ms ease all;
   transition: 350ms ease all; }
 
@@ -9042,7 +9042,7 @@ hr {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -9121,7 +9121,7 @@ address {
   font-family: 'Montserrat', sans-serif; }
 
 address strong {
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 16px;
   font-weight: 400;
   display: block; }
@@ -9133,7 +9133,7 @@ blockquote {
 blockquote:before {
   font: normal normal normal 14px/1 FontAwesome;
   content: "\f10d";
-  color: #ff9c00;
+  color: #ff9540;
   height: 50px;
   width: 50px;
   line-height: 50px;
@@ -9204,7 +9204,7 @@ blockquote footer {
 
 /* Blue Color */
 .color2 {
-  color: #ff9c00; }
+  color: #ff9540; }
 
 /* Yellow Color */
 .color3 {
@@ -9220,7 +9220,7 @@ blockquote footer {
 
 /* Blue Color Background */
 .bgcolor2 {
-  background-color: #ff9c00; }
+  background-color: #ff9540; }
 
 /* Yellow Color Background */
 .bgcolor3 {
@@ -9333,7 +9333,7 @@ blockquote footer {
 
 .topbar .call-us {
   font-family: inherit;
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 16px;
   display: block;
   text-align: center;
@@ -9356,7 +9356,7 @@ blockquote footer {
   background-color: transparent;
   border-radius: 0px;
   border: 0;
-  border-bottom: 1px solid #ff9c00;
+  border-bottom: 1px solid #ff9540;
   height: 22px;
   width: 0px;
   color: #fff;
@@ -9379,7 +9379,7 @@ blockquote footer {
 .announcement {
   text-align: center;
   overflow: hidden;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   max-height: 0px;
   -webkit-transition: 750ms ease all;
   transition: 750ms ease all; }
@@ -9389,7 +9389,7 @@ blockquote footer {
 
 .btn-announce {
   position: absolute;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   border-radius: 50%;
   height: 70px;
   width: 70px;
@@ -9417,7 +9417,7 @@ blockquote footer {
   left: 0px;
   top: 0px;
   z-index: -1;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   border-radius: 50%;
   display: inline-block;
   -webkit-transform: rotate(45deg);
@@ -9477,7 +9477,7 @@ blockquote footer {
   font-size: 28px; }
 
 .tweets a {
-  color: #ff9c00; }
+  color: #ff9540; }
 
 /****** Process ******/
 .process-1 {
@@ -9494,7 +9494,7 @@ blockquote footer {
 .process-1 .process-box .process-round {
   height: 200px;
   max-width: 200px;
-  border: 10px solid #ff9c00;
+  border: 10px solid #ff9540;
   border-radius: 50%;
   margin: auto;
   padding: 10px; }
@@ -9514,7 +9514,7 @@ blockquote footer {
   color: #fff; }
 
 .process-1 .process-box:hover .process-round .number {
-  color: #ff9c00;
+  color: #ff9540;
   -webkit-transform: scale(1.15);
   transform: scale(1.15); }
 
@@ -9546,7 +9546,7 @@ blockquote footer {
   position: absolute;
   height: 10px;
   width: 10px;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   top: -5px;
   right: -5px;
   border-radius: 50%;
@@ -9564,7 +9564,7 @@ blockquote footer {
   color: #1a2b51; }
 
 .fact > .head > .count {
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 56px; }
 
 .fact > .foot {
@@ -9596,7 +9596,7 @@ blockquote footer {
 .testimonial-text:before {
   font: normal normal normal 14px/1 FontAwesome;
   content: "\f10d";
-  color: #ff9c00;
+  color: #ff9540;
   height: 50px;
   width: 50px;
   line-height: 50px;
@@ -9605,7 +9605,7 @@ blockquote footer {
 
 .testimonial-by {
   font-size: 18px;
-  color: #ff9c00;
+  color: #ff9540;
   font-style: italic;
   margin-top: 20px;
   display: inline-block; }
@@ -9619,14 +9619,14 @@ blockquote footer {
   padding: 5px 10px;
   background-color: #fff;
   display: inline-block;
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 16px;
   box-shadow: 0px 2px 5px #d7d7d7;
   -webkit-transition: 350ms ease all;
   transition: 350ms ease all; }
 
 .testimonials + .owl-nav .owl-left:hover, .testimonials + .owl-nav .owl-right:hover {
-  background-color: #ff9c00;
+  background-color: #ff9540;
   color: #fff;
   cursor: pointer; }
 
@@ -9654,7 +9654,7 @@ blockquote footer {
   line-height: 1.5em; }
 
 .info-box .fact .fact-fig {
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 60px;
   display: block;
   line-height: 1em; }
@@ -9695,7 +9695,7 @@ blockquote footer {
 
 .icon-box-1 > .icon-box-icon > .fa {
   font-size: 36px;
-  color: #ff9c00;
+  color: #ff9540;
   -webkit-transition: 150ms ease all;
   transition: 150ms ease all; }
 
@@ -9718,7 +9718,7 @@ blockquote footer {
 .icon-box-2 h6 {
   font-family: 'Montserrat', sans-serif;
   margin-top: 0px;
-  color: #ff9c00; }
+  color: #ff9540; }
 
 .icon-box-2 > .icon-box-icon, .icon-box-2 > .icon-box-content {
   display: table-cell;
@@ -9729,7 +9729,7 @@ blockquote footer {
 
 .icon-box-2 > .icon-box-icon > .fa {
   font-size: 36px;
-  color: #ff9c00;
+  color: #ff9540;
   height: 100px;
   width: 100px;
   background-color: #1a2b51;
@@ -9749,7 +9749,7 @@ blockquote footer {
 .icon-box-3 {
   position: relative;
   background-color: #191919;
-  border: 5px solid #ff9c00;
+  border: 5px solid #ff9540;
   box-shadow: 1px 2px 5px #222;
   padding: 50px 50px 35px;
   margin: 20px 0px 40px 0px;
@@ -9781,7 +9781,7 @@ blockquote footer {
 .icon-box-3 h5,
 .icon-box-3 h6 {
   margin-top: 0px;
-  color: #ff9c00;
+  color: #ff9540;
   text-align: center;
   font-weight: 100;
   font-size: 30px;
@@ -9831,7 +9831,7 @@ blockquote footer {
 
 .icon-box-4 > .icon-box-icon > .fa {
   font-size: 24px;
-  color: #ff9c00;
+  color: #ff9540;
   height: 60px;
   width: 60px;
   line-height: 56px;
@@ -9846,7 +9846,7 @@ blockquote footer {
   background-color: #fff; }
 
 .icon-box-4:hover .icon-box-icon {
-  border-color: #ff9c00; }
+  border-color: #ff9540; }
 
 .icon-box-4:hover .icon-box-icon:before {
   -webkit-transform: scale(1.2);
@@ -9879,7 +9879,7 @@ blockquote footer {
   top: 0;
   height: 100%;
   width: 12px;
-  border: 5px solid #ff9c00;
+  border: 5px solid #ff9540;
   border-right: 0;
   -webkit-transition: 200ms ease all;
   transition: 200ms ease all; }
@@ -9891,7 +9891,7 @@ blockquote footer {
   right: 35px;
   height: 100%;
   width: 12px;
-  border: 5px solid #ff9c00;
+  border: 5px solid #ff9540;
   border-left: 0;
   -webkit-transition: 200ms ease all;
   transition: 200ms ease all; }
@@ -9905,7 +9905,7 @@ blockquote footer {
 /****** Courses ******/
 .course-box {
   position: relative;
-  border-left: 2px solid #ff9c00; }
+  border-left: 2px solid #ff9540; }
 
 .course-box .fa {
   color: #1a2b51;
@@ -9918,7 +9918,7 @@ blockquote footer {
 
 .course-box .course-meta {
   overflow: hidden;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   position: absolute;
   top: 50%;
   left: 0;
@@ -9969,7 +9969,7 @@ blockquote footer {
   letter-spacing: 2px; }
 
 .cta-dark-full.cta-anim .text {
-  color: #ff9c00; }
+  color: #ff9540; }
 
 .cta-light-full.cta-anim .text {
   color: #1a2b51; }
@@ -10073,7 +10073,7 @@ blockquote footer {
   position: relative;
   padding-bottom: 100px;
   margin-top: 50px;
-  border-top: 2px solid #ff9c00;
+  border-top: 2px solid #ff9540;
   -webkit-transition: 350ms ease all;
   transition: 350ms ease all; }
 
@@ -10136,11 +10136,11 @@ blockquote footer {
   color: #333;
   float: left;
   margin-right: 20px;
-  border: 2px solid #ff9c00; }
+  border: 2px solid #ff9540; }
 
 .imp-dates .when .year {
   font-size: 24px;
-  color: #ff9c00;
+  color: #ff9540;
   display: block;
   text-align: center;
   padding: 0px 4px; }
@@ -10221,7 +10221,7 @@ blockquote footer {
   position: absolute;
   left: 50%;
   margin-top: -25px;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   color: #fff;
   padding: 8px 12px;
   border-radius: 3px;
@@ -10281,7 +10281,7 @@ blockquote footer {
   text-align: center;
   line-height: 30px;
   border-radius: 50%;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   color: #fff; }
 
 .teacher-card:hover .social-links {
@@ -10325,7 +10325,7 @@ blockquote footer {
   display: block; }
 
 .teacher-full .personal > div > span:nth-child(2) {
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 14px;
   font-weight: 700; }
 
@@ -10338,7 +10338,7 @@ blockquote footer {
   color: #1a2b51; }
 
 .teacher-facts .fact > .head > .count {
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 36px;
   display: block; }
 
@@ -10364,7 +10364,7 @@ blockquote footer {
 
 .time-table > .row > div:first-child {
   font-family: 'Oswald', sans-serif;
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 18px;
   text-transform: uppercase; }
 
@@ -10382,7 +10382,7 @@ blockquote footer {
   margin: 25px 0px; }
 
 .course-card .course-link .fa {
-  background-color: #ff9c00;
+  background-color: #ff9540;
   color: #fff;
   height: 50px;
   width: 50px;
@@ -10440,7 +10440,7 @@ blockquote footer {
   font-size: 13px; }
 
 .course-card .course-detail .course-features > li .fa {
-  color: #ff9c00; }
+  color: #ff9540; }
 
 .course-card.new:before {
   content: "NEW";
@@ -10451,7 +10451,7 @@ blockquote footer {
   height: 45px;
   top: 0px;
   color: #fff;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   padding: 25px 5px 5px 5px;
   font-size: 12px;
   text-align: center;
@@ -10529,7 +10529,7 @@ blockquote footer {
   font-size: 13px; }
 
 .course-list .course-detail .course-features > li .fa {
-  color: #ff9c00; }
+  color: #ff9540; }
 
 .course-list .course-detail .brief {
   display: block;
@@ -10558,7 +10558,7 @@ blockquote footer {
   height: 45px;
   top: 0px;
   color: #fff;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   padding: 25px 5px 5px 5px;
   font-size: 12px;
   text-align: center;
@@ -10619,7 +10619,7 @@ blockquote footer {
   display: block; }
 
 .course-full .personal > div > span:nth-child(2) {
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 14px;
   font-weight: 700; }
 
@@ -10632,7 +10632,7 @@ blockquote footer {
   color: #1a2b51; }
 
 .course-facts .fact > .head > .count {
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 36px;
   display: block; }
 
@@ -10658,7 +10658,7 @@ blockquote footer {
   font-size: 26px; }
 
 .next-event .event-date {
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 80px; }
 
 .event .timer {
@@ -10670,7 +10670,7 @@ blockquote footer {
 .event .timer .hours,
 .event .timer .minutes,
 .event .timer .seconds {
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 40px; }
 
 /****** Event Card ******/
@@ -10682,7 +10682,7 @@ blockquote footer {
   margin: 25px 0px; }
 
 .event-card .event-link .fa {
-  background-color: #ff9c00;
+  background-color: #ff9540;
   color: #fff;
   height: 50px;
   width: 50px;
@@ -10699,13 +10699,13 @@ blockquote footer {
   font-weight: 600;
   text-transform: uppercase;
   color: #333;
-  border: 2px solid #ff9c00;
+  border: 2px solid #ff9540;
   background-color: #fff;
   z-index: 5; }
 
 .event-card .event-on .date {
   font-size: 30px;
-  color: #ff9c00;
+  color: #ff9540;
   display: block;
   text-align: center; }
 
@@ -10753,7 +10753,7 @@ blockquote footer {
   margin-top: 14px; }
 
 .event-card .next-event .event-date {
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 36px; }
 
 .event-card .timer {
@@ -10771,7 +10771,7 @@ blockquote footer {
 .event-card .timer .seconds {
   font-size: 28px;
   margin-left: 10px;
-  color: #ff9c00; }
+  color: #ff9540; }
 
 .event-card:hover .event-img {
   -webkit-filter: grayscale(100%);
@@ -10813,7 +10813,7 @@ blockquote footer {
   display: block; }
 
 .event-full .info > div > span:nth-child(2) {
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 14px;
   font-weight: 700; }
 
@@ -10826,7 +10826,7 @@ blockquote footer {
   color: #1a2b51; }
 
 .event-facts .fact > .head > .count {
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 36px;
   display: block; }
 
@@ -10849,7 +10849,7 @@ blockquote footer {
 .event-intro .timer .seconds {
   font-size: 34px;
   margin-left: 8px;
-  color: #ff9c00; }
+  color: #ff9540; }
 
 /****** Gallery Home Page ******/
 .gallery {
@@ -10861,8 +10861,8 @@ blockquote footer {
 
 .gallery .img-box img {
   position: relative;
-  border-right: 1px solid #ff9c00;
-  border-bottom: 1px solid #ff9c00;
+  border-right: 1px solid #ff9540;
+  border-bottom: 1px solid #ff9540;
   -webkit-transition: 350ms ease all;
   transition: 350ms ease all;
   z-index: 2; }
@@ -10873,14 +10873,14 @@ blockquote footer {
   height: 12px;
   width: 12px;
   border-radius: 50%;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   left: -6px;
   top: -6px;
   z-index: 10; }
 
 .gallery .img-box .img-zoom {
   position: absolute;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   color: #fff;
   height: 50px;
   width: 50px;
@@ -10933,7 +10933,7 @@ blockquote footer {
   font-family: 'Oswald', sans-serif;
   font-size: 80px;
   text-shadow: 0px 2px 2px #000;
-  color: #ff9c00;
+  color: #ff9540;
   z-index: 99;
   margin: 0;
   text-align: center; }
@@ -10953,7 +10953,7 @@ blockquote footer {
 .album-card h5,
 .album-card h6 {
   font-weight: bold;
-  color: #ff9c00;
+  color: #ff9540;
   position: absolute;
   bottom: 0px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -10984,7 +10984,7 @@ blockquote footer {
 
 .gallery-card .img-zoom {
   position: absolute;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   color: #fff;
   height: 50px;
   width: 50px;
@@ -11020,12 +11020,12 @@ blockquote footer {
   position: absolute;
   top: 50%;
   left: 50%;
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 34px;
   height: 140px;
   width: 140px;
   text-align: center;
-  border: 10px solid #ff9c00;
+  border: 10px solid #ff9540;
   background-color: rgba(0, 0, 0, 0.4);
   line-height: 120px;
   border-radius: 50%;
@@ -11067,13 +11067,13 @@ blockquote footer {
   font-weight: 600;
   text-transform: uppercase;
   color: #333;
-  border: 2px solid #ff9c00;
+  border: 2px solid #ff9540;
   background-color: #fff;
   z-index: 5; }
 
 .blog-card .posted-on .date {
   font-size: 30px;
-  color: #ff9c00;
+  color: #ff9540;
   display: block;
   text-align: center; }
 
@@ -11145,13 +11145,13 @@ blockquote footer {
   font-weight: 600;
   text-transform: uppercase;
   color: #333;
-  border: 2px solid #ff9c00;
+  border: 2px solid #ff9540;
   background-color: #fff;
   z-index: 5; }
 
 .blog-single .posted-on .date {
   font-size: 30px;
-  color: #ff9c00;
+  color: #ff9540;
   display: block;
   text-align: center; }
 
@@ -11266,7 +11266,7 @@ blockquote footer {
   padding: 4px; }
 
 .comment-list .comment .who-said .date {
-  color: #ff9c00; }
+  color: #ff9540; }
 
 .comment-list .comment .who-said {
   font-size: 16px; }
@@ -11409,7 +11409,7 @@ blockquote footer {
   position: relative;
   display: inline-block;
   padding: 30px 2px 1px 10px;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   color: #fff;
   margin: 5px 5px 0 0;
   text-transform: uppercase;
@@ -11441,7 +11441,7 @@ blockquote footer {
 /****** 8. Footer ******/
 /***********************/
 .footer-pri {
-  border-top: 10px solid #ff9c00;
+  border-top: 10px solid #ff9540;
   background-color: #151D30;
   padding: 30px 0 15px; }
 
@@ -11473,7 +11473,7 @@ blockquote footer {
   transition: 350ms ease all; }
 
 .blog-thumbnail .entry .entry-content .entry-header a:hover {
-  color: #ff9c00;
+  color: #ff9540;
   text-decoration: none; }
 
 .blog-thumbnail .entry .entry-content .entry-text {
@@ -11501,7 +11501,7 @@ blockquote footer {
 
 .email, .phone, .footer-widget p.email, .footer-widget p.phone {
   font-family: inherit;
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 14px;
   display: block; }
 
@@ -11516,7 +11516,7 @@ blockquote footer {
   margin: 0px 4px; }
 
 .social > li > a {
-  background-color: #ff9c00;
+  background-color: #ff9540;
   color: #1a2b51;
   height: 35px;
   width: 35px;
@@ -11544,7 +11544,7 @@ blockquote footer {
   bottom: 20px;
   height: 50px;
   width: 50px;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   color: #fff;
   line-height: 50px;
   text-align: center;
@@ -11579,7 +11579,7 @@ blockquote footer {
   background-color: #fff;
   margin: 50px 0px;
   padding: 40px 25px;
-  border: 2px solid #ff9c00;
+  border: 2px solid #ff9540;
   box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.3);
   z-index: 2; }
 
@@ -11590,7 +11590,7 @@ blockquote footer {
   width: 100%;
   left: 0px;
   top: 0px;
-  border: 5px solid #ff9c00;
+  border: 5px solid #ff9540;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   z-index: -1; }
@@ -11611,7 +11611,7 @@ blockquote footer {
 .coming-soon .timer .hours,
 .coming-soon .timer .minutes,
 .coming-soon .timer .seconds {
-  color: #ff9c00;
+  color: #ff9540;
   font-size: 26px;
   margin-left: 10px; }
 
@@ -11872,11 +11872,11 @@ textarea.form-control, select.form-control {
 .icon-round {
   height: 35px;
   width: 35px;
-  color: #ff9c00;
+  color: #ff9540;
   line-height: 34px;
   border-radius: 50%;
   text-align: center;
-  border: 2px solid #ff9c00;
+  border: 2px solid #ff9540;
   background-color: transparent; }
 
 .icon-round-inverse {
@@ -11890,12 +11890,12 @@ textarea.form-control, select.form-control {
   background-color: transparent; }
 
 .icon-fill {
-  background-color: #ff9c00;
+  background-color: #ff9540;
   color: #fff; }
 
 .icon-fill-inverse {
   background-color: #fff;
-  color: #ff9c00; }
+  color: #ff9540; }
 
 .icon-2x {
   height: 70px;
@@ -11919,7 +11919,7 @@ textarea.form-control, select.form-control {
   position: absolute; }
 
 .icon-divider:before {
-  background-color: #ff9c00;
+  background-color: #ff9540;
   left: 0px; }
 
 .icon-divider:after {
@@ -11929,9 +11929,9 @@ textarea.form-control, select.form-control {
 /* Navbar */
 .navbar-default {
   position: relative;
-  background: #ff9c00;
+  background: #ff9540;
   /* fallback */
-  background: rgba(255, 156, 0, 0.85);
+  background: rgba(255, 149, 64, 0.9);
   border: 0;
   margin-bottom: 0px;
   width: 100%;
@@ -12036,7 +12036,7 @@ textarea.form-control, select.form-control {
 .sub-menu > li > a {
   padding: 12px;
   background-color: rgba(26, 43, 81, 0.85);
-  border-left: 2px solid #ff9c00;
+  border-left: 2px solid #ff9540;
   font-size: 11px;
   color: #fff;
   display: block;
@@ -12045,7 +12045,7 @@ textarea.form-control, select.form-control {
 .sub-menu > li > a:hover {
   text-decoration: none;
   margin-left: 5px;
-  color: #ff9c00; }
+  color: #ff9540; }
 
 .sub-menu .sub-menu {
   left: 0px;
@@ -12122,7 +12122,7 @@ textarea.form-control, select.form-control {
   background-color: #2D406B; }
 
 .btn-primary {
-  background-color: #ff9c00; }
+  background-color: #ff9540; }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:active:focus, .btn-primary:active:hover {
   background-color: #FFB035; }
@@ -12169,7 +12169,7 @@ textarea.form-control, select.form-control {
 
 a.readmore {
   display: inline-block;
-  color: #ff9c00;
+  color: #ff9540;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   padding: 10px;
@@ -12203,8 +12203,8 @@ a.readmore {
 
 /* Input Groups */
 .input-group-addon {
-  background-color: #ff9c00;
-  border-color: #ff9c00;
+  background-color: #ff9540;
+  border-color: #ff9540;
   border-width: 2px;
   border-radius: 0;
   color: #fff;
@@ -12225,7 +12225,7 @@ a.readmore {
   transform: translateY(-50%);
   border-style: solid;
   border-width: 12px 0 12px 5px;
-  border-color: transparent transparent transparent #ff9c00; }
+  border-color: transparent transparent transparent #ff9540; }
 
 .input-group-addon:first-child {
   border-top-left-radius: 3px;
@@ -12280,7 +12280,7 @@ a.readmore {
 
 .label-primary {
   color: #fff;
-  background-color: #ff9c00; }
+  background-color: #ff9540; }
 
 .label-success {
   color: #fff;
@@ -12308,7 +12308,7 @@ a.readmore {
 /* Breadcrumbs */
 .breadcrumb {
   background-color: transparent;
-  border: 2px solid #ff9c00;
+  border: 2px solid #ff9540;
   font-family: 'Montserrat', sans-serif;
   border-radius: 50px;
   display: inline-block;
@@ -12376,16 +12376,16 @@ a.readmore {
   height: 0;
   border-style: solid;
   border-width: 7px 25px 0 25px;
-  border-color: #ff9c00 transparent transparent transparent;
+  border-color: #ff9540 transparent transparent transparent;
   transform: translateX(-50%); }
 
 .nav-tabs > li > a > .fa {
   font-size: 18px; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-  background-color: #ff9c00;
+  background-color: #ff9540;
   color: #fff;
-  border: 1px solid #ff9c00; }
+  border: 1px solid #ff9540; }
 
 .nav > li > a:focus, .nav > li > a:hover, .nav > li > a:active {
   background-color: #f7f7f7;
@@ -12405,7 +12405,7 @@ a.readmore {
 
 .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
   border: 0;
-  border: 1px solid #ff9c00; }
+  border: 1px solid #ff9540; }
 
 .fade {
   transition: 750ms ease all; }
@@ -12426,7 +12426,7 @@ a.readmore {
   transition: 350ms ease all; }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
-  background-color: #ff9c00; }
+  background-color: #ff9540; }
 
 .nav-stacked {
   border-right: 1px dashed #d7d7d7;
@@ -12458,13 +12458,13 @@ a.readmore {
   transform: translateY(-50%);
   border-style: solid;
   border-width: 16px 0 16px 7px;
-  border-color: transparent transparent transparent #ff9c00; }
+  border-color: transparent transparent transparent #ff9540; }
 
 /* Accordion */
 .accordion-1 .panel-group .panel {
   border-radius: 0px;
   border: 0;
-  border-left: 2px solid #ff9c00;
+  border-left: 2px solid #ff9540;
   margin-bottom: 8px; }
 
 .accordion-1 .panel-default > .panel-heading {
@@ -12497,7 +12497,7 @@ a.readmore {
 .accordion-2 .panel-title > a {
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
-  color: #ff9c00;
+  color: #ff9540;
   display: inline-block;
   padding-right: 35px;
   transition: 350ms ease all; }
@@ -12565,7 +12565,7 @@ a.readmore {
   text-decoration: none; }
 
 .accordion-3 .panel-title > a {
-  color: #ff9c00;
+  color: #ff9540;
   transition: 350ms ease all; }
 
 .accordion-3 .panel-title > a.collapsed {
@@ -12584,7 +12584,7 @@ ul.list-default > li {
 ul.list-default > li:before {
   font: normal normal normal 8px/1 FontAwesome;
   content: "\f111";
-  color: #ff9c00;
+  color: #ff9540;
   position: absolute;
   top: 15px;
   left: -20px; }
@@ -12605,7 +12605,7 @@ ul.list-styled > li {
 ul.list-styled > li:before {
   font: normal normal normal 8px/1 FontAwesome;
   content: "\f111";
-  color: #ff9c00;
+  color: #ff9540;
   margin-right: 10px;
   vertical-align: middle;
   line-height: 3px; }
@@ -12620,7 +12620,7 @@ ol li {
 ol li:before {
   content: counter(item) ". ";
   counter-increment: item;
-  color: #ff9c00;
+  color: #ff9540;
   position: absolute;
   left: 15px; }
 
@@ -12653,7 +12653,7 @@ ol.list-styled > li {
   font-weight: 600; }
 
 .table > thead > tr > th {
-  border-bottom: 2px solid #ff9c00; }
+  border-bottom: 2px solid #ff9540; }
 
 .table > tbody > tr > td,
 .table > tbody > tr > th,
@@ -12695,7 +12695,7 @@ ol.list-styled > li {
 .progress {
   height: 40px;
   background-color: transparent;
-  border: 2px solid #ff9c00;
+  border: 2px solid #ff9540;
   border-radius: 0;
   box-shadow: none;
   padding: 4px; }
@@ -12763,8 +12763,8 @@ ol.list-styled > li {
 .pagination > .active > span,
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
-  background-color: #ff9c00;
-  border-color: #ff9c00; }
+  background-color: #ff9540;
+  border-color: #ff9540; }
 
 .pagination > li > a:focus,
 .pagination > li > a:hover,
@@ -12809,10 +12809,10 @@ ol.list-styled > li {
   color: #fff; }
 
 .panel-primary {
-  border-color: #ff9c00; }
+  border-color: #ff9540; }
 
 .panel-primary > .panel-heading {
-  background-color: #ff9c00;
+  background-color: #ff9540;
   border: 0;
   border-radius: 0;
   color: #fff; }
@@ -12923,7 +12923,7 @@ ol.list-styled > li {
   position: absolute;
   top: -10px;
   right: -10px;
-  background-color: #ff9c00;
+  background-color: #ff9540;
   color: #fff;
   height: 25px;
   width: 25px;
@@ -21627,7 +21627,7 @@ html {
     .EventPage .tab-content li:before, .ClubPage .tab-content li:before {
       font: normal normal normal 8px/1 FontAwesome;
       content: "\f111";
-      color: #ff9c00;
+      color: #ff9540;
       margin-right: 10px;
       vertical-align: middle;
       line-height: 3px; }
@@ -21653,6 +21653,9 @@ html {
 
 .motto-text {
   padding-left: 0; }
+
+.page-header {
+  background-image: url("../img/newbanner.png"); }
 
 @media screen and (min-width: 768px) {
   .enquiry-form .CompositeField {

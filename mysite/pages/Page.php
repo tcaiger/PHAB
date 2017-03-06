@@ -6,6 +6,8 @@ class Page extends SiteTree {
 
 class Page_Controller extends ContentController {
 
+    public $FacebookURL = 'https://www.facebook.com/phabnz/';
+
     private static $allowed_actions = array(
         'EnquiryForm'
     );
@@ -118,5 +120,9 @@ class Page_Controller extends ContentController {
         $url = $base . $_SERVER['REQUEST_URI'];
 
         return $url;
+    }
+
+    public function getAdminEmail(){
+        return ContactPage::get()->first()->Email;
     }
 }

@@ -7,7 +7,7 @@
             <p class="lead">$PageIntro</p>
             $Content
         </div>
-        <% if $M1Year && $M1Month && $M1Heading %>
+        <% if $M1Year %>
             <div class="col-sm-5">
                 <h3 class="heading">Our <span class="color2">Milestones</span></h3>
                 <ul class="imp-dates">
@@ -21,26 +21,32 @@
                             <p>$M1Text</p>
                         </div>
                     </li>
-                    <li>
-                        <div class="when">
-                            <span class="year">$M2Year</span>
-                            <span class="month">$M2Month</span>
-                        </div>
-                        <div class="what">
-                            <strong>$M2Heading</strong>
-                            <p>$M2Text</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="when">
-                            <span class="year">$M3Year</span>
-                            <span class="month">$M3Month</span>
-                        </div>
-                        <div class="what">
-                            <strong>$M3Heading</strong>
-                            <p>$M3Text</p>
-                        </div>
-                    </li>
+                    <% if $M2Year %>
+                        <li>
+                            <div class="when">
+                                <span class="year">$M2Year</span>
+                                <span class="month">$M2Month</span>
+                            </div>
+                            <div class="what">
+                                <strong>$M2Heading</strong>
+                                <p>$M2Text</p>
+                            </div>
+                        </li>
+                    <% end_if %>
+                    <% if $M3Year %>
+
+                        <li>
+                            <div class="when">
+                                <span class="year">$M3Year</span>
+                                <span class="month">$M3Month</span>
+                            </div>
+                            <div class="what">
+                                <strong>$M3Heading</strong>
+                                <p>$M3Text</p>
+                            </div>
+                        </li>
+                    <% end_if %>
+
                 </ul>
             </div>
         <% end_if %>

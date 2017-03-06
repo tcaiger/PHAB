@@ -79,7 +79,7 @@
 </div>
 
 
-<div class="cta-light-full cta-tint" style="background-image: url('$ThemeDir/img/cta-background.jpg')">
+<div class="cta-light-full" style="background-image: url('$ThemeDir/img/cta-background.png')">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center cta-content">
