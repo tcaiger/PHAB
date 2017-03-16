@@ -1,7 +1,7 @@
 <div class="container mt-100 mb-40">
     <div class="row">
         <div class="col-sm-12">
-            <h3 class="heading">An <span class="color2">Introduction</span></h3>
+            <h3 class="heading">$Heading1 <span class="color2">$Heading2</span></h3>
         </div>
         <% if $SideImage.URL %>
             <div class="col-sm-6 col-sm-push-6">
