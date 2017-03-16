@@ -46,9 +46,9 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="icon-box-1">
-                        <div class="icon-box-icon">
-                            <i class="fa fa-book"></i>
-                        </div>
+                        <a href="$Link" class="icon-box-icon">
+                            <i class="fa fa-comments"></i>
+                        </a>
                         <div class="icon-box-content">
                             <h5 class="heading">PEERS</h5>
                             <span>This PHAB's vocational day programme.</span>
@@ -58,9 +58,9 @@
                 <% loop $ClubsEvents %>
                     <div class="col-sm-4">
                         <div class="icon-box-1">
-                            <div class="icon-box-icon">
-                                <i class="fa fa-book"></i>
-                            </div>
+                            <a href="$Link" class="icon-box-icon">
+                                <i class="fa fa-comments"></i>
+                            </a>
                             <div class="icon-box-content">
                                 <h5 class="heading">$Title</h5>
                                 <span>$SummaryText</span>
