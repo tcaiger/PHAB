@@ -312,8 +312,8 @@
                 </div>
                 <div class="col-sm-3 no-gutter">
                     <div class="img-box">
-                        <a href="$ThemeDir/img/phab-home-7.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
-                        <img src="$ThemeDir/img/phab-home-7.jpg" alt="" class="img-responsive">
+                        <a href="$ThemeDir/img/phab-home-6.jpg" data-gal="prettyPhoto[galleryName]" class="img-zoom"><i class="fa fa-search"></i></a>
+                        <img src="$ThemeDir/img/phab-home-6.jpg" alt="" class="img-responsive">
                     </div>
                 </div>
             </div>

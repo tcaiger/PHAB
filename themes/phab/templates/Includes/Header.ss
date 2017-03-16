@@ -1,12 +1,12 @@
-<div class="loader-backdrop">           <!-- Loader -->
+<div class="loader-backdrop">
     <div class="loader">
         <div class="ball-1"></div>
         <div class="ball-2"></div>
     </div>
 </div>
 
-<header>            <!-- Header = Topbar + Navigation Bar -->
-    <div class="topbar">            <!-- Dark Blue Topbar -->
+<header>
+    <div class="topbar">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -14,17 +14,11 @@
                         <a href="tel:{$Phone}" class="call-us"><i class="fa fa-phone"></i> $Phone</a>
                     <% end_with %>
                 </div>
-                <%--<div class="col-sm-6">--%>
-                    <%--<form class="search form-inline">           <!-- Search Form -->--%>
-                        <%--<input type="text" class="form-control" placeholder="Start typing...">--%>
-                        <%--<button class="btn-search" type="submit"><i class="fa fa-search fa-fw"></i></button>--%>
-                    <%--</form>--%>
-                <%--</div>--%>
             </div>
         </div>
     </div>
 
-    <nav class="navbar navbar-default">         <!-- Navigation Bar -->
+    <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false">
@@ -33,7 +27,6 @@
                 </button>
                 <a class="navbar-brand" href="$AbsoluteBaseURL">
                     <img class="t-logo" src="$ThemeDir/img/logos/phab-logo.svg" alt="phab">
-                    <%--<span style="font-size: 46px; font-weight: 800; color: #ffffff; position: relative; top: 17px">phab.</span>--%>
                 </a>
             </div>
 

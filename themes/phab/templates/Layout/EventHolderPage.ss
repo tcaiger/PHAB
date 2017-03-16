@@ -1,5 +1,3 @@
-<% include TopBanner %>
-
 <div class="container mt-100 mb-100">
     <div class="row">
         <div class="col-sm-12">

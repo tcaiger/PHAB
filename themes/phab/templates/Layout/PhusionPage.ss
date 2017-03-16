@@ -1,24 +1,4 @@
-<% include TopBanner %>
-
-
-<div class="container mt-100 mb-100">
-    <div class="row">
-        <div class="col-sm-8">
-            <h3 class="heading">An <span class="color2">Introduction</span></h3>
-            <p class="lead">$PageIntro</p>
-            <div class="text-justify">
-                $Content
-            </div>
-        </div>
-        <% if $SideImage.URL %>
-            <div class="col-sm-4">
-                <aside class="applynow-widget">
-                    <img src="$SideImage.ReSample('360','320').URL">
-                </aside>
-            </div>
-        <% end_if %>
-    </div>
-</div>
+<% include PageContent %>
 
 <div class="bgcolor3 pt-100 pb-100 mb-60">
     <div class="container">

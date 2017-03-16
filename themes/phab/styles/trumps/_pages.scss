@@ -3,6 +3,7 @@
 // -------------------
 
 .t-logo {
+  max-height : 100%;
   width      : 120px;
   margin-top : -2px;
   @media screen and (min-width : $screen-sm) {
@@ -12,12 +13,22 @@
 }
 
 .t-footer-logo {
-  display: inline-block;
-  width: 60px;
-  margin-left: 10px;
-  vertical-align: baseline;
+  display        : inline-block;
+  width          : 60px;
+  margin-left    : 10px;
+  vertical-align : baseline;
 }
 
+.t-side-image {
+  margin-bottom : 45px;
+  @media screen and (min-width : $screen-sm) {
+    float : right;
+  }
+}
+
+.t-page-content {
+  max-width : 560px;
+}
 
 // Home Page
 // --------------------------
@@ -100,5 +111,5 @@
 // Page Header
 // -----------------------
 .page-header {
-  background-image: url('../img/newbanner.png');
+  background-image : url('../img/newbanner.png');
 }

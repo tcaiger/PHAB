@@ -1,5 +1,3 @@
-<% include TopBanner %>
-
 <div class="container mt-100 mb-100">
     <h2 class="heading text-center">A Collection Of Photo <span class="color2">Albums</span>
         <span class="sub-heading">Click on the images below to browse the album.</span>

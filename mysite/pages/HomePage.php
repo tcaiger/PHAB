@@ -73,16 +73,6 @@ class HomePage extends Page {
         $bannerImg1->setFolderName($folderDir);
         $bannerImg2->setFolderName($folderDir);
 
-        // Remove delicate fields from content authors
-        if ( ! Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
-            $fields->removebyName(array(
-                'BannerImage1',
-                'BannerImage2',
-                'Title',
-                'URLSegment',
-                'MenuTitle'
-            ));
-        }
 
         return $fields;
     }

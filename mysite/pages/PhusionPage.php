@@ -6,9 +6,11 @@ class PhusionPage extends Page {
     private static $allowed_children = 'none';
 
     private static $db = [
-        'PageIntro'      => 'Varchar(200)',
-        'PageContent'      => 'Text',
-        'Quote'      => 'Text'
+        'Heading1' => 'Varchar',
+        'Heading2' => 'Varchar',
+        'PageIntro'   => 'Varchar(200)',
+        'PageContent' => 'Text',
+        'Quote'       => 'Text'
     ];
 
     private static $has_one = [
@@ -21,21 +23,15 @@ class PhusionPage extends Page {
 
         $fields->addFieldsToTab('Root.Main', [
             HeaderField::create('MainHeader', 'Main Content', '4'),
+            TextField::create('Heading1', ''),
+            TextField::create('Heading2', ''),
             TextAreaField::create('PageIntro', 'Page Introduction'),
-            UploadField::create('SideImage')->setDescription('Image should be <strong>360px</strong> wide and <strong>320px</strong> high'),
+            UploadField::create('SideImage'),
             HTMLEditorField::create('Content'),
             HeaderField::create('QuoteHeading', 'Blockquote', '4'),
             TextareaField::create('Quote', 'Blockquote')
         ], 'Metadata');
 
-        // Remove delicate fields from content authors
-        if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
-            $fields->removebyName(array(
-                'Title',
-                'URLSegment',
-                'MenuTitle'
-            ));
-        }
 
         return $fields;
     }

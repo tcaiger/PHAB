@@ -29,14 +29,6 @@ class VolunteersPage extends Page {
             $document = UploadField::create('Document')
         ], 'Metadata');
 
-        // Remove delicate fields from content authors
-        if ( !Permission::check('CMS_ACCESS_PAGES', 'any', $member)) {
-            $fields->removebyName(array(
-                'Title',
-                'URLSegment',
-                'MenuTitle'
-            ));
-        }
 
         // Place images into a specific folder
         $folderDir = 'Uploads/Pages/';

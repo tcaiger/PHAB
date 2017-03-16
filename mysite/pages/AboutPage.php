@@ -6,6 +6,8 @@ class AboutPage extends Page {
     private static $allowed_children = 'none';
 
     private static $db = [
+        'Heading1' => 'Varchar',
+        'Heading2' => 'Varchar',
         'PageIntro'      => 'Varchar(200)',
         'V1Heading'      => 'Varchar',
         'V1Text'         => 'Text',
@@ -30,6 +32,8 @@ class AboutPage extends Page {
 
         $fields->addFieldsToTab('Root.Main', [
             HeaderField::create('MainHeader', 'Main Content', '4'),
+            TextField::create('Heading1', ''),
+            TextField::create('Heading2', ''),
             TextAreaField::create('PageIntro', 'Page Introduction'),
             UploadField::create('SideImage')->setDescription('Image should be <strong>360px</strong> wide and <strong>320px</strong> high'),
             HtmlEditorField::create('Content'),

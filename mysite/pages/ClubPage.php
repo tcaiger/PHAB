@@ -6,12 +6,12 @@ class ClubPage extends Page {
     private static $allowed_children = 'none';
 
     private static $db = [
-        'IncludeOnHomePage' => 'Boolean',
-        'SummaryText' => 'Varchar(100)',
-        'Location'    => 'Varchar(100)',
-        'Time'        => 'Varchar',
-        'Day'   => 'Varchar',
-        'MoreDetails' => 'Boolean',
+        'IncludeOnHomePage'  => 'Boolean',
+        'SummaryText'        => 'Varchar(100)',
+        'Location'           => 'Varchar(100)',
+        'Time'               => 'Varchar',
+        'Day'                => 'Varchar',
+        'MoreDetails'        => 'Boolean',
         'MoreDetailsContent' => 'HTMLText'
     ];
 
@@ -20,7 +20,7 @@ class ClubPage extends Page {
         'Content'     => 'TBC. Please contact us to find out more information.',
         'Location'    => 'TBC',
         'Time'        => 'TBC',
-        'Day'   => 'TBC'
+        'Day'         => 'TBC'
     ];
 
     private static $has_one = [
@@ -28,9 +28,9 @@ class ClubPage extends Page {
     ];
 
     private static $summary_fields = [
-        'Title'     => 'Title',
-        'Location'  => 'Location',
-        'Day' => 'Day'
+        'Title'    => 'Title',
+        'Location' => 'Location',
+        'Day'      => 'Day'
     ];
 
     public function getCMSFields($member = null) {

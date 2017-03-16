@@ -21589,6 +21589,7 @@ html {
   box-sizing: border-box; }
 
 .t-logo {
+  max-height: 100%;
   width: 120px;
   margin-top: -2px; }
   @media screen and (min-width: 768px) {
@@ -21601,6 +21602,15 @@ html {
   width: 60px;
   margin-left: 10px;
   vertical-align: baseline; }
+
+.t-side-image {
+  margin-bottom: 45px; }
+  @media screen and (min-width: 768px) {
+    .t-side-image {
+      float: right; } }
+
+.t-page-content {
+  max-width: 560px; }
 
 .home-event-section {
   background-color: rgba(225, 225, 225, 0.94); }
