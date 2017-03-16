@@ -40,7 +40,7 @@
                 <!-- Small Text -->
                 <div class="tp-caption tp-resizeme rs-parallaxlevel-0 color2"
                      id="slide-1-small-text"
-                     data-x="['right','right','right','right']" data-hoffset="['50','50','50','30']"
+                     data-x="['left','left','left','left']" data-hoffset="['50','50','50','30']"
                      data-y="['middle','middle','middle','middle']" data-voffset="['-120','-120','-120','-120']"
                      data-width="none"
                      data-fontsize="['22', '22', '22', '16']"
@@ -61,7 +61,7 @@
                 <!-- Main Text -->
                 <div class="tp-caption tp-resizeme rs-parallaxlevel-0"
                      id="slide-1-main-text"
-                     data-x="['right','right','right','right']" data-hoffset="['50','50','50','30']"
+                     data-x="['left','left','left','left']" data-hoffset="['50','50','50','30']"
                      data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']"
                      data-fontsize="['46','46','46','32']"
                      data-lineheight="['55','55','55','35']"
@@ -78,13 +78,13 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on"
-                     style="z-index: 7; min-width: 600px; max-width: 600px; white-space: normal; text-shadow:0px 2px 2px #000; text-transform:capitalize; font-weight:600; text-align:right; font-family: 'Montserrat', sans-serif;">$Banner1Subheading
+                     style="z-index: 7; min-width: 600px; max-width: 600px; white-space: normal; text-shadow:0px 2px 2px #000; text-transform:capitalize; font-weight:600; text-align:left; font-family: 'Montserrat', sans-serif;">$Banner1Subheading
                 </div>
 
                 <!-- Button -->
                 <a href="$PageLink('AboutPage')" class="tp-caption btn btn-primary rs-parallaxlevel-0 hidden-xs"
                    id="slide-1-button"
-                   data-x="['right','right','right','right']" data-hoffset="['53','53','53','30']"
+                   data-x="['left','left','left','left']" data-hoffset="['53','53','53','30']"
                    data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','50']"
                    data-width="none"
                    data-height="none"
@@ -140,7 +140,7 @@
                 <!-- Small Text -->
                 <div class="tp-caption tp-resizeme rs-parallaxlevel-0 color2"
                      id="layer-2-small-text"
-                     data-x="['left','left','left','left']" data-hoffset="['50','50','50','30']"
+                     data-x="['right','right','right','right']" data-hoffset="['50','50','50','30']"
                      data-y="['middle','middle','middle','middle']" data-voffset="['-120','-120','-120','-120']"
                      data-width="none"
                      data-fontsize="['22', '22', '22', '16']"
@@ -161,7 +161,7 @@
                 <!-- Main Text -->
                 <div class="tp-caption tp-resizeme rs-parallaxlevel-0"
                      id="slide-2-main-text"
-                     data-x="['left','left','left','left']" data-hoffset="['50','50','50','30']"
+                     data-x="['right','right','right','right']" data-hoffset="['50','50','50','30']"
                      data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']"
                      data-fontsize="['46','46','46','32']"
                      data-lineheight="['55','55','55','35']"
@@ -178,13 +178,13 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on"
-                     style="z-index: 11; min-width: 600px; max-width: 600px; white-space: normal; text-shadow:0px 2px 2px #000; text-transform:capitalize; font-weight:600; text-align:left; font-family: 'Montserrat', sans-serif;">$Banner2Subheading
+                     style="z-index: 11; min-width: 600px; max-width: 600px; white-space: normal; text-shadow:0px 2px 2px #000; text-transform:capitalize; font-weight:600; text-align:right; font-family: 'Montserrat', sans-serif;">$Banner2Subheading
                 </div>
 
                 <!-- Button -->
                 <a href="$PageLink('HistoryPage')" class="tp-caption btn btn-primary rs-parallaxlevel-0 hidden-xs"
                    id="slide-2-button"
-                   data-x="['left','left','left','left']" data-hoffset="['53','53','53','30']"
+                   data-x="['right','right','right','right']" data-hoffset="['53','53','53','30']"
                    data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','50']"
                    data-width="none"
                    data-height="none"
