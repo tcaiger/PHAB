@@ -38,7 +38,7 @@
                 <div class="clearfix"></div>
                 <div class="row mt-40">
                     <div class="col-sm-3">
-                        <div class="icon-box-5 js-mh">
+                        <div class="icon-box-5">
                             <div class="icon-box-icon">
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                             </div>
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="icon-box-5 js-mh">
+                        <div class="icon-box-5">
                             <div class="icon-box-icon">
                                 <i class="fa fa-clock-o" aria-hidden="true"></i>
                             </div>
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="icon-box-5 js-mh">
+                        <div class="icon-box-5">
                             <div class="icon-box-icon">
                                 <i class="fa fa-clock-o" aria-hidden="true"></i>
                             </div>
@@ -68,7 +68,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="icon-box-5 js-mh">
+                        <div class="icon-box-5">
                             <div class="icon-box-icon">
                                 <i class="fa fa-users" aria-hidden="true"></i>
                             </div>

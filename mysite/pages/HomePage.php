@@ -113,7 +113,7 @@ class HomePage_Controller extends Page_Controller {
                 "{$this->ThemeDir()}/js/owl.carousel.min.js",
                 "{$this->ThemeDir()}/js/jquery.countTo.js",
                 "{$this->ThemeDir()}/js/jquery.appear.js",
-                "{$this->ThemeDir()}/js/jquery.matchHeight.min.js",
+                //"{$this->ThemeDir()}/js/jquery.matchHeight.min.js",
                 "{$this->ThemeDir()}/js/jquery.prettyPhoto.js",
                 "{$this->ThemeDir()}/js/parallax.js",
                 "{$this->ThemeDir()}/js/main.js",
