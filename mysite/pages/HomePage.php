@@ -119,6 +119,8 @@ class HomePage_Controller extends Page_Controller {
                 "{$this->ThemeDir()}/js/main.js",
                 "{$this->ThemeDir()}/js/scripts.js"
             ));
+
+        Requirements::backend()->combine_js_with_jsmin = false;
     }
 
     /**
