@@ -26,6 +26,8 @@ class ClubHolderPage_Controller extends Page_Controller {
                 "{$this->ThemeDir()}/js/main.js"
             ));
 
+        Requirements::backend()->combine_js_with_jsmin = false;
+
     }
 
 }
